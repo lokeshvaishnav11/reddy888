@@ -1,0 +1,637 @@
+[
+  {
+    "gameId": 425001,
+    "name": "Thai Hi Lo 2",
+    "type": "Table Game",
+    "provider": "KINGMIDAS",
+    "company": "Kingmidas Gaming",
+    "image": "https://cdn.dreamdelhi.com/kingmidas/thai_hi_lo_2.webp",
+    "code": "kingmidas_thai_hi_lo_2"
+  },
+  {
+    "gameId": 425002,
+    "name": "Fish Prawn Crab 2",
+    "type": "Table Game",
+    "provider": "KINGMIDAS",
+    "company": "Kingmidas Gaming",
+    "image": "https://cdn.dreamdelhi.com/kingmidas/fish_prawn_crab_2.webp",
+    "code": "kingmidas_fish_prawn_crab_2"
+  },
+  {
+    "gameId": 425003,
+    "name": "Belangkai 2",
+    "type": "Table Game",
+    "provider": "KINGMIDAS",
+    "company": "Kingmidas Gaming",
+    "image": "https://cdn.dreamdelhi.com/kingmidas/belangkai_2.webp",
+    "code": "kingmidas_belangkai_2"
+  },
+  {
+    "gameId": 425004,
+    "name": "Dragon Tiger 2",
+    "type": "Table Game",
+    "provider": "KINGMIDAS",
+    "company": "Kingmidas Gaming",
+    "image": "https://cdn.dreamdelhi.com/kingmidas/dragon_tiger_2.webp",
+    "code": "kingmidas_dragon_tiger_2"
+  },
+  {
+    "gameId": 425005,
+    "name": "Vietnam Fish Prawn Crab",
+    "type": "Table Game",
+    "provider": "KINGMIDAS",
+    "company": "Kingmidas Gaming",
+    "image": "https://cdn.dreamdelhi.com/kingmidas/vietnam_fish_prawn_crab.webp",
+    "code": "kingmidas_vietnam_fish_prawn_crab"
+  },
+  {
+    "gameId": 425006,
+    "name": "Sic Bo",
+    "type": "Table Game",
+    "provider": "KINGMIDAS",
+    "company": "Kingmidas Gaming",
+    "image": "https://cdn.dreamdelhi.com/kingmidas/sic_bo.webp",
+    "code": "kingmidas_sic_bo"
+  },
+  {
+    "gameId": 425007,
+    "name": "Tai Xiu",
+    "type": "Table Game",
+    "provider": "KINGMIDAS",
+    "company": "Kingmidas Gaming",
+    "image": "https://cdn.dreamdelhi.com/kingmidas/tai_xiu.webp",
+    "code": "kingmidas_tai_xiu"
+  },
+  {
+    "gameId": 425008,
+    "name": "Max Keno",
+    "type": "Table Game",
+    "provider": "KINGMIDAS",
+    "company": "Kingmidas Gaming",
+    "image": "https://cdn.dreamdelhi.com/kingmidas/max_keno.webp",
+    "code": "kingmidas_max_keno"
+  },
+  {
+    "gameId": 425009,
+    "name": "Poker Roulette",
+    "type": "Table Game",
+    "provider": "KINGMIDAS",
+    "company": "Kingmidas Gaming",
+    "image": "https://cdn.dreamdelhi.com/kingmidas/poker_roulette.webp",
+    "code": "kingmidas_poker_roulette"
+  },
+  {
+    "gameId": 425010,
+    "name": "Thai Fish Prawn Crab",
+    "type": "Table Game",
+    "provider": "KINGMIDAS",
+    "company": "Kingmidas Gaming",
+    "image": "https://cdn.dreamdelhi.com/kingmidas/thai_fish_prawn_crab.webp",
+    "code": "kingmidas_thai_fish_prawn_crab"
+  },
+  {
+    "gameId": 425011,
+    "name": "Xoc Dia Lightning",
+    "type": "Table Game",
+    "provider": "KINGMIDAS",
+    "company": "Kingmidas Gaming",
+    "image": "https://cdn.dreamdelhi.com/kingmidas/xoc_dia_lightning.webp",
+    "code": "kingmidas_xoc_dia_lightning"
+  },
+  {
+    "gameId": 425012,
+    "name": "Fan Tan Classic",
+    "type": "Table Game",
+    "provider": "KINGMIDAS",
+    "company": "Kingmidas Gaming",
+    "image": "https://cdn.dreamdelhi.com/kingmidas/fan_tan_classic.webp",
+    "code": "kingmidas_fan_tan_classic"
+  },
+  {
+    "gameId": 425013,
+    "name": "Triple Chance",
+    "type": "Table Game",
+    "provider": "KINGMIDAS",
+    "company": "Kingmidas Gaming",
+    "image": "https://cdn.dreamdelhi.com/kingmidas/triple_chance.webp",
+    "code": "kingmidas_triple_chance"
+  },
+  
+  {
+    "gameId": 425014,
+    "name": "Fruit Roulette",
+    "type": "Table Game",
+    "provider": "KINGMIDAS",
+    "company": "Kingmidas Gaming",
+    "image": "https://cdn.dreamdelhi.com/kingmidas/fruit_roulette.webp",
+    "code": "kingmidas_fruit_roulette"
+  },
+  {
+    "gameId": 425015,
+    "name": "Bai Cao",
+    "type": "Table Game",
+    "provider": "KINGMIDAS",
+    "company": "Kingmidas Gaming",
+    "image": "https://cdn.dreamdelhi.com/kingmidas/bai_cao.webp",
+    "code": "kingmidas_bai_cao"
+  },
+  {
+    "gameId": 425016,
+    "name": "Bai Buu",
+    "type": "Table Game",
+    "provider": "KINGMIDAS",
+    "company": "Kingmidas Gaming",
+    "image": "https://cdn.dreamdelhi.com/kingmidas/bai_buu.webp",
+    "code": "kingmidas_bai_buu"
+  },
+  {
+    "gameId": 425017,
+    "name": "European Roulette",
+    "type": "Table Game",
+    "provider": "KINGMIDAS",
+    "company": "Kingmidas Gaming",
+    "image": "https://cdn.dreamdelhi.com/kingmidas/european_roulette.webp",
+    "code": "kingmidas_european_roulette"
+  },
+  {
+    "gameId": 425018,
+    "name": "7 Up 7 Down",
+    "type": "Table Game",
+    "provider": "KINGMIDAS",
+    "company": "Kingmidas Gaming",
+    "image": "https://cdn.dreamdelhi.com/kingmidas/7_up_7_down.webp",
+    "code": "kingmidas_7_up_7_down"
+  },
+  {
+    "gameId": 425019,
+    "name": "Gao Gae",
+    "type": "Table Game",
+    "provider": "KINGMIDAS",
+    "company": "Kingmidas Gaming",
+    "image": "https://cdn.dreamdelhi.com/kingmidas/gao_gae.webp",
+    "code": "kingmidas_gao_gae"
+  },
+  {
+    "gameId": 425020,
+    "name": "Jhandi Munda",
+    "type": "Table Game",
+    "provider": "KINGMIDAS",
+    "company": "Kingmidas Gaming",
+    "image": "https://cdn.dreamdelhi.com/kingmidas/jhandi_munda.webp",
+    "code": "kingmidas_jhandi_munda"
+  },
+  {
+    "gameId": 425021,
+    "name": "Andar Bahar",
+    "type": "Table Game",
+    "provider": "KINGMIDAS",
+    "company": "Kingmidas Gaming",
+    "image": "https://cdn.dreamdelhi.com/kingmidas/andar_bahar.webp",
+    "code": "kingmidas_andar_bahar"
+  },
+  {
+    "gameId": 425022,
+    "name": "Baccarat",
+    "type": "Table Game",
+    "provider": "KINGMIDAS",
+    "company": "Kingmidas Gaming",
+    "image": "https://cdn.dreamdelhi.com/kingmidas/baccarat.webp",
+    "code": "kingmidas_baccarat"
+  },
+  {
+    "gameId": 425023,
+    "name": "Kingmaker Pok Deng",
+    "type": "Table Game",
+    "provider": "KINGMIDAS",
+    "company": "Kingmidas Gaming",
+    "image": "https://cdn.dreamdelhi.com/kingmidas/kingmaker_pok_deng.webp",
+    "code": "kingmidas_kingmaker_pok_deng"
+  },
+  {
+    "gameId": 425024,
+    "name": "Bola Golek",
+    "type": "Table Game",
+    "provider": "KINGMIDAS",
+    "company": "Kingmidas Gaming",
+    "image": "https://cdn.dreamdelhi.com/kingmidas/bola_golek.webp",
+    "code": "kingmidas_bola_golek"
+  },
+  {
+    "gameId": 425025,
+    "name": "Pai Kang",
+    "type": "Table Game",
+    "provider": "KINGMIDAS",
+    "company": "Kingmidas Gaming",
+    "image": "https://cdn.dreamdelhi.com/kingmidas/pai_kang.webp",
+    "code": "kingmidas_pai_kang"
+  },
+  {
+    "gameId": 425026,
+    "name": "Coin Toss",
+    "type": "Table Game",
+    "provider": "KINGMIDAS",
+    "company": "Kingmidas Gaming",
+    "image": "https://cdn.dreamdelhi.com/kingmidas/coin_toss.webp",
+    "code": "kingmidas_coin_toss"
+  },
+  {
+    "gameId": 425027,
+    "name": "Cards Hi Lo",
+    "type": "Table Game",
+    "provider": "KINGMIDAS",
+    "company": "Kingmidas Gaming",
+    "image": "https://cdn.dreamdelhi.com/kingmidas/cards_hi_lo.webp",
+    "code": "kingmidas_cards_hi_lo"
+  },
+  {
+    "gameId": 425028,
+    "name": "Blackjack",
+    "type": "Table Game",
+    "provider": "KINGMIDAS",
+    "company": "Kingmidas Gaming",
+    "image": "https://cdn.dreamdelhi.com/kingmidas/blackjack.webp",
+    "code": "kingmidas_blackjack"
+  },
+  {
+    "gameId": 425029,
+    "name": "32 Cards",
+    "type": "Table Game",
+    "provider": "KINGMIDAS",
+    "company": "Kingmidas Gaming",
+    "image": "https://cdn.dreamdelhi.com/kingmidas/32_cards.webp",
+    "code": "kingmidas_32_cards"
+  },
+  {
+    "gameId": 425030,
+    "name": "Plinko",
+    "type": "Table Game",
+    "provider": "KINGMIDAS",
+    "company": "Kingmidas Gaming",
+    "image": "https://cdn.dreamdelhi.com/kingmidas/plinko.webp",
+    "code": "kingmidas_plinko"
+  },
+  {
+    "gameId": 425031,
+    "name": "Cash Rocket",
+    "type": "Table Game",
+    "provider": "KINGMIDAS",
+    "company": "Kingmidas Gaming",
+    "image": "https://cdn.dreamdelhi.com/kingmidas/cash_rocket.webp",
+    "code": "kingmidas_cash_rocket"
+  },
+  {
+    "gameId": 425032,
+    "name": "Bonus Dice",
+    "type": "Table Game",
+    "provider": "KINGMIDAS",
+    "company": "Kingmidas Gaming",
+    "image": "https://cdn.dreamdelhi.com/kingmidas/bonus_dice.webp",
+    "code": "kingmidas_bonus_dice"
+  },
+  {
+    "gameId": 425033,
+    "name": "Minesweeper",
+    "type": "Table Game",
+    "provider": "KINGMIDAS",
+    "company": "Kingmidas Gaming",
+    "image": "https://cdn.dreamdelhi.com/kingmidas/minesweeper.webp",
+    "code": "kingmidas_minesweeper"
+  },
+  {
+    "gameId": 425034,
+    "name": "Dota Hi-Lo",
+    "type": "Table Game",
+    "provider": "KINGMIDAS",
+    "company": "Kingmidas Gaming",
+    "image": "https://cdn.dreamdelhi.com/kingmidas/dota_hi-lo.webp",
+    "code": "kingmidas_dota_hi-lo"
+  },
+  {
+    "gameId": 425035,
+    "name": "Teen Patti",
+    "type": "Table Game",
+    "provider": "KINGMIDAS",
+    "company": "Kingmidas Gaming",
+    "image": "https://cdn.dreamdelhi.com/kingmidas/teen_patti.webp",
+    "code": "kingmidas_teen_patti"
+  },
+  {
+    "gameId": 425036,
+    "name": "Monkey King Roulette",
+    "type": "Table Game",
+    "provider": "KINGMIDAS",
+    "company": "Kingmidas Gaming",
+    "image": "https://cdn.dreamdelhi.com/kingmidas/monkey_king_roulette.webp",
+    "code": "kingmidas_monkey_king_roulette"
+  },
+  {
+    "gameId": 425037,
+    "name": "Heist",
+    "type": "Table Game",
+    "provider": "KINGMIDAS",
+    "company": "Kingmidas Gaming",
+    "image": "https://cdn.dreamdelhi.com/kingmidas/heist.webp",
+    "code": "kingmidas_heist"
+  },
+  {
+    "gameId": 425038,
+    "name": "5 Card Poker",
+    "type": "Table Game",
+    "provider": "KINGMIDAS",
+    "company": "Kingmidas Gaming",
+    "image": "https://cdn.dreamdelhi.com/kingmidas/5_card_poker.webp",
+    "code": "kingmidas_5_card_poker"
+  },
+  {
+    "gameId": 425039,
+    "name": "KM Virtual Horse Racing",
+    "type": "Table Game",
+    "provider": "KINGMIDAS",
+    "company": "Kingmidas Gaming",
+    "image": "https://cdn.dreamdelhi.com/kingmidas/km_virtual_horse_racing.webp",
+    "code": "kingmidas_km_virtual_horse_racing"
+  },
+  {
+    "gameId": 425040,
+    "name": "Bola Tangkas",
+    "type": "Table Game",
+    "provider": "KINGMIDAS",
+    "company": "Kingmidas Gaming",
+    "image": "https://cdn.dreamdelhi.com/kingmidas/bola_tangkas.webp",
+    "code": "kingmidas_bola_tangkas"
+  },
+  {
+    "gameId": 425041,
+    "name": "Color Game",
+    "type": "Table Game",
+    "provider": "KINGMIDAS",
+    "company": "Kingmidas Gaming",
+    "image": "https://cdn.dreamdelhi.com/kingmidas/color_game.webp",
+    "code": "kingmidas_color_game"
+  },
+  {
+    "gameId": 425042,
+    "name": "KM Power Ball",
+    "type": "Table Game",
+    "provider": "KINGMIDAS",
+    "company": "Kingmidas Gaming",
+    "image": "https://cdn.dreamdelhi.com/kingmidas/km_power_ball.webp",
+    "code": "kingmidas_km_power_ball"
+  },
+  {
+    "gameId": 425043,
+    "name": "KM Marble Knockout",
+    "type": "Table Game",
+    "provider": "KINGMIDAS",
+    "company": "Kingmidas Gaming",
+    "image": "https://cdn.dreamdelhi.com/kingmidas/km_marble_knockout.webp",
+    "code": "kingmidas_km_marble_knockout"
+  },
+
+  {
+    "gameId": 425044,
+    "name": "KM Virtual Hound Racing",
+    "type": "Table Game",
+    "provider": "KINGMIDAS",
+    "company": "Kingmidas Gaming",
+    "image": "",
+    "code": "kingmidas_km_virtual_hound_racing"
+  },
+  {
+    "gameId": 425045,
+    "name": "Sugar Blast",
+    "type": "Slot Game",
+    "provider": "KINGMIDAS",
+    "company": "Kingmidas Gaming",
+    "image": "",
+    "code": "kingmidas_sugar_blast"
+  },
+  {
+    "gameId": 425046,
+    "name": "KM Virtual Treadmill Racing",
+    "type": "Table Game",
+    "provider": "KINGMIDAS",
+    "company": "Kingmidas Gaming",
+    "image": "",
+    "code": "kingmidas_km_virtual_treadmill_racing"
+  },
+  {
+    "gameId": 425047,
+    "name": "Ludo",
+    "type": "Table Game",
+    "provider": "KINGMIDAS",
+    "company": "Kingmidas Gaming",
+    "image": "",
+    "code": "kingmidas_ludo"
+  },
+  {
+    "gameId": 425048,
+    "name": "KM Virtual Animal Race",
+    "type": "Table Game",
+    "provider": "KINGMIDAS",
+    "company": "Kingmidas Gaming",
+    "image": "",
+    "code": "kingmidas_km_virtual_animal_race"
+  },
+  {
+    "gameId": 425049,
+    "name": "Tongits",
+    "type": "Table Game",
+    "provider": "KINGMIDAS",
+    "company": "Kingmidas Gaming",
+    "image": "",
+    "code": "kingmidas_tongits"
+  },
+  {
+    "gameId": 425050,
+    "name": "Pusoy",
+    "type": "Table Game",
+    "provider": "KINGMIDAS",
+    "company": "Kingmidas Gaming",
+    "image": "",
+    "code": "kingmidas_pusoy"
+  },
+  {
+    "gameId": 425051,
+    "name": "Cockfighting Arena",
+    "type": "Table Game",
+    "provider": "KINGMIDAS",
+    "company": "Kingmidas Gaming",
+    "image": "",
+    "code": "kingmidas_cockfighting_arena"
+  },
+  {
+    "gameId": 425052,
+    "name": "Coin Pusher",
+    "type": "Table Game",
+    "provider": "KINGMIDAS",
+    "company": "Kingmidas Gaming",
+    "image": "",
+    "code": "kingmidas_coin_pusher"
+  },
+  {
+    "gameId": 425053,
+    "name": "Gems of Valhalla",
+    "type": "Slot Game",
+    "provider": "KINGMIDAS",
+    "company": "Kingmidas Gaming",
+    "image": "",
+    "code": "kingmidas_gems_of_valhalla"
+  },
+  {
+    "gameId": 425054,
+    "name": "Sugar Blast Frenzy",
+    "type": "Slot Game",
+    "provider": "KINGMIDAS",
+    "company": "Kingmidas Gaming",
+    "image": "",
+    "code": "kingmidas_sugar_blast_frenzy"
+  },
+  {
+    "gameId": 425055,
+    "name": "Cleopatra's Treasure",
+    "type": "Slot Game",
+    "provider": "KINGMIDAS",
+    "company": "Kingmidas Gaming",
+    "image": "",
+    "code": "kingmidas_cleopatras_treasure"
+  },
+  {
+    "gameId": 425056,
+    "name": "Rooster Blitz",
+    "type": "Slot Game",
+    "provider": "KINGMIDAS",
+    "company": "Kingmidas Gaming",
+    "image": "",
+    "code": "kingmidas_rooster_blitz"
+  },
+  {
+    "gameId": 425057,
+    "name": "Olympus Glory",
+    "type": "Table Game",
+    "provider": "KINGMIDAS",
+    "company": "Kingmidas Gaming",
+    "image": "",
+    "code": "kingmidas_olympus_glory"
+  },
+  {
+    "gameId": 425058,
+    "name": "Interstellar Run",
+    "type": "Table Game",
+    "provider": "KINGMIDAS",
+    "company": "Kingmidas Gaming",
+    "image": "",
+    "code": "kingmidas_interstellar_run"
+  },
+  {
+    "gameId": 425059,
+    "name": "Elite Aviator Club",
+    "type": "Table Game",
+    "provider": "KINGMIDAS",
+    "company": "Kingmidas Gaming",
+    "image": "",
+    "code": "kingmidas_elite_aviator_club"
+  },
+  {
+    "gameId": 425060,
+    "name": "Jackpot Jump",
+    "type": "Table Game",
+    "provider": "KINGMIDAS",
+    "company": "Kingmidas Gaming",
+    "image": "",
+    "code": "kingmidas_jackpot_jump"
+  },
+  {
+    "gameId": 425061,
+    "name": "Penguin Panic",
+    "type": "Table Game",
+    "provider": "KINGMIDAS",
+    "company": "Kingmidas Gaming",
+    "image": "",
+    "code": "kingmidas_penguin_panic"
+  },
+  {
+    "gameId": 425062,
+    "name": "Video Poker",
+    "type": "Table Game",
+    "provider": "KINGMIDAS",
+    "company": "Kingmidas Gaming",
+    "image": "",
+    "code": "kingmidas_video_poker"
+  },
+  {
+    "gameId": 425063,
+    "name": "Gold Mine",
+    "type": "Table Game",
+    "provider": "KINGMIDAS",
+    "company": "Kingmidas Gaming",
+    "image": "",
+    "code": "kingmidas_gold_mine"
+  },
+  {
+    "gameId": 425064,
+    "name": "Toon Crash",
+    "type": "Table Game",
+    "provider": "KINGMIDAS",
+    "company": "Kingmidas Gaming",
+    "image": "",
+    "code": "kingmidas_toon_crash"
+  },
+  {
+    "gameId": 425065,
+    "name": "Iron Dome",
+    "type": "Table Game",
+    "provider": "KINGMIDAS",
+    "company": "Kingmidas Gaming",
+    "image": "",
+    "code": "kingmidas_iron_dome"
+  },
+  {
+    "gameId": 425066,
+    "name": "Leppy's Loot",
+    "type": "Slot Game",
+    "provider": "KINGMIDAS",
+    "company": "Kingmidas Gaming",
+    "image": "",
+    "code": "kingmidas_leppys_loot"
+  },
+  {
+    "gameId": 425067,
+    "name": "Dice Duet",
+    "type": "Table Game",
+    "provider": "KINGMIDAS",
+    "company": "Kingmidas Gaming",
+    "image": "",
+    "code": "kingmidas_dice_duet"
+  },
+  {
+    "gameId": 425068,
+    "name": "Warriors Temple",
+    "type": "Slot Game",
+    "provider": "KINGMIDAS",
+    "company": "Kingmidas Gaming",
+    "image": "",
+    "code": "kingmidas_warriors_temple"
+  },
+  {
+    "gameId": 425069,
+    "name": "Almighty Greek",
+    "type": "Slot Game",
+    "provider": "KINGMIDAS",
+    "company": "Kingmidas Gaming",
+    "image": "",
+    "code": "kingmidas_almighty_greek"
+  },
+  {
+    "gameId": 425070,
+    "name": "Egyptian Mines",
+    "type": "Table Game",
+    "provider": "KINGMIDAS",
+    "company": "Kingmidas Gaming",
+    "image": "",
+    "code": "kingmidas_egyptian_mines"
+  }
+
+
+
+]

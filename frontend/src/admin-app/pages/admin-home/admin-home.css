@@ -1,0 +1,296 @@
+/* Admin Home Page Styles */
+
+.admin-home-page {
+  padding-top: 40px;
+  min-height: 100vh;
+  background: #f5f5f5;
+}
+
+.admin-home-container {
+  display: flex;
+  gap: 0;
+  min-height: calc(100vh - 40px);
+}
+
+/* Left Sidebar - Sports List */
+.sports-sidebar {
+  width: 200px;
+  background: white;
+  border-right: 2px solid #e5e7eb;
+  flex-shrink: 0;
+}
+
+.sport-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 15px;
+  border-bottom: 1px solid #e5e7eb;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+}
+
+.sport-item:hover {
+  background: #fef3c7;
+}
+
+.sport-item.active {
+  background: linear-gradient(135deg, #d4a017 0%, #b8860b 100%);
+  color: white;
+  font-weight: 600;
+}
+
+.sport-item.active .sport-count {
+  background: rgba(255, 255, 255, 0.3);
+  color: white;
+}
+
+.sport-icon {
+  font-size: 32px;
+  margin-bottom: 8px;
+}
+
+.sport-name {
+  font-size: 13px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+.sport-count {
+  font-size: 11px;
+  background: #f3f4f6;
+  color: #666;
+  padding: 2px 10px;
+  border-radius: 12px;
+  font-weight: 600;
+  min-width: 25px;
+  text-align: center;
+}
+
+/* Right Content Area */
+.matches-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.content-header {
+  background: linear-gradient(135deg, #d4a017 0%, #b8860b 100%);
+  padding: 15px 20px;
+  margin-bottom: 0;
+}
+
+.content-header h2 {
+  margin: 0;
+  color: white;
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+/* Match List */
+.admin-match-list {
+  padding: 20px;
+  flex: 1;
+  overflow-y: auto;
+}
+
+.matches-table {
+  width: 100%;
+  background: white;
+  border-collapse: collapse;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.matches-table thead {
+  background: linear-gradient(135deg, #d4a017 0%, #b8860b 100%);
+}
+
+.matches-table thead th {
+  padding: 12px 15px;
+  color: white;
+  font-size: 13px;
+  font-weight: 600;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  border-right: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.matches-table thead th:last-child {
+  border-right: none;
+}
+
+.match-info-header {
+  text-align: left !important;
+  width: 40%;
+}
+
+.matches-table tbody tr {
+  border-bottom: 1px solid #e5e7eb;
+  transition: all 0.2s ease;
+}
+
+.matches-table tbody tr:nth-child(even) {
+  background: #f9fafb;
+}
+
+.matches-table tbody tr:hover {
+  background: #fef3c7;
+  cursor: pointer;
+}
+
+.match-row td {
+  padding: 12px 15px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.match-info {
+  text-align: left !important;
+  width: 40%;
+}
+
+.match-name {
+  font-size: 14px;
+  font-weight: 500;
+  color: #333;
+  margin-bottom: 4px;
+}
+
+.match-date {
+  font-size: 12px;
+  color: #666;
+}
+
+/* Odds Buttons */
+.matches-table button {
+  width: 100%;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 4px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  min-width: 60px;
+}
+
+.matches-table button.back {
+  background: #a8d5ff;
+  color: #003366;
+}
+
+.matches-table button.back:hover {
+  background: #7cb9ff;
+}
+
+.matches-table button.lay {
+  background: #ffc8d5;
+  color: #660033;
+}
+
+.matches-table button.lay:hover {
+  background: #ff9db8;
+}
+
+.matches-table button .odd {
+  font-size: 14px;
+  display: block;
+}
+
+/* No Matches */
+.no-matches {
+  text-align: center;
+  padding: 60px 20px;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  color: #666;
+  font-size: 16px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .admin-home-page {
+    padding-top: 20px;
+  }
+
+  .admin-home-container {
+    flex-direction: column;
+  }
+
+  .sports-sidebar {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    border-right: none;
+    border-bottom: 2px solid #e5e7eb;
+    overflow-x: auto;
+  }
+
+  .sport-item {
+    flex: 1;
+    min-width: 100px;
+    padding: 15px 10px;
+    border-right: 1px solid #e5e7eb;
+    border-bottom: none;
+  }
+
+  .sport-item:last-child {
+    border-right: none;
+  }
+
+  .sport-icon {
+    font-size: 24px;
+    margin-bottom: 5px;
+  }
+
+  .sport-name {
+    font-size: 11px;
+  }
+
+  .content-header h2 {
+    font-size: 16px;
+  }
+
+  .admin-match-list {
+    padding: 10px;
+  }
+
+  .matches-table {
+    font-size: 12px;
+  }
+
+  .matches-table thead th {
+    padding: 8px 6px;
+    font-size: 11px;
+  }
+
+  .match-row td {
+    padding: 8px 6px;
+  }
+
+  .match-name {
+    font-size: 12px;
+  }
+
+  .match-date {
+    font-size: 10px;
+  }
+
+  .matches-table button {
+    padding: 6px 8px;
+    min-width: 45px;
+  }
+
+  .matches-table button .odd {
+    font-size: 12px;
+  }
+}

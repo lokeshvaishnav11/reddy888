@@ -1,0 +1,605 @@
+[
+  
+    {
+      "gameId": 150001,
+      "name": "Dragon Tiger",
+      "type": "Live",
+      "provider": "MAC88",
+      "company": "Mac88 Gaming",
+      "image": "https://cdn.dreamdelhi.com/mac88/dt_mac88.webp",
+      "code": "MAC88-YDT102"
+    },
+    {
+      "gameId": 150002,
+      "name": "Bacarrat",
+      "type": "Live",
+      "provider": "MAC88",
+      "company": "Mac88 Gaming",
+      "image": "https://cdn.dreamdelhi.com/mac88/baccarat_mac88.webp",
+      "code": "MAC88-XBAC101"
+    },
+    {
+      "gameId": 150003,
+      "name": "Sic Bo",
+      "type": "Live",
+      "provider": "MAC88",
+      "company": "Mac88 Gaming",
+      "image": "https://cdn.dreamdelhi.com/mac88/sicbo_mac88.webp",
+      "code": "MAC88-XSB101"
+    },
+    {
+      "gameId": 150004,
+      "name": "Roulette",
+      "type": "Live",
+      "provider": "MAC88",
+      "company": "Mac88 Gaming",
+      "image": "https://cdn.dreamdelhi.com/mac88/roulette_mac88.webp",
+      "code": "MAC88-XRT101"
+    },
+    {
+      "gameId": 150005,
+      "name": "Poker 20-20",
+      "type": "Live",
+      "provider": "MAC88",
+      "company": "Mac88 Gaming",
+      "image": "https://cdn.dreamdelhi.com/mac88/20_20_poker.webp",
+      "code": "MAC88-XPOK101"
+    },
+    {
+      "gameId": 150006,
+      "name": "Lucky7",
+      "type": "Live",
+      "provider": "MAC88",
+      "company": "Mac88 Gaming",
+      "image": "https://cdn.dreamdelhi.com/mac88/lucky_7.webp",
+      "code": "MAC88-YLK7101"
+    },
+    {
+      "gameId": 150007,
+      "name": "Andar Bahar",
+      "type": "Live",
+      "provider": "MAC88",
+      "company": "Mac88 Gaming",
+      "image": "https://cdn.dreamdelhi.com/mac88/andar_bahar.webp",
+      "code": "MAC88-XAB101"
+    },
+    {
+      "gameId": 150009,
+      "name": "Teenpatti One Day",
+      "type": "Live",
+      "provider": "MAC88",
+      "company": "Mac88 Gaming",
+      "image": "https://cdn.dreamdelhi.com/mac88/tp1d.webp",
+      "code": "MAC88-X1TP101"
+    },
+    {
+      "gameId": 150010,
+      "name": "32 Cards",
+      "type": "Live",
+      "provider": "MAC88",
+      "company": "Mac88 Gaming",
+      "image": "https://cdn.dreamdelhi.com/mac88/32_cards.webp",
+      "code": "MAC88-Y32CA102"
+    },
+    {
+      "gameId": 150013,
+      "name": "DTL",
+      "type": "Live",
+      "provider": "MAC88",
+      "company": "Mac88 Gaming",
+      "image": "https://cdn.dreamdelhi.com/mac88/dtl_20_20.webp",
+      "code": "MAC88-YDTL101"
+    },
+    {
+      "gameId": 150014,
+      "name": "Amar Akbar Anthony",
+      "type": "Live",
+      "provider": "MAC88",
+      "company": "Mac88 Gaming",
+      "image": "https://cdn.dreamdelhi.com/mac88/amar_akbar_anthony.webp",
+      "code": "MAC88-YA3101"
+    },
+    {
+      "gameId": 150015,
+      "name": "3 Cards Judgement",
+      "type": "Live",
+      "provider": "MAC88",
+      "company": "Mac88 Gaming",
+      "image": "https://cdn.dreamdelhi.com/mac88/3cj.webp",
+      "code": "MAC88-X3CJ101"
+    },
+    {
+      "gameId": 150016,
+      "name": "Queen Race",
+      "type": "Live",
+      "provider": "MAC88",
+      "company": "Mac88 Gaming",
+      "image": "https://cdn.dreamdelhi.com/mac88/queen.webp",
+      "code": "MAC88-YQR102"
+    },
+    {
+      "gameId": 150017,
+      "name": "Race 20",
+      "type": "Live",
+      "provider": "MAC88",
+      "company": "Mac88 Gaming",
+      "image": "https://cdn.dreamdelhi.com/mac88/race_20.webp",
+      "code": "MAC88-YRTT102"
+    },
+    {
+      "gameId": 150018,
+      "name": "Casino War",
+      "type": "Live",
+      "provider": "MAC88",
+      "company": "Mac88 Gaming",
+      "image": "https://cdn.dreamdelhi.com/mac88/casino_war.webp",
+      "code": "MAC88-XCAW101"
+    },
+    {
+      "gameId": 150019,
+      "name": "Worli Matka",
+      "type": "Live",
+      "provider": "MAC88",
+      "company": "Mac88 Gaming",
+      "image": "https://cdn.dreamdelhi.com/mac88/worli_matka.webp",
+      "code": "MAC88-YWM102"
+    },
+    {
+      "gameId": 150020,
+      "name": "Lottery",
+      "type": "Live",
+      "provider": "MAC88",
+      "company": "Mac88 Gaming",
+      "image": "https://cdn.dreamdelhi.com/mac88/lottery.webp",
+      "code": "MAC88-XLOT101"
+    },
+    {
+      "gameId": 150023,
+      "name": "Test Teenpatti",
+      "type": "Live",
+      "provider": "MAC88",
+      "company": "Mac88 Gaming",
+      "image": "https://cdn.dreamdelhi.com/mac88/teenpatti_test.webp",
+      "code": ""
+    },
+    {
+      "gameId": 150025,
+      "name": "Trio",
+      "type": "Live",
+      "provider": "MAC88",
+      "company": "Mac88 Gaming",
+      "image": "https://cdn.dreamdelhi.com/mac88/trio.webp",
+      "code": ""
+    },
+    {
+      "gameId": 150026,
+      "name": "29 Baccarat",
+      "type": "Live",
+      "provider": "MAC88",
+      "company": "Mac88 Gaming",
+      "image": "https://cdn.dreamdelhi.com/mac88/29b.webp",
+      "code": ""
+    },
+    {
+      "gameId": 150028,
+      "name": "Two Card Teenpatti",
+      "type": "Live",
+      "provider": "MAC88",
+      "company": "Mac88 Gaming",
+      "image": "https://cdn.dreamdelhi.com/mac88/2_cards_teenpatti.webp",
+      "code": ""
+    },
+    {
+      "gameId": 150030,
+      "name": "Muflis Teenpatti",
+      "type": "Live",
+      "provider": "MAC88",
+      "company": "Mac88 Gaming",
+      "image": "https://cdn.dreamdelhi.com/mac88/muflis_teenpati.webp",
+      "code": ""
+    },
+    {
+      "gameId": 150031,
+      "name": "Bollywood Casino B",
+      "type": "Live",
+      "provider": "MAC88",
+      "company": "Mac88 Gaming",
+      "image": "https://cdn.dreamdelhi.com/mac88/bollywood_casino.webp",
+      "code": ""
+    },
+    {
+      "gameId": 150032,
+      "name": "Poker 1-Day",
+      "type": "Live",
+      "provider": "MAC88",
+      "company": "Mac88 Gaming",
+      "image": "https://cdn.dreamdelhi.com/mac88/poker_1_day.webp",
+      "code": ""
+    },
+    {
+      "gameId": 150033,
+      "name": "20-20 Teenpatti",
+      "type": "Live",
+      "provider": "MAC88",
+      "company": "Mac88 Gaming",
+      "image": "https://cdn.dreamdelhi.com/mac88/20_20_teenpatti.webp",
+      "code": ""
+    },
+    {
+      "gameId": 150034,
+      "name": "Super Over",
+      "type": "Live",
+      "provider": "MAC88",
+      "company": "Mac88 Gaming",
+      "image": "https://cdn.dreamdelhi.com/mac88/super_over.webp",
+      "code": ""
+    },
+    {
+      "gameId": 150035,
+      "name": "5 Five Cricket",
+      "type": "Live",
+      "provider": "MAC88",
+      "company": "Mac88 Gaming",
+      "image": "https://cdn.dreamdelhi.com/mac88/5_five_cricket.webp",
+      "code": ""
+    },
+    {
+      "gameId": 150036,
+      "name": "1 Day Dragon Tiger",
+      "type": "Live",
+      "provider": "MAC88",
+      "company": "Mac88 Gaming",
+      "image": "https://cdn.dreamdelhi.com/mac88/dt_1day.webp",
+      "code": ""
+    },
+    {
+      "gameId": 150037,
+      "name": "Dus Ka Dum",
+      "type": "Live",
+      "provider": "MAC88",
+      "company": "Mac88 Gaming",
+      "image": "https://cdn.dreamdelhi.com/mac88/10kadum.webp",
+      "code": ""
+    },
+    {
+      "gameId": 150038,
+      "name": "One Card 20 20",
+      "type": "Live",
+      "provider": "MAC88",
+      "company": "Mac88 Gaming",
+      "image": "https://cdn.dreamdelhi.com/mac88/1_card_20_20.webp",
+      "code": ""
+    },
+    {
+      "gameId": 150039,
+      "name": "One Card Meter",
+      "type": "Live",
+      "provider": "MAC88",
+      "company": "Mac88 Gaming",
+      "image": "https://cdn.dreamdelhi.com/mac88/1_card_meter.webp",
+      "code": ""
+    },
+    {
+      "gameId": 150040,
+      "name": "One Card One Day",
+      "type": "Live",
+      "provider": "MAC88",
+      "company": "Mac88 Gaming",
+      "image": "https://cdn.dreamdelhi.com/mac88/1c1d.webp",
+      "code": ""
+    },
+    {
+      "gameId": 150041,
+      "name": "6 Player Poker",
+      "type": "Poker",
+      "provider": "MAC88",
+      "company": "Mac88 Gaming",
+      "image": "https://cdn.dreamdelhi.com/mac88/6pp.webp",
+      "code": ""
+    },
+    {
+      "gameId": 150042,
+      "name": "Instant 2 Cards Teenpatti",
+      "type": "Live",
+      "provider": "MAC88",
+      "company": "Mac88 Gaming",
+      "image": "https://cdn.dreamdelhi.com/mac88/2_card_tp.webp",
+      "code": ""
+    },
+    {
+      "gameId": 150043,
+      "name": "Race to 17",
+      "type": "Live",
+      "provider": "MAC88",
+      "company": "Mac88 Gaming",
+      "image": "https://cdn.dreamdelhi.com/mac88/race_17.webp",
+      "code": ""
+    },
+    {
+      "gameId": 150045,
+      "name": "Note Number",
+      "type": "Live",
+      "provider": "MAC88",
+      "company": "Mac88 Gaming",
+      "image": "https://cdn.dreamdelhi.com/mac88/notenumber.webp",
+      "code": ""
+    },
+    {
+      "gameId": 150046,
+      "name": "Cricket Match 20-20",
+      "type": "Live",
+      "provider": "MAC88",
+      "company": "Mac88 Gaming",
+      "image": "https://cdn.dreamdelhi.com/mac88/cricket2020.webp",
+      "code": ""
+    }, {
+      "gameId": 150048,
+      "name": "Race to 2nd",
+      "type": "Live",
+      "provider": "MAC88",
+      "company": "Mac88 Gaming",
+      "image": "https://cdn.dreamdelhi.com/mac88/race_2.webp",
+      "code": "MAC88-X1RTS101"
+    },
+    {
+      "gameId": 150049,
+      "name": "Open Teen patti",
+      "type": "Live",
+      "provider": "MAC88",
+      "company": "Mac88 Gaming",
+      "image": "https://cdn.dreamdelhi.com/mac88/open_teen_patti.webp",
+      "code": "MAC88-YOTP101"
+    },
+    {
+      "gameId": 150051,
+      "name": "High Low",
+      "type": "Live",
+      "provider": "MAC88",
+      "company": "Mac88 Gaming",
+      "image": "https://cdn.dreamdelhi.com/mac88/high_low.webp",
+      "code": "MAC88-YHL101"
+    },
+    {
+      "gameId": 150052,
+      "name": "Baccarat One Day",
+      "type": "Live",
+      "provider": "MAC88",
+      "company": "Mac88 Gaming",
+      "image": "https://cdn.dreamdelhi.com/mac88/baccarat_one_day.webp",
+      "code": "MAC88-Y1BAC101"
+    },
+    {
+      "gameId": 150053,
+      "name": "10 - 10 cricket",
+      "type": "Live",
+      "provider": "MAC88",
+      "company": "Mac88 Gaming",
+      "image": "https://cdn.dreamdelhi.com/mac88/10_10_cricket.webp",
+      "code": "MAC88-YXC101"
+    },
+    {
+      "gameId": 150054,
+      "name": "Muflis Teenpatti",
+      "type": "Live",
+      "provider": "MAC88",
+      "company": "Mac88 Gaming",
+      "image": "https://cdn.dreamdelhi.com/mac88/mtp.webp",
+      "code": "MAC88-ZMTP101"
+    },
+    {
+      "gameId": 150055,
+      "name": "Instant worli",
+      "type": "Live",
+      "provider": "MAC88",
+      "company": "Mac88 Gaming",
+      "image": "https://cdn.dreamdelhi.com/mac88/iw.webp",
+      "code": "MAC88-ZIW101"
+    },
+    {
+      "gameId": 150056,
+      "name": "Instant Teen Patti",
+      "type": "Live",
+      "provider": "MAC88",
+      "company": "Mac88 Gaming",
+      "image": "https://cdn.dreamdelhi.com/mac88/itp.webp",
+      "code": "MAC88-ZITP101"
+    },
+    {
+      "gameId": 150057,
+      "name": "Andar Bahar 50",
+      "type": "Live",
+      "provider": "MAC88",
+      "company": "Mac88 Gaming",
+      "image": "https://cdn.dreamdelhi.com/mac88/ab50.webp",
+      "code": "MAC88-ZABL101"
+    },
+    {
+      "gameId": 150058,
+      "name": "Super Over",
+      "type": "Live",
+      "provider": "MAC88",
+      "company": "Mac88 Gaming",
+      "image": "https://cdn.dreamdelhi.com/mac88/so.webp",
+      "code": "MAC88-ZSP101"
+    },
+    {
+      "gameId": 150059,
+      "name": "Center card",
+      "type": "Live",
+      "provider": "MAC88",
+      "company": "Mac88 Gaming",
+      "image": "https://cdn.dreamdelhi.com/mac88/cc.webp",
+      "code": "MAC88-ZCC101"
+    },
+    {
+      "gameId": 150062,
+      "name": "Football Studio",
+      "type": "Live",
+      "provider": "MAC88",
+      "company": "Mac88 Gaming",
+      "image": "https://cdn.dreamdelhi.com/mac88/fs.webp",
+      "code": "MAC88-ZFBS101"
+    },
+    {
+      "gameId": 150063,
+      "name": "Dream Wheel",
+      "type": "Live Game Shows",
+      "provider": "MAC88",
+      "company": "Mac88 Gaming",
+      "image": "https://cdn.dreamdelhi.com/mac88/dw.webp",
+      "code": "MAC88-ZDC101"
+    },
+    {
+      "gameId": 150066,
+      "name": "20 20 Teenpatti 2",
+      "type": "Live",
+      "provider": "MAC88",
+      "company": "Mac88 Gaming",
+      "image": "https://cdn.dreamdelhi.com/mac88/2020tp2.webp",
+      "code": "MAC88-TPTT2101"
+    },
+    {
+      "gameId": 150067,
+      "name": "Dragon Tiger 2",
+      "type": "Live",
+      "provider": "MAC88",
+      "company": "Mac88 Gaming",
+      "image": "https://cdn.dreamdelhi.com/mac88/dt2.webp",
+      "code": "MAC88-DT2101"
+    },
+    {
+      "gameId": 150068,
+      "name": "Lucky 5",
+      "type": "Live",
+      "provider": "MAC88",
+      "company": "Mac88 Gaming",
+      "image": "https://cdn.dreamdelhi.com/mac88/lucky5.webp",
+      "code": "MAC88-XLK5101"
+    },
+    {
+      "gameId": 150070,
+      "name": "AK47 Teenpatti",
+      "type": "Live",
+      "provider": "MAC88",
+      "company": "Mac88 Gaming",
+      "image": "https://cdn.dreamdelhi.com/mac88/ak47tp.webp",
+      "code": "MAC88-XAK47101"
+    },
+    {
+      "gameId": 150071,
+      "name": "Teenpatti Joker 20-20",
+      "type": "Live",
+      "provider": "MAC88",
+      "company": "Mac88 Gaming",
+      "image": "https://cdn.mac88.com/mac88/TPJ2020.webp",
+      "code": "MAC88-XJTP101"
+    },
+    {
+      "gameId": 150073,
+      "name": "Turbo Auto Roulette",
+      "type": "Live Roulette",
+      "provider": "MAC88",
+      "company": "Mac88 Gaming",
+      "image": "https://cdn.dreamdelhi.com/mac88/turbo_roulette.webp",
+      "code": "MAC88-XTRT101"
+    },
+    {
+      "gameId": 150074,
+      "name": "Speed Auto Roulette",
+      "type": "Live Roulette",
+      "provider": "MAC88",
+      "company": "Mac88 Gaming",
+      "image": "https://cdn.dreamdelhi.com/mac88/auto_roulette.webp",
+      "code": "MAC88-XSART101"
+    },
+    {
+      "gameId": 150599,
+      "name": "MAC Excite Lobby",
+      "type": "Lobby",
+      "provider": "MAC88",
+      "company": "MAC Excite",
+      "image": "https://cdn.dreamdelhi.com/macexcite/lobby_macexcite.webp",
+      "code": "MI-LOBBY"
+    },
+    {
+      "gameId": 150600,
+      "name": "Dragon Tiger",
+      "type": "Live",
+      "provider": "MAC88",
+      "company": "MAC Excite",
+      "image": "https://cdn.dreamdelhi.com/macexcite/dt.webp",
+      "code": "ME-BDT101"
+    },
+    {
+      "gameId": 150601,
+      "name": "Baccarat",
+      "type": "Live",
+      "provider": "MAC88",
+      "company": "MAC Excite",
+      "image": "https://cdn.dreamdelhi.com/macexcite/baccarat.webp",
+      "code": "ME-BBAC101"
+    },
+    {
+      "gameId": 150602,
+      "name": "Sic Bo",
+      "type": "Live",
+      "provider": "MAC88",
+      "company": "MAC Excite",
+      "image": "https://cdn.dreamdelhi.com/macexcite/sb.webp",
+      "code": "ME-BSB101"
+    },
+    {
+      "gameId": 150603,
+      "name": "Roulette",
+      "type": "Live",
+      "provider": "MAC88",
+      "company": "MAC Excite",
+      "image": "https://cdn.dreamdelhi.com/macexcite/roulette.webp",
+      "code": "ME-BRT101"
+    },
+    {
+      "gameId": 150604,
+      "name": "Poker 20-20",
+      "type": "Live",
+      "provider": "MAC88",
+      "company": "MAC Excite",
+      "image": "https://cdn.dreamdelhi.com/macexcite/2020poker.webp",
+      "code": "ME-BPOK101"
+    },
+    {
+      "gameId": 150605,
+      "name": "Lucky 7",
+      "type": "Live",
+      "provider": "MAC88",
+      "company": "MAC Excite",
+      "image": "https://cdn.dreamdelhi.com/macexcite/l7.webp",
+      "code": "ME-BLK7101"
+    },
+    {
+      "gameId": 150606,
+      "name": "Andar Bahar",
+      "type": "Live",
+      "provider": "MAC88",
+      "company": "MAC Excite",
+      "image": "https://cdn.dreamdelhi.com/macexcite/ab.webp",
+      "code": "ME-BAB101"
+    },
+    {
+      "gameId": 150607,
+      "name": "Teenpatti One Day",
+      "type": "Live",
+      "provider": "MAC88",
+      "company": "MAC Excite",
+      "image": "https://cdn.dreamdelhi.com/macexcite/tp1d.webp",
+      "code": "ME-B1TP101"
+    },
+    {
+      "gameId": 150608,
+      "name": "32 Cards",
+      "type": "Live",
+      "provider": "MAC88",
+      "company": "MAC Excite",
+      "image": "https://cdn.dreamdelhi.com/macexcite/32c.webp",
+      "code": "ME-B32CA102"
+    }
+  ]

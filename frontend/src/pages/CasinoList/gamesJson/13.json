@@ -1,0 +1,437 @@
+[
+  {
+    "gameId": 204004,
+    "name": "40 Chilli Fruits",
+    "type": "Video Slots",
+    "provider": "DC",
+    "company": "Gamzix",
+    "image": "https://cdn.dreamdelhi.com/dc/gmz_40_chilli_fruits.webp",
+    "code": "gmz_40_chilli_fruits"
+  },
+  {
+    "gameId": 204005,
+    "name": "Joker Splash",
+    "type": "Video Slots",
+    "provider": "DC",
+    "company": "Gamzix",
+    "image": "https://cdn.dreamdelhi.com/dc/gmz_joker_splash.webp",
+    "code": "gmz_joker_splash"
+  },
+  {
+    "gameId": 204006,
+    "name": "Book Of Symbols",
+    "type": "Video Slots",
+    "provider": "DC",
+    "company": "Gamzix",
+    "image": "https://cdn.dreamdelhi.com/dc/gmz_book_of_symbols.webp",
+    "code": "gmz_book_of_symbols"
+  },
+  {
+    "gameId": 204007,
+    "name": "Really Hot",
+    "type": "Video Slots",
+    "provider": "DC",
+    "company": "Gamzix",
+    "image": "https://cdn.dreamdelhi.com/dc/gmz_really_hot.webp",
+    "code": "gmz_really_hot"
+  },
+  {
+    "gameId": 204008,
+    "name": "Go Wild",
+    "type": "Video Slots",
+    "provider": "DC",
+    "company": "Gamzix",
+    "image": "https://cdn.dreamdelhi.com/dc/gmz_go_wild.webp",
+    "code": "gmz_go_wild"
+  },
+  {
+    "gameId": 204012,
+    "name": "The Hottest Game",
+    "type": "Video Slots",
+    "provider": "DC",
+    "company": "Gamzix",
+    "image": "https://cdn.dreamdelhi.com/dc/gmz_the_hottest_game.webp",
+    "code": "gmz_the_hottest_game"
+  },
+  {
+    "gameId": 204014,
+    "name": "Burning Power",
+    "type": "Video Slots",
+    "provider": "DC",
+    "company": "Gamzix",
+    "image": "https://cdn.dreamdelhi.com/dc/gmz_burning_power.webp",
+    "code": "gmz_burning_power"
+  },
+  {
+    "gameId": 204017,
+    "name": "Really Hot Flaming Edition",
+    "type": "Video Slots",
+    "provider": "DC",
+    "company": "Gamzix",
+    "image": "https://cdn.dreamdelhi.com/dc/gmz_really_hot_flaming_edition.webp",
+    "code": "gmz_really_hot_flaming_edition"
+  },
+  {
+    "gameId": 204019,
+    "name": "40 Chilli Fruits Flaming Edition",
+    "type": "Video Slots",
+    "provider": "DC",
+    "company": "Gamzix",
+    "image": "https://cdn.dreamdelhi.com/dc/gmz_40_chilli_fruits_flaming_edition.webp",
+    "code": "gmz_40_chilli_fruits_flaming_edition"
+  },
+  {
+    "gameId": 204022,
+    "name": "Sunny Coin: Hold The Spin",
+    "type": "Video Slots",
+    "provider": "DC",
+    "company": "Gamzix",
+    "image": "https://cdn.dreamdelhi.com/dc/gmz_sunny_coin_hold_the_spin.webp",
+    "code": "gmz_sunny_coin_hold_the_spin"
+  },
+  {
+    "gameId": 204023,
+    "name": "GG Coin: Hold The Spin",
+    "type": "Video Slots",
+    "provider": "DC",
+    "company": "Gamzix",
+    "image": "https://cdn.dreamdelhi.com/dc/gmz_gg_coin_hold_the_spin.webp",
+    "code": "gmz_gg_coin_hold_the_spin"
+  },
+  {
+    "gameId": 204025,
+    "name": "Snow Coin: Hold The Spin",
+    "type": "Video Slots",
+    "provider": "DC",
+    "company": "Gamzix",
+    "image": "https://cdn.dreamdelhi.com/dc/gmz_snow_coin_hold_the_spin.webp",
+    "code": "gmz_snow_coin_hold_the_spin"
+  },
+  {
+    "gameId": 204026,
+    "name": "Gold Mania",
+    "type": "Video Slots",
+    "provider": "DC",
+    "company": "Gamzix",
+    "image": "https://cdn.dreamdelhi.com/dc/gmz_gold_mania.webp",
+    "code": "gmz_gold_mania"
+  },
+  {
+    "gameId": 204027,
+    "name": "Hot Patrick",
+    "type": "Video Slots",
+    "provider": "DC",
+    "company": "Gamzix",
+    "image": "https://cdn.dreamdelhi.com/dc/gmz_hot_patrick.webp",
+    "code": "gmz_hot_patrick"
+  },
+  {
+    "gameId": 204028,
+    "name": "Really Easter",
+    "type": "Video Slots",
+    "provider": "DC",
+    "company": "Gamzix",
+    "image": "https://cdn.dreamdelhi.com/dc/gmz_really_easter.webp",
+    "code": "gmz_really_easter"
+  },
+  {
+    "gameId": 204029,
+    "name": "Book of Cairo",
+    "type": "Video Slots",
+    "provider": "DC",
+    "company": "Gamzix",
+    "image": "https://cdn.dreamdelhi.com/dc/gmz_book_of_cairo.webp",
+    "code": "gmz_book_of_cairo"
+  },
+  {
+    "gameId": 204031,
+    "name": "Buffalo Coin: Hold The Spin",
+    "type": "Video Slots",
+    "provider": "DC",
+    "company": "Gamzix",
+    "image": "https://cdn.dreamdelhi.com/dc/gmz_buffalo_coin_hold_the_spin.webp",
+    "code": "gmz_buffalo_coin_hold_the_spin"
+  },
+  {
+    "gameId": 204032,
+    "name": "3*3 Hold The Spin",
+    "type": "Video Slots",
+    "provider": "DC",
+    "company": "Gamzix",
+    "image": "https://cdn.dreamdelhi.com/dc/gmz_33_hold_the_spin.webp",
+    "code": "gmz_33_hold_the_spin"
+  },
+  
+  {
+    "gameId": 204167,
+    "name": "3X3: Hold The Spin",
+    "type": "Video Slots",
+    "provider": "DC",
+    "company": "Gamzix",
+    "image": "https://cdn.dreamcasino.live/gmz_3x3_hold_the_spin/thumb.webp",
+    "code": "gmz_3x3_hold_the_spin"
+  },
+  {
+    "gameId": 204168,
+    "name": "Pilot",
+    "type": "Video Slots",
+    "provider": "DC",
+    "company": "Gamzix",
+    "image": "https://cdn.dreamcasino.live/gmz_pilot/thumb.webp",
+    "code": "gmz_pilot"
+  },
+  {
+    "gameId": 204169,
+    "name": "3X3: Hell Spin",
+    "type": "Video Slots",
+    "provider": "DC",
+    "company": "Gamzix",
+    "image": "https://cdn.dreamcasino.live/gmz_3x3_hell_spin/thumb.webp",
+    "code": "gmz_3x3_hell_spin"
+  },
+  {
+    "gameId": 204170,
+    "name": "Pilot Cup",
+    "type": "Video Slots",
+    "provider": "DC",
+    "company": "Gamzix",
+    "image": "https://cdn.dreamcasino.live/gmz_pilot_cup/thumb.webp",
+    "code": "gmz_pilot_cup"
+  },
+  {
+    "gameId": 204171,
+    "name": "3X3: 27 Ways",
+    "type": "Video Slots",
+    "provider": "DC",
+    "company": "Gamzix",
+    "image": "https://cdn.dreamcasino.live/gmz_3x3_27_ways/thumb.webp",
+    "code": "gmz_3x3_27_ways"
+  },
+  {
+    "gameId": 204172,
+    "name": "Pilot Coin",
+    "type": "Video Slots",
+    "provider": "DC",
+    "company": "Gamzix",
+    "image": "https://cdn.dreamcasino.live/gmz_pilot_coin/thumb.webp",
+    "code": "gmz_pilot_coin"
+  },
+  {
+    "gameId": 204173,
+    "name": "Bonanza Donut",
+    "type": "Video Slots",
+    "provider": "DC",
+    "company": "Gamzix",
+    "image": "https://cdn.dreamcasino.live/gmz_bonanza_donut/thumb.webp",
+    "code": "gmz_bonanza_donut"
+  },
+  {
+    "gameId": 204174,
+    "name": "Won Hundred",
+    "type": "Video Slots",
+    "provider": "DC",
+    "company": "Gamzix",
+    "image": "https://cdn.dreamcasino.live/gmz_won_hundred/thumb.webp",
+    "code": "gmz_won_hundred"
+  },
+  {
+    "gameId": 204175,
+    "name": "Buffalo Ice: Hold The Spin",
+    "type": "Video Slots",
+    "provider": "DC",
+    "company": "Gamzix",
+    "image": "https://cdn.dreamcasino.live/gmz_buffalo_ice_hold_the_spin/thumb.webp",
+    "code": "gmz_buffalo_ice_hold_the_spin"
+  },
+  {
+    "gameId": 204176,
+    "name": "Bonanza Donut Xmas",
+    "type": "Video Slots",
+    "provider": "DC",
+    "company": "Gamzix",
+    "image": "https://cdn.dreamcasino.live/gmz_bonanza_donut_xmas/thumb.webp",
+    "code": "gmz_bonanza_donut_xmas"
+  },
+  {
+    "gameId": 204177,
+    "name": "Dice: Hold The Spin",
+    "type": "Video Slots",
+    "provider": "DC",
+    "company": "Gamzix",
+    "image": "https://cdn.dreamcasino.live/gmz_dice_hold_the_spin/thumb.webp",
+    "code": "gmz_dice_hold_the_spin"
+  },
+  {
+    "gameId": 204178,
+    "name": "Dogs and Tails",
+    "type": "Video Slots",
+    "provider": "DC",
+    "company": "Gamzix",
+    "image": "https://cdn.dreamcasino.live/gmz_dogs_and_tails/thumb.webp",
+    "code": "gmz_dogs_and_tails"
+  },
+  {
+    "gameId": 204179,
+    "name": "Fruit Story",
+    "type": "Video Slots",
+    "provider": "DC",
+    "company": "Gamzix",
+    "image": "https://cdn.dreamcasino.live/gmz_fruit_story/thumb.webp",
+    "code": "gmz_fruit_story"
+  },
+  {
+    "gameId": 204180,
+    "name": "Happy Rabbit: 27 Ways",
+    "type": "Video Slots",
+    "provider": "DC",
+    "company": "Gamzix",
+    "image": "https://cdn.dreamcasino.live/gmz_happy_rabbit_27_ways/thumb.webp",
+    "code": "gmz_happy_rabbit_27_ways"
+  },
+  {
+    "gameId": 204181,
+    "name": "40 Sweet Fruits",
+    "type": "Video Slots",
+    "provider": "DC",
+    "company": "Gamzix",
+    "image": "https://cdn.dreamcasino.live/gmz_40_sweet_fruits/thumb.webp",
+    "code": "gmz_40_sweet_fruits"
+  },
+  {
+    "gameId": 204182,
+    "name": "3X3 Egypt: Hold The Spin",
+    "type": "Video Slots",
+    "provider": "DC",
+    "company": "Gamzix",
+    "image": "https://cdn.dreamcasino.live/gmz_3x3_egypt_hold_the_spin/thumb.webp",
+    "code": "gmz_3x3_egypt_hold_the_spin"
+  },
+  {
+    "gameId": 204183,
+    "name": "Hot Love",
+    "type": "Video Slots",
+    "provider": "DC",
+    "company": "Gamzix",
+    "image": "https://cdn.dreamcasino.live/gmz_hot_love/thumb.webp",
+    "code": "gmz_hot_love"
+  },
+  {
+    "gameId": 204184,
+    "name": "Really Hot 2",
+    "type": "Video Slots",
+    "provider": "DC",
+    "company": "Gamzix",
+    "image": "https://cdn.dreamcasino.live/gmz_really_hot_2/thumb.webp",
+    "code": "gmz_really_hot_2"
+  },
+  {
+    "gameId": 204185,
+    "name": "Sunny Coin 2: Hold The Spin",
+    "type": "Video Slots",
+    "provider": "DC",
+    "company": "Gamzix",
+    "image": "https://cdn.dreamcasino.live/gmz_sunny_coin_2_hold_the_spin/thumb.webp",
+    "code": "gmz_sunny_coin_2_hold_the_spin"
+  },
+  {
+    "gameId": 204186,
+    "name": "Ruby Win: Hold The Spin",
+    "type": "Video Slots",
+    "provider": "DC",
+    "company": "Gamzix",
+    "image": "https://cdn.dreamcasino.live/gmz_ruby_win_hold_the_spin/thumb.webp",
+    "code": "gmz_ruby_win_hold_the_spin"
+  },
+  {
+    "gameId": 204187,
+    "name": "Patrick's Coin: Hold The Spin",
+    "type": "Video Slots",
+    "provider": "DC",
+    "company": "Gamzix",
+    "image": "https://cdn.dreamcasino.live/gmz_patricks_coin_hold_the_spin/thumb.webp",
+    "code": "gmz_patricks_coin_hold_the_spin"
+  },
+  {
+    "gameId": 204188,
+    "name": "Royal Chip",
+    "type": "Video Slots",
+    "provider": "DC",
+    "company": "Gamzix",
+    "image": "https://cdn.dreamcasino.live/gmz_royal_chip/thumb.webp",
+    "code": "gmz_royal_chip"
+  },
+  {
+    "gameId": 204189,
+    "name": "Wolf Story",
+    "type": "Video Slots",
+    "provider": "DC",
+    "company": "Gamzix",
+    "image": "https://cdn.dreamcasino.live/gmz_wolf_story/thumb.webp",
+    "code": "gmz_wolf_story"
+  },
+  {
+    "gameId": 204190,
+    "name": "Ultra Luck",
+    "type": "Video Slots",
+    "provider": "DC",
+    "company": "Gamzix",
+    "image": "https://cdn.dreamcasino.live/gmz_ultra_luck/thumb.webp",
+    "code": "gmz_ultra_luck"
+  },
+  {
+    "gameId": 204195,
+    "name": "Genie's Bonanza",
+    "type": "Video Slots",
+    "provider": "DC",
+    "company": "Smartsoft Gaming",
+    "image": "https://cdn.dreamdelhi.com/sms/geniesbonanza.webp",
+    "code": "sms_geniesbonanza"
+  },
+  {
+    "gameId": 204197,
+    "name": "Japanese Coin: Hold The Spin",
+    "type": "Video Slots",
+    "provider": "DC",
+    "company": "Gamzix",
+    "image": "https://cdn.dreamdelhi.com/dream/gmz_japanese_coin_hold_the_spin.webp",
+    "code": "gmz_japanese_coin_hold_the_spin"
+  },
+  {
+    "gameId": 204198,
+    "name": "Fruit Story: Hold the Spin",
+    "type": "Video Slots",
+    "provider": "DC",
+    "company": "Gamzix",
+    "image": "https://cdn.dreamdelhi.com/dream/gmz_fruit_story_hold_the_spin.webp",
+    "code": "gmz_fruit_story_hold_the_spin"
+  },
+  {
+    "gameId": 204199,
+    "name": "Juicy Win: Hold The Spin",
+    "type": "Video Slots",
+    "provider": "DC",
+    "company": "Gamzix",
+    "image": "https://cdn.dreamcasino.live/gmz_juicy_win_hold_the_spin/thumb.webp",
+    "code": "gmz_juicy_win_hold_the_spin"
+  },
+  {
+    "gameId": 204201,
+    "name": "Coin Win: Hold The Spin",
+    "type": "Crash Games",
+    "provider": "DC",
+    "company": "Gamzix",
+    "image": "https://cdn.dreamcasino.live/gmz_coin_win_hold_the_spin/thumb.webp",
+    "code": "gmz_coin_win_hold_the_spin"
+  },
+  {
+    "gameId": 204202,
+    "name": "Olympus of Luck: Hold The Spin",
+    "type": "Crash Games",
+    "provider": "DC",
+    "company": "Gamzix",
+    "image": "https://cdn.dreamcasino.live/gmz_olympus_of_luck_hold_the_spin/thumb.webp",
+    "code": "gmz_olympus_of_luck_hold_the_spin"
+  }
+
+
+]

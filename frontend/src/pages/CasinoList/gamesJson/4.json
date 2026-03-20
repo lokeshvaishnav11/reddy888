@@ -1,0 +1,239 @@
+[
+  {
+    "gameId": 377001,
+    "name": "Goddesses of Zeus",
+    "type": "Video Slots",
+    "provider": "CREED",
+    "company": "Popok",
+    "image": "https://cdn.dreamdelhi.com/dream/ppok_goddessesofzeus.gif",
+    "code": "popok_goddesses_of_zeus"
+  },
+  {
+    "gameId": 377002,
+    "name": "Eye on the Money",
+    "type": "Video Slots",
+    "provider": "CREED",
+    "company": "Popok",
+    "image": "http://cdn.dreamdelhi.com/popok/popok_eye_on_the_money.webp",
+    "code": "popok_eye_on_the_money"
+  },
+  {
+    "gameId": 377003,
+    "name": "Diamond Flash Buy Bonus",
+    "type": "Video Slots",
+    "provider": "CREED",
+    "company": "Popok",
+    "image": "http://cdn.dreamdelhi.com/popok/popok_diamond_flash_buy_bonus.webp",
+    "code": "popok_diamond_flash_buy_bonus"
+  },
+  {
+    "gameId": 377004,
+    "name": "Royal Flash Buy Bonus",
+    "type": "Video Slots",
+    "provider": "CREED",
+    "company": "Popok",
+    "image": "http://cdn.dreamdelhi.com/popok/popok_royal_flash_buy_bonus.webp",
+    "code": "popok_royal_flash_buy_bonus"
+  },
+  {
+    "gameId": 377005,
+    "name": "Avi",
+    "type": "Video Slots",
+    "provider": "CREED",
+    "company": "Popok",
+    "image": "http://cdn.dreamdelhi.com/popok/popok_avi.gif",
+    "code": "popok_avi"
+  },
+  {
+    "gameId": 377006,
+    "name": "777 Triple Sevens",
+    "type": "Video Slots",
+    "provider": "CREED",
+    "company": "Popok",
+    "image": "http://cdn.dreamdelhi.com/popok/popok_777_triple_sevens.gif",
+    "code": "popok_777_triple_sevens"
+  },
+  {
+    "gameId": 377007,
+    "name": "YO Dragon",
+    "type": "Video Slots",
+    "provider": "CREED",
+    "company": "Popok",
+    "image": "http://cdn.dreamdelhi.com/popok/popok_yo_dragon.gif",
+    "code": "popok_yo_dragon"
+  },
+  {
+    "gameId": 377008,
+    "name": "Crash Poki",
+    "type": "Video Slots",
+    "provider": "CREED",
+    "company": "Popok",
+    "image": "http://cdn.dreamdelhi.com/popok/popok_crash_poki.webp",
+    "code": "popok_crash_poki"
+  },
+  {
+    "gameId": 377009,
+    "name": "Papai Noel da Fortuna",
+    "type": "Video Slots",
+    "provider": "CREED",
+    "company": "Popok",
+    "image": "http://cdn.dreamdelhi.com/popok/popok_papai_noel_da_fortuna.gif",
+    "code": "popok_papai_noel_da_fortuna"
+  },
+  {
+    "gameId": 377010,
+    "name": "Hezarfen Crash",
+    "type": "Video Slots",
+    "provider": "CREED",
+    "company": "Popok",
+    "image": "http://cdn.dreamdelhi.com/popok/popok_hezarfen_crash.gif",
+    "code": "popok_hezarfen_crash"
+  },
+  {
+    "gameId": 377011,
+    "name": "Book of Sherlock",
+    "type": "Video Slots",
+    "provider": "CREED",
+    "company": "Popok",
+    "image": "http://cdn.dreamdelhi.com/popok/popok_book_of_sherlock.webp",
+    "code": "popok_book_of_sherlock"
+  },
+  {
+    "gameId": 377012,
+    "name": "Fiesta",
+    "type": "Video Slots",
+    "provider": "CREED",
+    "company": "Popok",
+    "image": "http://cdn.dreamdelhi.com/popok/popok_fiesta.webp",
+    "code": "popok_fiesta"
+  },
+  {
+    "gameId": 377013,
+    "name": "Xmas Crash",
+    "type": "Video Slots",
+    "provider": "CREED",
+    "company": "Popok",
+    "image": "http://cdn.dreamdelhi.com/popok/popok_xmas_crash.gif",
+    "code": "popok_xmas_crash"
+  },
+  {
+    "gameId": 377014,
+    "name": "Diamond Phantom",
+    "type": "Video Slots",
+    "provider": "CREED",
+    "company": "Popok",
+    "image": "https://cdn.dreamdelhi.com/dream/ppok_diamondphantom.gif",
+    "code": "popok_diamond_phantom"
+  },
+  
+  {
+    "gameId": 375001,
+    "name": "Swift Roulette8 IN ONE",
+    "type": "Live Roulette",
+    "provider": "CREED",
+    "company": "Creedroomz",
+    "image": "http://cdn.dreamdelhi.com/creed/swift_roulette.webp",
+    "code": "creedroomz_swift_roulette8_in_one"
+  },
+  {
+    "gameId": 375002,
+    "name": "Roulette Auto Aurum2",
+    "type": "Live Roulette",
+    "provider": "CREED",
+    "company": "Creedroomz",
+    "image": "https://cdn.dreamdelhi.com/dream/crd_rouletteautoaurum.png",
+    "code": "creedroomz_roulette_auto_aurum2"
+  },
+  {
+    "gameId": 375003,
+    "name": "Roulette Auto Aurum1",
+    "type": "Live Roulette",
+    "provider": "CREED",
+    "company": "Creedroomz",
+    "image": "https://cdn.dreamdelhi.com/dream/crd_rouletteautoaurum.png",
+    "code": "creedroomz_roulette_auto_aurum1"
+  },
+  {
+    "gameId": 375006,
+    "name": "Roulette Speed Aurum2",
+    "type": "Live Roulette",
+    "provider": "CREED",
+    "company": "Creedroomz",
+    "image": "http://cdn.dreamdelhi.com/creed/creedroomz_roulette_speed_aurum2.webp",
+    "code": "creedroomz_roulette_speed_aurum2"
+  },
+  {
+    "gameId": 375007,
+    "name": "Roulette Speed Aurum1",
+    "type": "Live Roulette",
+    "provider": "CREED",
+    "company": "Creedroomz",
+    "image": "http://cdn.dreamdelhi.com/creed/creedroomz_roulette_speed_aurum1.webp",
+    "code": "creedroomz_roulette_speed_aurum1"
+  },
+  {
+    "gameId": 375032,
+    "name": "RichieFruitRoulette",
+    "type": "Live Roulette",
+    "provider": "CREED",
+    "company": "Creedroomz",
+    "image": "http://cdn.dreamdelhi.com/creed/creedroomz_richiefruitroulette.webp",
+    "code": "creedroomz_richiefruitroulette"
+  },
+  {
+    "gameId": 375033,
+    "name": "Richie Wheel",
+    "type": "Others",
+    "provider": "CREED",
+    "company": "Creedroomz",
+    "image": "http://cdn.dreamdelhi.com/creed/creedroomz_richie_wheel.webp",
+    "code": "creedroomz_richie_wheel"
+  },
+  {
+    "gameId": 375092,
+    "name": "TeenPatti A",
+    "type": "Live Teenpatti",
+    "provider": "CREED",
+    "company": "Creedroomz",
+    "image": "https://cdn.dreamdelhi.com/dream/crd_teenpattia.png",
+    "code": "creedroomz_teenpatti_a"
+  },
+  {
+    "gameId": 375095,
+    "name": "Andar Bahar A",
+    "type": "Live Poker",
+    "provider": "CREED",
+    "company": "Creedroomz",
+    "image": "http://cdn.dreamdelhi.com/creed/creedroomz_andar_bahar_a.webp",
+    "code": "creedroomz_andar_bahar_a"
+  },
+  {
+    "gameId": 375102,
+    "name": "Live Baccarat",
+    "type": "Live Baccarat",
+    "provider": "CREED",
+    "company": "Creedroomz",
+    "image": "http://cdn.dreamdelhi.com/creed/creedroomz_baccarat.webp",
+    "code": "creedroomz_baccarat"
+  },
+  {
+    "gameId": 375111,
+    "name": "Dragon Tiger A",
+    "type": "Live Dragon Tiger",
+    "provider": "CREED",
+    "company": "Creedroomz",
+    "image": "https://cdn.dreamdelhi.com/dream/crd_dragontigera.png",
+    "code": "creedroomz_dragon_tiger_a"
+  },
+  {
+    "gameId": 375112,
+    "name": "Keno LIVE",
+    "type": "Keno",
+    "provider": "CREED",
+    "company": "Creedroomz",
+    "image": "https://cdn.dreamdelhi.com/dream/crd_kenolive.png",
+    "code": "creedroomz_keno_live"
+  }
+
+
+]

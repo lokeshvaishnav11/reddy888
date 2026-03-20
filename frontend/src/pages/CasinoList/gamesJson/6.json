@@ -1,0 +1,120 @@
+[
+  
+  {
+    "gameId": 204109,
+    "name": "JetX",
+    "type": "Crash Games",
+    "provider": "DC",
+    "company": "Smartsoft Gaming",
+    "image": "https://cdn.dreamdelhi.com/dc/sms_jetx.webp",
+    "code": "DC-204109"
+  },
+  {
+    "gameId": 204111,
+    "name": "JetX3",
+    "type": "Crash Games",
+    "provider": "DC",
+    "company": "Smartsoft Gaming",
+    "image": "https://cdn.dreamdelhi.com/dc/sms_jetx3.webp",
+    "code": "DC-204111"
+  },
+  {
+    "gameId": 204112,
+    "name": "Baloon",
+    "type": "Crash Games",
+    "provider": "DC",
+    "company": "Smartsoft Gaming",
+    "image": "https://cdn.dreamdelhi.com/dc/sms_baloon.webp",
+    "code": "DC-204112"
+  },
+  {
+    "gameId": 204113,
+    "name": "CricketX",
+    "type": "Crash Games",
+    "provider": "DC",
+    "company": "Smartsoft Gaming",
+    "image": "https://cdn.dreamdelhi.com/dc/sms_cricketx.webp",
+    "code": "DC-204113"
+  },
+  {
+    "gameId": 204114,
+    "name": "Samurai",
+    "type": "Video Slots",
+    "provider": "DC",
+    "company": "Smartsoft Gaming",
+    "image": "https://cdn.dreamdelhi.com/dc/sms_samurai.webp",
+    "code": "DC-204114"
+  },
+  {
+    "gameId": 204115,
+    "name": "Burning Ice 40",
+    "type": "Video Slots",
+    "provider": "DC",
+    "company": "Smartsoft Gaming",
+    "image": "https://cdn.dreamdelhi.com/dc/sms_burning_ice_40.webp",
+    "code": "DC-204115"
+  },
+  {
+    "gameId": 204131,
+    "name": "Vampires",
+    "type": "Video Slots",
+    "provider": "DC",
+    "company": "Smartsoft Gaming",
+    "image": "https://cdn.dreamdelhi.com/dc/sms_vampires.webp",
+    "code": "DC-204131"
+  },
+  {
+    "gameId": 204132,
+    "name": "Burning Ice",
+    "type": "Video Slots",
+    "provider": "DC",
+    "company": "Smartsoft Gaming",
+    "image": "https://cdn.dreamdelhi.com/dc/sms_burning_ice.webp",
+    "code": "DC-204132"
+  },
+  {
+    "gameId": 204133,
+    "name": "Burning Ice 10",
+    "type": "Video Slots",
+    "provider": "DC",
+    "company": "Smartsoft Gaming",
+    "image": "https://cdn.dreamdelhi.com/dc/sms_burning_ice_10.webp",
+    "code": "DC-204133"
+  },
+  {
+    "gameId": 204140,
+    "name": "PlinkoX",
+    "type": "Casual Games",
+    "provider": "DC",
+    "company": "Smartsoft Gaming",
+    "image": "https://cdn.dreamdelhi.com/dc/sms_plinkox.webp",
+    "code": "DC-204140"
+  },
+  {
+    "gameId": 204141,
+    "name": "Multi Hot 5",
+    "type": "Video Slots",
+    "provider": "DC",
+    "company": "Smartsoft Gaming",
+    "image": "https://cdn.dreamdelhi.com/dc/sms_multi_hot_5.webp",
+    "code": "DC-204141"
+  },
+  {
+    "gameId": 204142,
+    "name": "FootballX",
+    "type": "Crash Games",
+    "provider": "DC",
+    "company": "Smartsoft Gaming",
+    "image": "https://cdn.dreamdelhi.com/dc/sms_footballx.webp",
+    "code": "DC-204142"
+  },
+  {
+    "gameId": 204143,
+    "name": "Wild Jungle",
+    "type": "Video Slots",
+    "provider": "DC",
+    "company": "Smartsoft Gaming",
+    "image": "https://cdn.dreamdelhi.com/dc/sms_wild_jungle.webp",
+    "code": "DC-204143"
+  }
+]

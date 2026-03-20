@@ -1,0 +1,39 @@
+[
+  {
+    "gameId": 202098,
+    "name": "Bikini Island",
+    "type": "Video Slots",
+    "provider": "DC",
+    "company": "Habanero",
+    "image": "https://cdn.dreamcasino.live/habanero/hbo_bikiniisland.webp",
+    "code": "hbo_bikiniisland"
+  },
+  {
+    "gameId": 225327,
+    "name": "Bikini Island Deluxe",
+    "type": "Video Slots",
+    "provider": "DC",
+    "company": "Habanero",
+    "image": "https://cdn.dreamdelhi.com/dc/hbo_bikiniislanddeluxe.webp",
+    "code": "hbo_bikiniislanddeluxe"
+  },
+  {
+    "gameId": 240057,
+    "name": "Bikini Paradise",
+    "type": "Video Slots",
+    "provider": "DC",
+    "company": "PGSoft",
+    "image": "https://cdn.dreamdelhi.com/pgsoft/pgs_bikini_paradise.webp",
+    "code": "pgs_bikini_paradise"
+  },
+  {
+    "gameId": 240633,
+    "name": "Bikini Party",
+    "type": "Video Slots",
+    "provider": "DC",
+    "company": "Games Global",
+    "image": "https://cdn.dreamdelhi.com/dc2/mgg_bikiniparty.webp",
+    "code": "mgg_bikiniparty",
+    "rate": 96.52
+  }
+]

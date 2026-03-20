@@ -1,0 +1,167 @@
+[
+    {
+        "gameId": 151054,
+        "name": "WINGO",
+        "type": "Virtual",
+        "provider": "MAC88",
+        "company": "Mac88 Gaming Virtual",
+        "image": "https://cdn.dreamdelhi.com/monk88/wingo.webp",
+        "code": "MAC88-CWI101"
+      },
+      {
+        "gameId": 151055,
+        "name": "WINGO3",
+        "type": "Virtual",
+        "provider": "MAC88",
+        "company": "Mac88 Gaming Virtual",
+        "image": "https://cdn.dreamdelhi.com/monk88/wingo.webp",
+        "code": "MAC88-CWI102"
+      },
+      {
+        "gameId": 151056,
+        "name": "WINGO5",
+        "type": "Virtual",
+        "provider": "MAC88",
+        "company": "Mac88 Gaming Virtual",
+        "image": "https://cdn.dreamdelhi.com/monk88/wingo.webp",
+        "code": "MAC88-CWI103"
+      },
+      {
+        "gameId": 151057,
+        "name": "WINGO10",
+        "type": "Virtual",
+        "provider": "MAC88",
+        "company": "Mac88 Gaming Virtual",
+        "image": "https://cdn.dreamdelhi.com/monk88/wingo.webp",
+        "code": "MAC88-CWI104"
+      },
+      {
+        "gameId": 151058,
+        "name": "5D Lottery 1",
+        "type": "Virtual",
+        "provider": "MAC88",
+        "company": "Mac88 Gaming Virtual",
+        "image": "https://cdn.dreamdelhi.com/monk88/sd_lotto.webp",
+        "code": "MAC88-CLOT5101"
+      },
+      {
+        "gameId": 151059,
+        "name": "5D Lottery 3",
+        "type": "Virtual",
+        "provider": "MAC88",
+        "company": "Mac88 Gaming Virtual",
+        "image": "https://cdn.dreamdelhi.com/monk88/sd_lotto.webp",
+        "code": "MAC88-CLOT5102"
+      },
+      {
+        "gameId": 151060,
+        "name": "5D Lottery 5",
+        "type": "Virtual",
+        "provider": "MAC88",
+        "company": "Mac88 Gaming Virtual",
+        "image": "https://cdn.dreamdelhi.com/monk88/sd_lotto.webp",
+        "code": "MAC88-CLOT5103"
+      },
+      {
+        "gameId": 151061,
+        "name": "5D Lottery 10",
+        "type": "Virtual",
+        "provider": "MAC88",
+        "company": "Mac88 Gaming Virtual",
+        "image": "https://cdn.dreamdelhi.com/monk88/sd_lotto.webp",
+        "code": "MAC88-CLOT5104"
+      },
+      {
+        "gameId": 151062,
+        "name": "K3 Lottery 1",
+        "type": "Virtual",
+        "provider": "MAC88",
+        "company": "Mac88 Gaming Virtual",
+        "image": "https://cdn.dreamdelhi.com/monk88/3k_lotre.webp",
+        "code": "MAC88-CK3101"
+      },
+      {
+        "gameId": 151063,
+        "name": "K3 Lottery 3",
+        "type": "Virtual",
+        "provider": "MAC88",
+        "company": "Mac88 Gaming Virtual",
+        "image": "https://cdn.dreamdelhi.com/monk88/3k_lotre.webp",
+        "code": "MAC88-CK3102"
+      },
+      {
+        "gameId": 151064,
+        "name": "K3 Lottery 5",
+        "type": "Virtual",
+        "provider": "MAC88",
+        "company": "Mac88 Gaming Virtual",
+        "image": "https://cdn.dreamdelhi.com/monk88/3k_lotre.webp",
+        "code": "MAC88-CK3103"
+      },
+      {
+        "gameId": 151065,
+        "name": "K3 Lottery 10",
+        "type": "Virtual",
+        "provider": "MAC88",
+        "company": "Mac88 Gaming Virtual",
+        "image": "https://cdn.dreamdelhi.com/monk88/3k_lotre.webp",
+        "code": "MAC88-CK3104"
+      },{
+        "gameId": 151077,
+        "name": "Plinko",
+        "type": "Virtual",
+        "provider": "MAC88",
+        "company": "Fun Games",
+        "image": "https://cdn.dreamdelhi.com/monk88/plinko.webp",
+        "code": "MAC88-CPLI101"
+      },{
+        "gameId": 204140,
+        "name": "PlinkoX",
+        "type": "Casual Games",
+        "provider": "DC",
+        "company": "Smartsoft Gaming",
+        "image": "https://cdn.dreamdelhi.com/dc/sms_plinkox.webp",
+        "code": "DC-204140"
+      },{
+        "gameId": 860004,
+        "name": "Plinko",
+        "type": "Others",
+        "provider": "SPRIBE",
+        "company": "SPRIBE",
+        "image": "https://cdn.dreamcasino.live/sbe_plinko.webp",
+        "code": "SPRIBE-860004"
+      },{
+        "gameId": 425030,
+        "name": "Plinko",
+        "type": "Table Game",
+        "provider": "KINGMIDAS",
+        "company": "Kingmidas Gaming",
+        "image": "https://cdn.dreamdelhi.com/kingmidas/plinko.webp",
+        "code": "kingmidas_plinko"
+      },{
+        "gameId": 425008,
+        "name": "Max Keno",
+        "type": "Table Game",
+        "provider": "KINGMIDAS",
+        "company": "Kingmidas Gaming",
+        "image": "https://cdn.dreamdelhi.com/kingmidas/max_keno.webp",
+        "code": "kingmidas_max_keno"
+      },{
+        "gameId": 377050,
+        "name": "Plinko",
+        "type": "Video Slots",
+        "provider": "CREED",
+        "company": "Popok",
+        "image": "https://cdn.dreamdelhi.com/dream/ppki_plinko.gif",
+        "slug": "popok_plinko"
+      },{
+        "gameId": 377056,
+        "name": "Hi Lo",
+        "type": "Video Slots",
+        "provider": "CREED",
+        "company": "Popok",
+        "image": "https://cdn.dreamdelhi.com/dream/ppki_hilo.gif",
+        "slug": "popok_hi_lo"
+      }
+  ]
+  

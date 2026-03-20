@@ -1,0 +1,218 @@
+[
+  {
+    "gameId": 460001,
+    "name": "Lucky 7",
+    "type": "Live",
+    "provider": "BETGAMES",
+    "company": "BetGames",
+    "image": "https://cdn.dreamdelhi.com/betgames/lucky7.webp",
+    "code": "bg_lucky7"
+  },
+  {
+    "gameId": 460002,
+    "name": "Lucky 5",
+    "type": "Live",
+    "provider": "BETGAMES",
+    "company": "BetGames",
+    "image": "https://cdn.dreamdelhi.com/betgames/lucky5.webp",
+    "code": "bg_lucky5"
+  },
+  {
+    "gameId": 460003,
+    "name": "Bet On Poker",
+    "type": "Live",
+    "provider": "BETGAMES",
+    "company": "BetGames",
+    "image": "https://cdn.dreamdelhi.com/betgames/bet_on_poker.webp",
+    "code": "bg_bet_on_poker"
+  },
+  {
+    "gameId": 460004,
+    "name": "Bet On Baccarat",
+    "type": "Live",
+    "provider": "BETGAMES",
+    "company": "BetGames",
+    "image": "https://cdn.dreamdelhi.com/betgames/bet_on_baccarat.webp",
+    "code": "bg_bet_on_baccarat"
+  },
+  {
+    "gameId": 460005,
+    "name": "Wheel Of Fortune",
+    "type": "Live",
+    "provider": "BETGAMES",
+    "company": "BetGames",
+    "image": "https://cdn.dreamdelhi.com/betgames/wheel_of_fortune.webp",
+    "code": "bg_wheel_of_fortune"
+  },
+  {
+    "gameId": 460006,
+    "name": "War Of Bets",
+    "type": "Live",
+    "provider": "BETGAMES",
+    "company": "BetGames",
+    "image": "https://cdn.dreamdelhi.com/betgames/war_of_bets.webp",
+    "code": "bg_war_of_bets"
+  },
+  {
+    "gameId": 460007,
+    "name": "Lucky 6",
+    "type": "Live",
+    "provider": "BETGAMES",
+    "company": "BetGames",
+    "image": "https://cdn.dreamdelhi.com/betgames/lucky6.webp",
+    "code": "bg_lucky6"
+  },
+  {
+    "gameId": 460008,
+    "name": "Dice Duel",
+    "type": "Live",
+    "provider": "BETGAMES",
+    "company": "BetGames",
+    "image": "https://cdn.dreamdelhi.com/betgames/dice_duel.webp",
+    "code": "bg_dice_duel"
+  },
+  {
+    "gameId": 460010,
+    "name": "6+ Poker",
+    "type": "Live",
+    "provider": "BETGAMES",
+    "company": "BetGames",
+    "image": "https://cdn.dreamdelhi.com/betgames/6poker.webp",
+    "code": "bg_6_poker"
+  },
+  {
+    "gameId": 460011,
+    "name": "Classic Wheel",
+    "type": "Live",
+    "provider": "BETGAMES",
+    "company": "BetGames",
+    "image": "https://cdn.dreamdelhi.com/betgames/classic_wheel.webp",
+    "code": "bg_classic_wheel"
+  },
+  {
+    "gameId": 460012,
+    "name": "Football Grid",
+    "type": "Live",
+    "provider": "BETGAMES",
+    "company": "BetGames",
+    "image": "https://cdn.dreamdelhi.com/betgames/football_grid.webp",
+    "code": "bg_football_grid"
+  },
+  {
+    "gameId": 460013,
+    "name": "Skyward",
+    "type": "Live",
+    "provider": "BETGAMES",
+    "company": "BetGames",
+    "image": "https://cdn.dreamdelhi.com/betgames/skyward.webp",
+    "code": "bg_skyward"
+  },
+  {
+    "gameId": 460014,
+    "name": "Instant Lucky 7",
+    "type": "Live",
+    "provider": "BETGAMES",
+    "company": "BetGames",
+    "image": "https://cdn.dreamdelhi.com/betgames/instant_lucky7.webp",
+    "code": "bg_instant_lucky7"
+  },
+  {
+    "gameId": 460017,
+    "name": "Classic Roulette",
+    "type": "Live",
+    "provider": "BETGAMES",
+    "company": "BetGames",
+    "image": "https://cdn.dreamdelhi.com/betgames/classic_roulette.webp",
+    "code": "bg_classic_roulette"
+  },
+  {
+    "gameId": 460019,
+    "name": "Flash Roulette",
+    "type": "Live",
+    "provider": "BETGAMES",
+    "company": "BetGames",
+    "image": "https://cdn.dreamdelhi.com/betgames/flash_roulette.webp",
+    "code": "bg_flash_roulette"
+  },
+  {
+    "gameId": 460020,
+    "name": "Penguin Rush",
+    "type": "Slot Games",
+    "provider": "BETGAMES",
+    "company": "BetGames",
+    "image": "https://cdn.dreamdelhi.com/betgames/penguinrush.webp",
+    "code": "bg_penguin_rush"
+  },
+  {
+    "gameId": 460021,
+    "name": "Dragon's Fate",
+    "type": "Slot Games",
+    "provider": "BETGAMES",
+    "company": "BetGames",
+    "image": "https://cdn.dreamdelhi.com/betgames/dragonsfate.webp",
+    "code": "bg_dragons_fate"
+  },
+  {
+    "gameId": 460022,
+    "name": "Bad Baboons",
+    "type": "Slot Games",
+    "provider": "BETGAMES",
+    "company": "BetGames",
+    "image": "https://cdn.dreamdelhi.com/betgames/bg_bad_baboons.webp",
+    "code": "bg_bad_baboons"
+  },
+  {
+    "gameId": 460023,
+    "name": "Citrus Splash",
+    "type": "Slot Games",
+    "provider": "BETGAMES",
+    "company": "BetGames",
+    "image": "https://cdn.dreamdelhi.com/betgames/bg_citrus_splash.webp",
+    "code": "bg_citrus_splash"
+  },
+  {
+    "gameId": 460024,
+    "name": "Candy Coins",
+    "type": "Slot Games",
+    "provider": "BETGAMES",
+    "company": "BetGames",
+    "image": "https://cdn.dreamdelhi.com/betgames/bg_candy_coins.webp",
+    "code": "bg_candy_coins"
+  },
+  {
+    "gameId": 460025,
+    "name": "Lotus Wealth Wonders",
+    "type": "Slot Games",
+    "provider": "BETGAMES",
+    "company": "BetGames",
+    "image": "https://cdn.dreamdelhi.com/betgames/bg_lotus_wealth_wonders.webp",
+    "code": "bg_lotus_wealth_wonders"
+  },
+  {
+    "gameId": 460026,
+    "name": "Crypt Of Giza - Secrets Unveiled",
+    "type": "Slot Games",
+    "provider": "BETGAMES",
+    "company": "BetGames",
+    "image": "https://cdn.dreamdelhi.com/betgames/bg_crypt_of_giza_secrets.webp",
+    "code": "bg_crypt_of_giza_secrets"
+  },
+  {
+    "gameId": 460028,
+    "name": "Crypt of Giza",
+    "type": "Game Shows",
+    "provider": "BETGAMES",
+    "company": "BetGames",
+    "image": "https://cdn.dreamdelhi.com/betgames/bg_crypt_of_giza.webp",
+    "code": "bg_crypt_of_giza"
+  },
+  {
+    "gameId": 460029,
+    "name": "Lucky Loki",
+    "type": "Slot Games",
+    "provider": "BETGAMES",
+    "company": "BetGames",
+    "image": "https://cdn.dreamdelhi.com/betgames/luckyloki.webp",
+    "code": "bg_lucky_loki"
+  }
+]

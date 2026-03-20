@@ -1,0 +1,92 @@
+[
+  {
+    "gameId": 860001,
+    "name": "Aviator",
+    "type": "Others",
+    "provider": "SPRIBE",
+    "company": "SPRIBE",
+    "image": "https://cdn.dreamcasino.live/sbe_aviator.webp",
+    "code": "SPRIBE-860001"
+  },
+  {
+    "gameId": 860002,
+    "name": "Dice",
+    "type": "Others",
+    "provider": "SPRIBE",
+    "company": "SPRIBE",
+    "image": "https://cdn.dreamcasino.live/sbe_dice.webp",
+    "code": "SPRIBE-860002"
+  },
+  {
+    "gameId": 860003,
+    "name": "Goal",
+    "type": "Others",
+    "provider": "SPRIBE",
+    "company": "SPRIBE",
+    "image": "https://cdn.dreamcasino.live/sbe_goal.webp",
+    "code": "SPRIBE-860003"
+  },
+  {
+    "gameId": 860004,
+    "name": "Plinko",
+    "type": "Others",
+    "provider": "SPRIBE",
+    "company": "SPRIBE",
+    "image": "https://cdn.dreamcasino.live/sbe_plinko.webp",
+    "code": "SPRIBE-860004"
+  },
+  {
+    "gameId": 860005,
+    "name": "Mines",
+    "type": "Others",
+    "provider": "SPRIBE",
+    "company": "SPRIBE",
+    "image": "https://cdn.dreamcasino.live/sbe_mines.webp",
+    "code": "SPRIBE-860005"
+  },
+  {
+    "gameId": 860006,
+    "name": "Hi Lo",
+    "type": "Others",
+    "provider": "SPRIBE",
+    "company": "SPRIBE",
+    "image": "https://cdn.dreamcasino.live/sbe_hilo.webp",
+    "code": "SPRIBE-860006"
+  },
+  {
+    "gameId": 860007,
+    "name": "Keno",
+    "type": "Others",
+    "provider": "SPRIBE",
+    "company": "SPRIBE",
+    "image": "https://cdn.dreamcasino.live/sbe_keno.webp",
+    "code": "SPRIBE-860007"
+  },
+  {
+    "gameId": 860008,
+    "name": "Mini Roulette",
+    "type": "Others",
+    "provider": "SPRIBE",
+    "company": "SPRIBE",
+    "image": "https://cdn.dreamcasino.live/sbe_roulette.webp",
+    "code": "SPRIBE-860008"
+  },
+  {
+    "gameId": 860009,
+    "name": "Hotline",
+    "type": "Others",
+    "provider": "SPRIBE",
+    "company": "SPRIBE",
+    "image": "https://cdn.dreamcasino.live/spb_hotline/thumb.webp",
+    "code": "SPRIBE-860009"
+  },
+  {
+    "gameId": 860010,
+    "name": "Balloon",
+    "type": "Casual Games",
+    "provider": "SPRIBE",
+    "company": "SPRIBE",
+    "image": "https://cdn.dreamdelhi.com/spribe/balloon.webp",
+    "code": "SPRIBE-860010"
+  }
+]

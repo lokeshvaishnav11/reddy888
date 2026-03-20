@@ -1,0 +1,173 @@
+/* Sports Settings / Active Matches Page Styles */
+
+/* Add spacing from marquee */
+.sports-settings-page {
+  padding-top: 20px;
+}
+
+.sports-settings-page .container-fluid {
+  padding-top: 0;
+}
+
+/* Header with golden background */
+.sports-header {
+  background: linear-gradient(135deg, #d4a017 0%, #b8860b 100%);
+  padding: 15px 30px;
+  margin-bottom: 20px;
+  border-radius: 4px;
+}
+
+.sports-header h2 {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin: 0;
+  text-align: center;
+  letter-spacing: 1px;
+}
+
+/* Sport items list */
+.sports-list {
+  background: #fff;
+  border-radius: 4px;
+  overflow: hidden;
+  border: 1px solid #e5e7eb;
+}
+
+.sport-item {
+  padding: 25px 30px;
+  border-bottom: 1px solid #e5e7eb;
+  transition: background 0.2s;
+}
+
+.sport-item:last-child {
+  border-bottom: none;
+}
+
+.sport-item:nth-child(even) {
+  background: #f9fafb;
+}
+
+.sport-item:hover {
+  background: #fef3c7;
+}
+
+.sport-link {
+  color: #2563eb;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 500;
+  transition: color 0.2s;
+}
+
+.sport-link:hover {
+  color: #1d4ed8;
+  text-decoration: underline;
+}
+
+/* Legacy styles for existing table layout */
+.sports-settings-page .form-group label {
+  font-size: 12px;
+  font-weight: 700;
+  color: #1e1e1e;
+  text-transform: uppercase;
+}
+
+.sports-settings-page .form-control {
+  border: 1px solid #d1c59d;
+  border-radius: 6px;
+  background: #fff;
+  color: #1e1e1e;
+  font-size: 14px;
+  padding: 10px 14px;
+}
+
+.sports-settings-page .btn.btn-primary {
+  background: #c68b04 !important;
+  color: #fff !important;
+  border: none !important;
+  border-radius: 6px !important;
+  font-weight: 700 !important;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  box-shadow: 0 4px 10px rgba(198, 139, 4, 0.4);
+}
+
+.sports-settings-page .btn.btn-primary:hover {
+  background: #a76f03 !important;
+  transform: translateY(-1px);
+}
+
+.sports-settings-page .nav-tabs {
+  border: none;
+  margin-bottom: 20px;
+}
+
+.sports-settings-page .nav-tabs .nav-link {
+  background: #f3f4f6;
+  border: 1px solid #d1d5db;
+  border-radius: 6px 6px 0 0;
+  color: #374151;
+  font-weight: 600;
+  margin-right: 5px;
+}
+
+.sports-settings-page .nav-tabs .nav-link.active {
+  background: linear-gradient(135deg, #d4a017 0%, #b8860b 100%);
+  color: #fff;
+  border-color: #d4a017;
+}
+
+.sports-settings-page .table {
+  background: #fff;
+  border: 1px solid #e5e7eb;
+}
+
+.sports-settings-page .table thead th {
+  background: linear-gradient(135deg, #d4a017 0%, #b8860b 100%);
+  color: #fff;
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 12px 14px;
+  border: none;
+  white-space: nowrap;
+}
+
+.sports-settings-page .table tbody td {
+  padding: 12px 14px;
+  font-size: 13px;
+  color: #374151;
+  text-align: center;
+  border-bottom: 1px solid #e5e7eb;
+  vertical-align: middle;
+}
+
+.sports-settings-page .table tbody tr:nth-child(even) {
+  background: #f9fafb;
+}
+
+.sports-settings-page .table tbody tr:hover {
+  background: #fef3c7;
+}
+
+.sports-settings-page .table tbody td a {
+  color: #2563eb;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.sports-settings-page .table tbody td a:hover {
+  color: #1d4ed8;
+  text-decoration: underline;
+}
+
+.sports-settings-page .text-success {
+  color: #16a34a !important;
+}
+
+.sports-settings-page .text-danger {
+  color: #dc2626 !important;
+}

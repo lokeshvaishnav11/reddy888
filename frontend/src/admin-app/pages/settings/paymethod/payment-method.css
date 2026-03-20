@@ -1,0 +1,10 @@
+/* Payment Method Page Styles */
+
+/* Add spacing from marquee */
+.payment-method-page {
+  padding-top: 40px;
+}
+
+.payment-method-page .container-fluid {
+  padding-top: 0;
+}

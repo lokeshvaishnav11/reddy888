@@ -1,0 +1,253 @@
+.client-action-page {
+  padding-top: 24px;
+}
+
+.client-action-card {
+  background: #fff;
+  border-radius: 12px;
+  border: 1px solid #e2e8f0;
+  padding: 24px 28px;
+  margin-top: 16px;
+  margin-bottom: 10px;
+  box-shadow: none;
+}
+
+.client-action-back {
+  text-align: right;
+  margin-bottom: 12px;
+}
+
+.client-action-back .btn {
+  font-size: 13px;
+  padding: 6px 16px;
+  min-width: 100px;
+}
+
+.client-action-heading {
+  border: 1px solid #c68b04;
+  background: #fdf8ec;
+  padding: 12px 16px;
+  margin-bottom: 18px;
+}
+
+.client-action-heading h2 {
+  margin: 0;
+  font-size: 18px;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+  color: #1f2937;
+}
+
+.client-action-heading p {
+  margin: 6px 0 0;
+  font-size: 13px;
+  color: #475569;
+}
+
+.client-balance-board {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 16px;
+  margin-bottom: 24px;
+}
+
+.client-balance-card {
+  border: 1px solid rgba(226, 232, 240, 0.8);
+  border-radius: 10px;
+  padding: 16px;
+  background: linear-gradient(135deg, #0f172a 0%, #1f2937 100%);
+  color: #f8fafc;
+}
+
+.client-balance-card h4 {
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  margin: 0 0 6px;
+  color: #facc15;
+}
+
+.client-balance-card .client-name {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.client-balance-values {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.client-balance-values span {
+  display: inline-flex;
+  min-width: 110px;
+  justify-content: center;
+  border-radius: 6px;
+  padding: 8px 10px;
+  background: rgba(15, 23, 42, 0.35);
+  border: 1px solid rgba(248, 250, 252, 0.15);
+  font-weight: 600;
+}
+
+.client-balance-values .arrow {
+  font-size: 18px;
+  color: rgba(248, 250, 252, 0.7);
+}
+
+.client-action-form .form-group {
+  margin-bottom: 18px;
+}
+
+.client-action-form label {
+  font-weight: 600;
+  color: #475569;
+  margin-bottom: 6px;
+  display: flex;
+  flex-direction: column;
+  font-size: 11px;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  color: #1b1c29;
+}
+
+.client-action-form input,
+.client-action-form textarea {
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid #d1d5db;
+  padding: 8px 0;
+  font-size: 14px;
+  color: #0f172a;
+  background: transparent;
+}
+
+.client-action-form input:focus,
+.client-action-form textarea:focus {
+  outline: none;
+  border-bottom-color: #c68b04;
+}
+
+.client-action-form textarea {
+  min-height: 120px;
+  resize: vertical;
+}
+
+.client-action-footer {
+  display: flex;
+  justify-content: flex-end;
+  gap: 12px;
+  margin-top: 24px;
+}
+
+.client-action-footer .btn {
+  min-width: 140px;
+}
+
+.client-action-hint {
+  background: #fff8eb;
+  color: #854d0e;
+  border: 1px solid #fcd34d;
+  border-radius: 10px;
+  padding: 14px 16px;
+  margin-bottom: 18px;
+  font-size: 13px;
+}
+
+.client-action-table {
+  overflow-x: auto;
+  margin-bottom: 16px;
+}
+
+.client-action-table table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.client-action-table th,
+.client-action-table td {
+  border: 1px solid #e2e8f0;
+  padding: 10px;
+  text-align: center;
+}
+
+.client-action-table th {
+  background: #0f172a;
+  color: #facc15;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+.client-action-table input {
+  text-align: center;
+}
+
+.client-action-page .loading-state,
+.client-action-page .empty-state {
+  background: #fff;
+  border-radius: 12px;
+  padding: 40px;
+  text-align: center;
+  border: 1px solid #e2e8f0;
+  color: #475569;
+  font-weight: 600;
+}
+
+.client-action-page .empty-state span {
+  display: block;
+  margin-top: 8px;
+  font-size: 13px;
+  color: #94a3b8;
+}
+
+.client-details-card {
+  border: 1px solid #ced4da;
+  border-radius: 10px;
+  padding: 20px;
+  background: #fff;
+}
+
+.client-details-title {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 16px;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.client-details-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 0;
+  border-bottom: 1px solid #ebedf0;
+}
+
+.client-details-row:last-child {
+  border-bottom: none;
+}
+
+.client-details-label {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-weight: 600;
+  color: #1f2937;
+}
+
+.client-details-value {
+  font-weight: 600;
+  color: #1e1b4b;
+}
+
+@media (max-width: 768px) {
+  .client-action-card {
+    padding: 18px;
+  }
+
+  .client-action-footer {
+    flex-direction: column;
+    align-items: stretch;
+  }
+}
+

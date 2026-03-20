@@ -1,0 +1,162 @@
+/* Account Statement Admin Page Styles */
+
+.account-statement-page {
+  padding: 24px 0;
+}
+
+.account-statement-filters {
+  background: #f9fafb;
+  border-radius: 4px;
+  padding: 20px;
+  margin-bottom: 20px;
+  border: 1px solid #e5e7eb;
+}
+
+.account-statement-filters-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  gap: 16px;
+}
+
+.account-statement-filter-group {
+  flex: 1;
+  min-width: 160px;
+}
+
+.account-statement-filter-group label {
+  display: block;
+  font-size: 12px;
+  font-weight: 600;
+  color: #374151;
+  margin-bottom: 6px;
+  text-transform: uppercase;
+}
+
+.account-statement-filter-group input,
+.account-statement-filter-group select {
+  width: 100%;
+  padding: 10px 14px;
+  border: 1px solid #d1d5db;
+  border-radius: 4px;
+  font-size: 14px;
+  color: #1f2937;
+  background: #fff;
+}
+
+.account-statement-filter-group input:focus,
+.account-statement-filter-group select:focus {
+  outline: none;
+  border-color: #d4a017;
+}
+
+.account-statement-search-btn {
+  background: linear-gradient(135deg, #d4a017 0%, #b8860b 100%);
+  color: #fff;
+  border: none;
+  padding: 10px 32px;
+  border-radius: 4px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  transition: all 0.2s;
+  min-width: 140px;
+}
+
+.account-statement-search-btn:hover {
+  background: linear-gradient(135deg, #b8860b 0%, #996f0a 100%);
+  transform: translateY(-1px);
+}
+
+/* Table Styles */
+.account-statement-table-wrapper {
+  background: #fff;
+  border-radius: 4px;
+  overflow-x: scroll;
+  border: 1px solid #e5e7eb;
+}
+
+.account-statement-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.account-statement-table thead th {
+  background: linear-gradient(135deg, #d4a017 0%, #b8860b 100%);
+  color: #fff;
+  padding: 12px 14px;
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+  white-space: nowrap;
+  border: none;
+}
+
+.account-statement-table tbody td {
+  padding: 12px 14px;
+  font-size: 13px;
+  color: #374151;
+  text-align: center;
+  border-bottom: 1px solid #e5e7eb;
+  white-space: nowrap;
+}
+
+.account-statement-table tbody tr:nth-child(even) {
+  background: #f9fafb;
+}
+
+.account-statement-table tbody tr:hover {
+  background: #fef3c7;
+}
+
+.account-statement-table .credit {
+  color: #059669;
+  font-weight: 600;
+}
+
+.account-statement-table .debit {
+  color: #dc2626;
+  font-weight: 600;
+}
+
+.account-statement-table .remark-link {
+  color: #2563eb;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.account-statement-table .remark-link:hover {
+  color: #1d4ed8;
+}
+
+.account-statement-empty {
+  text-align: center;
+  padding: 40px;
+  color: #6b7280;
+  font-size: 14px;
+}
+
+@media (max-width: 768px) {
+  .account-statement-filters-row {
+    flex-direction: column;
+  }
+  
+  .account-statement-filter-group {
+    width: 100%;
+  }
+  
+  .account-statement-search-btn {
+    width: 100%;
+  }
+}
+
+
+
+
+
+
+
+

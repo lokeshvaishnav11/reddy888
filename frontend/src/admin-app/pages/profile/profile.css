@@ -1,0 +1,55 @@
+/* Profile page styles */
+.profile-card {
+  background: #fff;
+  border: 1px solid #e5e7eb;
+  border-radius: 2px;
+  padding: 12px 16px;
+  margin-bottom: 18px;
+}
+.profile-title {
+  margin: 0 0 12px 0;
+  padding: 8px 10px;
+  border: 1px solid #e7ccb0;
+  display: inline-block;
+  font-weight: 700;
+}
+.profile-list {
+  margin-top: 8px;
+}
+.profile-row {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 12px 8px;
+  border-bottom: 1px solid #f1f1f1;
+  color: #111827;
+}
+.profile-row .icon {
+  color: #059669;
+  width: 22px;
+  text-align: center;
+}
+.change-password-card .form-row {
+  padding: 12px 0;
+}
+.change-password-card label {
+  display: block;
+  font-weight: 700;
+  color: #0f172a;
+}
+.change-password-card input[type='password'] {
+  width: 100%;
+  padding: 10px 6px;
+  border: none;
+  border-bottom: 1px solid #cfcfcf;
+  background: transparent;
+}
+.update-btn {
+  background: linear-gradient(135deg, #d4a017 0%, #b8860b 100%);
+  color: #fff;
+  border: none;
+  padding: 10px 18px;
+  border-radius: 4px;
+  font-weight: 700;
+  cursor: pointer;
+}

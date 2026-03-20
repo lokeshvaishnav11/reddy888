@@ -1,0 +1,461 @@
+[
+  {
+    "gameId": 600001,
+    "name": "Royal Fishing",
+    "type": "Fish Shooting",
+    "provider": "JiLi",
+    "company": "JiLi Gaming",
+    "image": "https://cdn.dreamcasino.live/jili/Jili_Royal_Fishing.webp",
+    "code": "JiLi-600001"
+  },
+  {
+    "gameId": 600002,
+    "name": "Bombing Fishing",
+    "type": "Fish Shooting",
+    "provider": "JiLi",
+    "company": "JiLi Gaming",
+    "image": "https://cdn.dreamcasino.live/jili/Jili_Bombing_Fishing.webp",
+    "code": "JiLi-600002"
+  },
+  {
+    "gameId": 600003,
+    "name": "Dinosaur Tycoon",
+    "type": "Fish Shooting",
+    "provider": "JiLi",
+    "company": "JiLi Gaming",
+    "image": "https://cdn.dreamcasino.live/jili/Jili_Dinosaur_Tycoon.webp",
+    "code": "JiLi-600003"
+  },
+  {
+    "gameId": 600004,
+    "name": "Jackpot Fishing",
+    "type": "Fish Shooting",
+    "provider": "JiLi",
+    "company": "JiLi Gaming",
+    "image": "https://cdn.dreamcasino.live/jili/Jili_Jackpot_Fishing.webp",
+    "code": "JiLi-600004"
+  },
+  {
+    "gameId": 600005,
+    "name": "Dragon Fortune",
+    "type": "Fish Shooting",
+    "provider": "JiLi",
+    "company": "JiLi Gaming",
+    "image": "https://cdn.dreamcasino.live/jili/Jili_Dragon_Fortune.webp",
+    "code": "JiLi-600005"
+  },
+  {
+    "gameId": 600006,
+    "name": "Mega Fishing",
+    "type": "Fish Shooting",
+    "provider": "JiLi",
+    "company": "JiLi Gaming",
+    "image": "https://hx-app-assets.s3.eu-west-2.amazonaws.com/gap_casino/jili/Jili_Mega_Fishing.jpg",
+    "code": "JiLi-600006"
+  },
+  {
+    "gameId": 600007,
+    "name": "Boom Legend",
+    "type": "Fish Shooting",
+    "provider": "JiLi",
+    "company": "JiLi Gaming",
+    "image": "https://cdn.dreamcasino.live/jili/Jili_Boom_Legend.webp",
+    "code": "JiLi-600007"
+  },
+  {
+    "gameId": 600008,
+    "name": "Happy Fishing",
+    "type": "Fish Shooting",
+    "provider": "JiLi",
+    "company": "JiLi Gaming",
+    "image": "https://cdn.dreamcasino.live/jili/Jili_Happy_Fishing.webp",
+    "code": "JiLi-600008"
+  },
+  {
+    "gameId": 600011,
+    "name": "TeenPatti",
+    "type": "Live Popular",
+    "provider": "JiLi",
+    "company": "JiLi Gaming",
+    "image": "https://cdn.dreamcasino.live/jili/Jili_Teen_Patti.webp",
+    "code": "JiLi-600011"
+  },
+  {
+    "gameId": 600012,
+    "name": "AK47",
+    "type": "Live Popular",
+    "provider": "JiLi",
+    "company": "JiLi Gaming",
+    "image": "https://cdn.dreamcasino.live/jili/Jili_AK47.webp",
+    "code": "JiLi-600012"
+  },
+  {
+    "gameId": 600013,
+    "name": "Andar Bahar",
+    "type": "Live Popular",
+    "provider": "JiLi",
+    "company": "JiLi Gaming",
+    "image": "https://cdn.dreamcasino.live/jili/Jili_Andar_Bahar.webp",
+    "code": "JiLi-600013"
+  },
+  {
+    "gameId": 600014,
+    "name": "Rummy",
+    "type": "Live Popular",
+    "provider": "JiLi",
+    "company": "JiLi Gaming",
+    "image": "https://cdn.dreamcasino.live/jili/Jili_Rummy.webp",
+    "code": "JiLi-600014"
+  },
+  {
+    "gameId": 600015,
+    "name": "Number King",
+    "type": "Live Popular",
+    "provider": "JiLi",
+    "company": "JiLi Gaming",
+    "image": "https://cdn.dreamcasino.live/jili/Jili_Number_King.webp",
+    "code": "JiLi-600015"
+  },
+  {
+    "gameId": 600016,
+    "name": "Poker King",
+    "type": "Live Popular",
+    "provider": "JiLi",
+    "company": "JiLi Gaming",
+    "image": "https://cdn.dreamcasino.live/jili/Jili_Poker_King.webp",
+    "code": "JiLi-600016"
+  },
+  {
+    "gameId": 600018,
+    "name": "Gem Party",
+    "type": "Video Slots",
+    "provider": "JiLi",
+    "company": "JiLi Gaming",
+    "image": "https://cdn.dreamcasino.live/jili/Jili_Gem_Party.webp",
+    "code": "JiLi-600018"
+  },
+  {
+    "gameId": 600019,
+    "name": "Hot Chilli",
+    "type": "Video Slots",
+    "provider": "JiLi",
+    "company": "JiLi Gaming",
+    "image": "https://cdn.dreamcasino.live/jili/Jili_Hot_Chilli.webp",
+    "code": "JiLi-600019"
+  },
+  {
+    "gameId": 600020,
+    "name": "Chin Shi Huang",
+    "type": "Video Slots",
+    "provider": "JiLi",
+    "company": "JiLi Gaming",
+    "image": "https://cdn.dreamcasino.live/jili/Jili_Chin_Shj_Huang.webp",
+    "code": "JiLi-600020"
+  },
+  {
+    "gameId": 600021,
+    "name": "War Of Dragons",
+    "type": "Video Slots",
+    "provider": "JiLi",
+    "company": "JiLi Gaming",
+    "image": "https://cdn.dreamcasino.live/jili/Jili_War_of_Drangons.webp",
+    "code": "JiLi-600021"
+  },
+  {
+    "gameId": 600022,
+    "name": "Fortune Tree",
+    "type": "Video Slots",
+    "provider": "JiLi",
+    "company": "JiLi Gaming",
+    "image": "https://cdn.dreamcasino.live/jili/Jili_Fortune_Tree.webp",
+    "code": "JiLi-600022"
+  },
+  {
+    "gameId": 600023,
+    "name": "Lucky Ball",
+    "type": "Video Slots",
+    "provider": "JiLi",
+    "company": "JiLi Gaming",
+    "image": "https://cdn.dreamcasino.live/jili/Jili_Lucky_Ball.webp",
+    "code": "JiLi-600023"
+  },
+  {
+    "gameId": 600024,
+    "name": "Hyper Burst",
+    "type": "Video Slots",
+    "provider": "JiLi",
+    "company": "JiLi Gaming",
+    "image": "https://cdn.dreamcasino.live/jili/Jili_Hyper_Burst.webp",
+    "code": "JiLi-600024"
+  },
+  {
+    "gameId": 600025,
+    "name": "Shanghai Beauty",
+    "type": "Video Slots",
+    "provider": "JiLi",
+    "company": "JiLi Gaming",
+    "image": "https://cdn.dreamcasino.live/jili/Jili_Shanghai_Beauty.webp",
+    "code": "JiLi-600025"
+  },
+  {
+    "gameId": 600026,
+    "name": "Fa Fa Fa",
+    "type": "Video Slots",
+    "provider": "JiLi",
+    "company": "JiLi Gaming",
+    "image": "https://cdn.dreamcasino.live/jili/Jili_FaFaFa.webp",
+    "code": "JiLi-600026"
+  },
+  {
+    "gameId": 600027,
+    "name": "God Of Martial",
+    "type": "Video Slots",
+    "provider": "JiLi",
+    "company": "JiLi Gaming",
+    "image": "https://cdn.dreamcasino.live/jili/Jili_God_of_Martial.webp",
+    "code": "JiLi-600027"
+  },
+  {
+    "gameId": 600028,
+    "name": "SevenSevenSeven",
+    "type": "Video Slots",
+    "provider": "JiLi",
+    "company": "JiLi Gaming",
+    "image": "https://cdn.dreamcasino.live/jili/Jili_777.webp",
+    "code": "JiLi-600028"
+  },
+  {
+    "gameId": 600029,
+    "name": "Crazy777",
+    "type": "Video Slots",
+    "provider": "JiLi",
+    "company": "JiLi Gaming",
+    "image": "https://cdn.dreamcasino.live/jili/Jili_Crazy_777.webp",
+    "code": "JiLi-600029"
+  },
+  {
+    "gameId": 600030,
+    "name": "Bubble Beauty",
+    "type": "Video Slots",
+    "provider": "JiLi",
+    "company": "JiLi Gaming",
+    "image": "https://cdn.dreamcasino.live/jili/Jili_Bubble_Beauty.webp",
+    "code": "JiLi-600030"
+  },
+  {
+    "gameId": 600031,
+    "name": "Bao boon chin",
+    "type": "Video Slots",
+    "provider": "JiLi",
+    "company": "JiLi Gaming",
+    "image": "https://cdn.dreamcasino.live/jili/Jili_Bao_Boon_Chin.webp",
+    "code": "JiLi-600031"
+  },
+  {
+    "gameId": 600032,
+    "name": "Crazy FaFaFa",
+    "type": "Video Slots",
+    "provider": "JiLi",
+    "company": "JiLi Gaming",
+    "image": "https://cdn.dreamcasino.live/jili/Jili_Crazy_fafafa.webp",
+    "code": "JiLi-600032"
+  },
+  {
+    "gameId": 600033,
+    "name": "XiYangYang",
+    "type": "Video Slots",
+    "provider": "JiLi",
+    "company": "JiLi Gaming",
+    "image": "https://cdn.dreamcasino.live/jili/Jili_Xiyangyang.webp",
+    "code": "JiLi-600033"
+  },
+  {
+    "gameId": 600034,
+    "name": "FortunePig",
+    "type": "Video Slots",
+    "provider": "JiLi",
+    "company": "JiLi Gaming",
+    "image": "https://cdn.dreamcasino.live/jili/Jili_Fortune_Pig.webp",
+    "code": "JiLi-600034"
+  },
+  {
+    "gameId": 600035,
+    "name": "Candy Baby",
+    "type": "Video Slots",
+    "provider": "JiLi",
+    "company": "JiLi Gaming",
+    "image": "https://cdn.dreamcasino.live/jili/Jili_Candy_Baby.webp",
+    "code": "JiLi-600035"
+  },
+  {
+    "gameId": 600036,
+    "name": "Fengshen",
+    "type": "Video Slots",
+    "provider": "JiLi",
+    "company": "JiLi Gaming",
+    "image": "https://hx-app-assets.s3.eu-west-2.amazonaws.com/gap_casino/jili/Jili_Feng_Shen.jpg",
+    "code": "JiLi-600036"
+  },
+  {
+    "gameId": 600037,
+    "name": "Crazy Golden Bank",
+    "type": "Video Slots",
+    "provider": "JiLi",
+    "company": "JiLi Gaming",
+    "image": "https://cdn.dreamcasino.live/jili/Jili_Crazy_Golden_Bank.webp",
+    "code": "JiLi-600037"
+  },
+  {
+    "gameId": 600038,
+    "name": "Lucky Goldbricks",
+    "type": "Video Slots",
+    "provider": "JiLi",
+    "company": "JiLi Gaming",
+    "image": "https://cdn.dreamcasino.live/jili/Jili_Lucky_Goldbricks.webp",
+    "code": "JiLi-600038"
+  },
+  {
+    "gameId": 600039,
+    "name": "Dragon Treasure",
+    "type": "Video Slots",
+    "provider": "JiLi",
+    "company": "JiLi Gaming",
+    "image": "https://cdn.dreamcasino.live/jili/Jili_Dragon_Treasure.webp",
+    "code": "JiLi-600039"
+  },
+  {
+    "gameId": 600040,
+    "name": "Charge Buffalo",
+    "type": "Video Slots",
+    "provider": "JiLi",
+    "company": "JiLi Gaming",
+    "image": "https://cdn.dreamcasino.live/jili/Jili_Charge_Buffalo.webp",
+    "code": "JiLi-600040"
+  },
+  {
+    "gameId": 600041,
+    "name": "Super Ace",
+    "type": "Video Slots",
+    "provider": "JiLi",
+    "company": "JiLi Gaming",
+    "image": "https://cdn.dreamcasino.live/jili/Jili_Super_Ace.webp",
+    "code": "JiLi-600041"
+  },
+  {
+    "gameId": 600042,
+    "name": "Golden Queen",
+    "type": "Video Slots",
+    "provider": "JiLi",
+    "company": "JiLi Gaming",
+    "image": "https://cdn.dreamcasino.live/jili/Jili_Golden_Queen.webp",
+    "code": "JiLi-600042"
+  },
+  {
+    "gameId": 600043,
+    "name": "Monkey Party",
+    "type": "Video Slots",
+    "provider": "JiLi",
+    "company": "JiLi Gaming",
+    "image": "https://hx-app-assets.s3.eu-west-2.amazonaws.com/gap_casino/jili/Jili_Monkey_Party.jpg",
+    "code": "JiLi-600043"
+  },
+  {
+    "gameId": 600044,
+    "name": "Money Coming",
+    "type": "Video Slots",
+    "provider": "JiLi",
+    "company": "JiLi Gaming",
+    "image": "https://cdn.dreamcasino.live/jili/Jili_Money_Coming.webp",
+    "code": "JiLi-600044"
+  },
+  {
+    "gameId": 600045,
+    "name": "Jungle King",
+    "type": "Video Slots",
+    "provider": "JiLi",
+    "company": "JiLi Gaming",
+    "image": "https://cdn.dreamcasino.live/jili/Jili_Jungle_King.webp",
+    "code": "JiLi-600045"
+  },
+  {
+    "gameId": 600046,
+    "name": "Boxing King",
+    "type": "Video Slots",
+    "provider": "JiLi",
+    "company": "JiLi Gaming",
+    "image": "https://cdn.dreamcasino.live/jili/Jili_Boxing_King.webp",
+    "code": "JiLi-600046"
+  },
+  {
+    "gameId": 600047,
+    "name": "Secret Treasure",
+    "type": "Video Slots",
+    "provider": "JiLi",
+    "company": "JiLi Gaming",
+    "image": "https://cdn.dreamcasino.live/jili/Jili_Secret_Treasure.webp",
+    "code": "JiLi-600047"
+  },
+  {
+    "gameId": 600048,
+    "name": "Pharaoh Treasure",
+    "type": "Video Slots",
+    "provider": "JiLi",
+    "company": "JiLi Gaming",
+    "image": "https://cdn.dreamcasino.live/jili/Jili_Pharaoh_Treasure.webp",
+    "code": "JiLi-600048"
+  },
+  {
+    "gameId": 600049,
+    "name": "Lucky Coming",
+    "type": "Video Slots",
+    "provider": "JiLi",
+    "company": "JiLi Gaming",
+    "image": "https://cdn.dreamcasino.live/jili/Jili_Lucky_Coming.webp",
+    "code": "JiLi-600049"
+  },
+  {
+    "gameId": 600050,
+    "name": "Super Rich",
+    "type": "Video Slots",
+    "provider": "JiLi",
+    "company": "JiLi Gaming",
+    "image": "https://cdn.dreamcasino.live/jili/Jili_Super_Rich.webp",
+    "code": "JiLi-600050"
+  },
+  {
+    "gameId": 600051,
+    "name": "RomaX",
+    "type": "Video Slots",
+    "provider": "JiLi",
+    "company": "JiLi Gaming",
+    "image": "https://hx-app-assets.s3.eu-west-2.amazonaws.com/gap_casino/jili/Jili_Roma_X.jpg",
+    "code": "JiLi-600051"
+  },
+  {
+    "gameId": 600052,
+    "name": "Golden Empire",
+    "type": "Video Slots",
+    "provider": "JiLi",
+    "company": "JiLi Gaming",
+    "image": "https://cdn.dreamcasino.live/jili/Jili_Golden_Empire.webp",
+    "code": "JiLi-600052"
+  },
+  {
+    "gameId": 600053,
+    "name": "Fortune Gems",
+    "type": "Video Slots",
+    "provider": "JiLi",
+    "company": "JiLi Gaming",
+    "image": "https://cdn.dreamcasino.live/jili/Jili_Fortune_Gems.webp",
+    "code": "JiLi-600053"
+  },
+  {
+    "gameId": 600056,
+    "name": "All-star Fishing",
+    "type": "Fish Shooting",
+    "provider": "JiLi",
+    "company": "JiLi Gaming",
+    "image": "https://cdn.dreamcasino.live/jili/Jili_All_Star_Fishing.webp",
+    "code": "JiLi-600056"
+  }
+]

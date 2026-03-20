@@ -1,0 +1,514 @@
+[
+  {
+    "gameId": 151003,
+    "name": "VR Lucky 7",
+    "type": "Virtual",
+    "provider": "MAC88",
+    "company": "Mac88 Gaming Virtual",
+    "image": "https://cdn.dreamdelhi.com/mac88/vr_lucky7.webp"
+  },
+  {
+    "gameId": 151004,
+    "name": "VR Trio",
+    "type": "Virtual",
+    "provider": "MAC88",
+    "company": "Mac88 Gaming Virtual",
+    "image": "https://cdn.dreamdelhi.com/mac88/vr_trio.webp"
+  },
+  {
+    "gameId": 151005,
+    "name": "VR 20-20 DTL",
+    "type": "Virtual",
+    "provider": "MAC88",
+    "company": "Mac88 Gaming Virtual",
+    "image": "https://cdn.dreamdelhi.com/mac88/vr_2020_dtl.webp"
+  },
+  {
+    "gameId": 151006,
+    "name": "VR Mulfis Teenpatti",
+    "type": "Virtual",
+    "provider": "MAC88",
+    "company": "Mac88 Gaming Virtual",
+    "image": "https://cdn.dreamdelhi.com/mac88/vr_mtp.webp"
+  },
+  {
+    "gameId": 151007,
+    "name": "VR Bollywood Casino",
+    "type": "Virtual",
+    "provider": "MAC88",
+    "company": "Mac88 Gaming Virtual",
+    "image": "https://cdn.dreamdelhi.com/mac88/vr_bc.webp"
+  },
+  {
+    "gameId": 151008,
+    "name": "VR Amar Akbar Anthony",
+    "type": "Virtual",
+    "provider": "MAC88",
+    "company": "Mac88 Gaming Virtual",
+    "image": "https://cdn.dreamdelhi.com/mac88/vr_aaa.webp"
+  },
+  {
+    "gameId": 151009,
+    "name": "VR Dragon Tiger",
+    "type": "Virtual",
+    "provider": "MAC88",
+    "company": "Mac88 Gaming Virtual",
+    "image": "https://cdn.dreamdelhi.com/mac88/vr_dragontiger.webp"
+  },
+  {
+    "gameId": 151010,
+    "name": "VR Casino Meter",
+    "type": "Virtual",
+    "provider": "MAC88",
+    "company": "Mac88 Gaming Virtual",
+    "image": "https://cdn.dreamdelhi.com/mac88/vr_casinometer.webp"
+  },
+  {
+    "gameId": 151011,
+    "name": "VR 20-20 Teenpatti",
+    "type": "Virtual",
+    "provider": "MAC88",
+    "company": "Mac88 Gaming Virtual",
+    "image": "https://cdn.dreamdelhi.com/mac88/vr_tp2020.webp"
+  },
+  {
+    "gameId": 151012,
+    "name": "VR 32 Cards",
+    "type": "Virtual",
+    "provider": "MAC88",
+    "company": "Mac88 Gaming Virtual",
+    "image": "https://cdn.dreamdelhi.com/mac88/vr_32cards.webp"
+  },
+  {
+    "gameId": 151014,
+    "name": "VR Andar Bahar",
+    "type": "Virtual",
+    "provider": "MAC88",
+    "company": "Mac88 Gaming Virtual",
+    "image": "https://cdn.dreamdelhi.com/mac88/vr_ab.webp"
+  },
+  {
+    "gameId": 151015,
+    "name": "VR 2 Card TP",
+    "type": "Virtual",
+    "provider": "MAC88",
+    "company": "Mac88 Gaming Virtual",
+    "image": "https://cdn.dreamdelhi.com/mac88/vr_2ctp.webp"
+  },
+  {
+    "gameId": 151016,
+    "name": "VR Queen Race",
+    "type": "Virtual",
+    "provider": "MAC88",
+    "company": "Mac88 Gaming Virtual",
+    "image": "https://cdn.dreamdelhi.com/mac88/vr_queen.webp"
+  },
+  {
+    "gameId": 151017,
+    "name": "VR Poker",
+    "type": "Virtual",
+    "provider": "MAC88",
+    "company": "Mac88 Gaming Virtual",
+    "image": "https://cdn.dreamdelhi.com/mac88/vr_poker.webp"
+  },
+  {
+    "gameId": 151018,
+    "name": "VR Race T20",
+    "type": "Virtual",
+    "provider": "MAC88",
+    "company": "Mac88 Gaming Virtual",
+    "image": "https://cdn.dreamdelhi.com/mac88/vr_race_20.webp"
+  },
+  {
+    "gameId": 151019,
+    "name": "VR Auto Roulette",
+    "type": "Virtual",
+    "provider": "MAC88",
+    "company": "Mac88 Gaming Virtual",
+    "image": "https://cdn.dreamdelhi.com/mac88/vr_roulette.webp"
+  },
+  {
+    "gameId": 151020,
+    "name": "VR High low",
+    "type": "Virtual",
+    "provider": "MAC88",
+    "company": "Mac88 Gaming Virtual",
+    "image": "https://cdn.dreamdelhi.com/mac88/vr_hilo.webp"
+  },
+  {
+    "gameId": 151021,
+    "name": "VR Worli Matka",
+    "type": "Virtual",
+    "provider": "MAC88",
+    "company": "Mac88 Gaming Virtual",
+    "image": "https://cdn.dreamdelhi.com/mac88/vr_worlimatka.webp"
+  },
+  {
+    "gameId": 151022,
+    "name": "VR 29 card bacarrat",
+    "type": "Virtual",
+    "provider": "MAC88",
+    "company": "Mac88 Gaming Virtual",
+    "image": "https://cdn.dreamdelhi.com/mac88/vr_29b.webp"
+  },
+  {
+    "gameId": 151026,
+    "name": "Lankesh",
+    "type": "Virtual",
+    "provider": "MAC88",
+    "company": "Mac88 Gaming Virtual",
+    "image": "https://cdn.dreamdelhi.com/mac88/lk1.webp"
+  },
+  
+  {
+    "gameId": 151027,
+    "name": "Aviator X",
+    "type": "Virtual",
+    "provider": "MAC88",
+    "company": "Fun Games",
+    "image": "https://cdn.dreamdelhi.com/monk88/aviatorx.webp",
+    "code": "MAC88-CAV101-VR"
+  },
+  {
+    "gameId": 151054,
+    "name": "WINGO",
+    "type": "Virtual",
+    "provider": "MAC88",
+    "company": "Mac88 Gaming Virtual",
+    "image": "https://cdn.dreamdelhi.com/monk88/wingo.webp",
+    "code": "MAC88-CWI101"
+  },
+  {
+    "gameId": 151055,
+    "name": "WINGO3",
+    "type": "Virtual",
+    "provider": "MAC88",
+    "company": "Mac88 Gaming Virtual",
+    "image": "https://cdn.dreamdelhi.com/monk88/wingo.webp",
+    "code": "MAC88-CWI102"
+  },
+  {
+    "gameId": 151056,
+    "name": "WINGO5",
+    "type": "Virtual",
+    "provider": "MAC88",
+    "company": "Mac88 Gaming Virtual",
+    "image": "https://cdn.dreamdelhi.com/monk88/wingo.webp",
+    "code": "MAC88-CWI103"
+  },
+  {
+    "gameId": 151057,
+    "name": "WINGO10",
+    "type": "Virtual",
+    "provider": "MAC88",
+    "company": "Mac88 Gaming Virtual",
+    "image": "https://cdn.dreamdelhi.com/monk88/wingo.webp",
+    "code": "MAC88-CWI104"
+  },
+  {
+    "gameId": 151058,
+    "name": "5D Lottery 1",
+    "type": "Virtual",
+    "provider": "MAC88",
+    "company": "Mac88 Gaming Virtual",
+    "image": "https://cdn.dreamdelhi.com/monk88/sd_lotto.webp",
+    "code": "MAC88-CLOT5101"
+  },
+  {
+    "gameId": 151059,
+    "name": "5D Lottery 3",
+    "type": "Virtual",
+    "provider": "MAC88",
+    "company": "Mac88 Gaming Virtual",
+    "image": "https://cdn.dreamdelhi.com/monk88/sd_lotto.webp",
+    "code": "MAC88-CLOT5102"
+  },
+  {
+    "gameId": 151060,
+    "name": "5D Lottery 5",
+    "type": "Virtual",
+    "provider": "MAC88",
+    "company": "Mac88 Gaming Virtual",
+    "image": "https://cdn.dreamdelhi.com/monk88/sd_lotto.webp",
+    "code": "MAC88-CLOT5103"
+  },
+  {
+    "gameId": 151061,
+    "name": "5D Lottery 10",
+    "type": "Virtual",
+    "provider": "MAC88",
+    "company": "Mac88 Gaming Virtual",
+    "image": "https://cdn.dreamdelhi.com/monk88/sd_lotto.webp",
+    "code": "MAC88-CLOT5104"
+  },
+  {
+    "gameId": 151062,
+    "name": "K3 Lottery 1",
+    "type": "Virtual",
+    "provider": "MAC88",
+    "company": "Mac88 Gaming Virtual",
+    "image": "https://cdn.dreamdelhi.com/monk88/3k_lotre.webp",
+    "code": "MAC88-CK3101"
+  },
+  {
+    "gameId": 151063,
+    "name": "K3 Lottery 3",
+    "type": "Virtual",
+    "provider": "MAC88",
+    "company": "Mac88 Gaming Virtual",
+    "image": "https://cdn.dreamdelhi.com/monk88/3k_lotre.webp",
+    "code": "MAC88-CK3102"
+  },
+  {
+    "gameId": 151064,
+    "name": "K3 Lottery 5",
+    "type": "Virtual",
+    "provider": "MAC88",
+    "company": "Mac88 Gaming Virtual",
+    "image": "https://cdn.dreamdelhi.com/monk88/3k_lotre.webp",
+    "code": "MAC88-CK3103"
+  },
+  {
+    "gameId": 151065,
+    "name": "K3 Lottery 10",
+    "type": "Virtual",
+    "provider": "MAC88",
+    "company": "Mac88 Gaming Virtual",
+    "image": "https://cdn.dreamdelhi.com/monk88/3k_lotre.webp",
+    "code": "MAC88-CK3104"
+  },
+  {
+    "gameId": 151067,
+    "name": "AviatorX2",
+    "type": "Crash Games",
+    "provider": "MAC88",
+    "company": "Fun Games",
+    "image": "https://cdn.dreamdelhi.com/mac88/aviatorx2.webp",
+    "code": "MAC88-CAVB101"
+  },
+  {
+    "gameId": 151068,
+    "name": "Hi Lo VR",
+    "type": "Virtual",
+    "provider": "MAC88",
+    "company": "Mac88 Gaming Virtual",
+    "image": "https://cdn.dreamdelhi.com/mac88/vr_hc.webp",
+    "code": "MAC88-HC101"
+  },
+  {
+    "gameId": 151069,
+    "name": "Center Card VR",
+    "type": "Virtual",
+    "provider": "MAC88",
+    "company": "Mac88 Gaming Virtual",
+    "image": "https://cdn.dreamdelhi.com/mac88/vr_cc.webp",
+    "code": "MAC88-CC101"
+  },
+  {
+    "gameId": 151071,
+    "name": "AK47 VR",
+    "type": "Virtual",
+    "provider": "MAC88",
+    "company": "Mac88 Gaming Virtual",
+    "image": "https://cdn.dreamdelhi.com/mac88/ak47_vr.webp",
+    "code": "MAC88-AK47101"
+  },
+  {
+    "gameId": 151072,
+    "name": "Crash X",
+    "type": "Crash Games",
+    "provider": "MAC88",
+    "company": "Fun Games",
+    "image": "https://cdn.dreamdelhi.com/mac88/crashx.webp",
+    "code": "MAC88-CCK101"
+  },
+  {
+    "gameId": 151073,
+    "name": "Limbo",
+    "type": "Slot Games",
+    "provider": "MAC88",
+    "company": "Fun Games",
+    "image": "https://cdn.dreamdelhi.com/monk88/limbo.webp",
+    "code": "MAC88-CLIM101"
+  },
+  {
+    "gameId": 151074,
+    "name": "Dice",
+    "type": "Slot Games",
+    "provider": "MAC88",
+    "company": "Fun Games",
+    "image": "https://cdn.dreamdelhi.com/monk88/dice.webp",
+    "code": "MAC88-CDIC101"
+  },
+  {
+    "gameId": 151075,
+    "name": "Mines",
+    "type": "Slot Games",
+    "provider": "MAC88",
+    "company": "Fun Games",
+    "image": "https://cdn.dreamdelhi.com/monk88/mines.webp",
+    "code": "MAC88-CMIN101"
+  },
+  {
+    "gameId": 151076,
+    "name": "Diamonds",
+    "type": "Slot Games",
+    "provider": "MAC88",
+    "company": "Fun Games",
+    "image": "https://cdn.dreamdelhi.com/monk88/diamonds.webp",
+    "code": "MAC88-CDIM101"
+  },
+  {
+    "gameId": 151077,
+    "name": "Plinko",
+    "type": "Virtual",
+    "provider": "MAC88",
+    "company": "Fun Games",
+    "image": "https://cdn.dreamdelhi.com/monk88/plinko.webp",
+    "code": "MAC88-CPLI101"
+  },
+  {
+    "gameId": 151078,
+    "name": "Lucky 5",
+    "type": "Virtual",
+    "provider": "MAC88",
+    "company": "Mac88 Gaming Virtual",
+    "image": "https://cdn.dreamdelhi.com/mac88/vlucky5.webp",
+    "code": "MAC88-LK5101"
+  },
+  {
+    "gameId": 151079,
+    "name": "Bolly Kiss",
+    "type": "Virtual",
+    "provider": "MAC88",
+    "company": "Mac88 Gaming Virtual",
+    "image": "https://cdn.dreamdelhi.com/mac88/bk1.webp",
+    "code": "MAC88-BK101"
+  },
+  {
+    "gameId": 151080,
+    "name": "Vortex",
+    "type": "Slot Games",
+    "provider": "MAC88",
+    "company": "Mac88 Gaming Virtual",
+    "image": "https://cdn.dreamdelhi.com/mac88/vortex.webp",
+    "code": "MAC88-CVO101"
+  },
+  {
+    "gameId": 151081,
+    "name": "Lucky 15",
+    "type": "Virtual",
+    "provider": "MAC88",
+    "company": "Mac88 Gaming Virtual",
+    "image": "https://cdn.mac88.com/mac88/lucky15.webp",
+    "code": "MAC88-L15101"
+  }
+,
+  {
+    "gameId": 151082,
+    "name": "X Roulette",
+    "type": "Slot Games",
+    "provider": "MAC88",
+    "company": "Mac88 Gaming Virtual",
+    "image": "https://cdn.dreamdelhi.com/monk88/roulette.webp"
+  },
+  {
+    "gameId": 151083,
+    "name": "Ball by Ball VR",
+    "type": "Virtual",
+    "provider": "MAC88",
+    "company": "Mac88 Gaming Virtual",
+    "image": "https://cdn.dreamdelhi.com/mac88/bbb.webp"
+  },
+  {
+    "gameId": 151084,
+    "name": "Pushpa Rani",
+    "type": "Crash Games",
+    "provider": "MAC88",
+    "company": "Mac88 Gaming Virtual",
+    "image": "https://cdn.dreamdelhi.com/mac88/pushpa.webp"
+  },
+  {
+    "gameId": 151085,
+    "name": "Hi Lo",
+    "type": "Slot Games",
+    "provider": "MAC88",
+    "company": "Mac88 Gaming Virtual",
+    "image": "https://cdn.dreamdelhi.com/monk88/hilo.webp"
+  },
+  {
+    "gameId": 151086,
+    "name": "Kitex",
+    "type": "Crash Games",
+    "provider": "MAC88",
+    "company": "Mac88 Gaming Virtual",
+    "image": "https://cdn.dreamdelhi.com/mac88/kitex.webp"
+  },
+  {
+    "gameId": 151087,
+    "name": "Jet XT",
+    "type": "Crash Games",
+    "provider": "MAC88",
+    "company": "Mac88 Gaming Virtual",
+    "image": "https://cdn.dreamdelhi.com/mac88/jetxt.webp"
+  },
+  {
+    "gameId": 151088,
+    "name": "5 Boys",
+    "type": "Virtual",
+    "provider": "MAC88",
+    "company": "Mac88 Gaming Virtual",
+    "image": "https://cdn.dreamdelhi.com/mac88/val1.webp"
+  },
+  {
+    "gameId": 151089,
+    "name": "Kancha",
+    "type": "Crash Games",
+    "provider": "MAC88",
+    "company": "Mac88 Gaming Virtual",
+    "image": "https://cdn.dreamdelhi.com/mac88/kancha.webp"
+  },
+  {
+    "gameId": 151090,
+    "name": "LanternX",
+    "type": "Crash Games",
+    "provider": "MAC88",
+    "company": "Mac88 Gaming Virtual",
+    "image": "https://cdn.dreamdelhi.com/mac88/lanternx.webp"
+  },
+  {
+    "gameId": 151091,
+    "name": "FireworkX",
+    "type": "Crash Games",
+    "provider": "MAC88",
+    "company": "Mac88 Gaming Virtual",
+    "image": "https://cdn.dreamdelhi.com/mac88/freworkx.webp"
+  },
+  {
+    "gameId": 151095,
+    "name": "Rock Paper Scissors",
+    "type": "Slot Games",
+    "provider": "MAC88",
+    "company": "Mac88 Gaming Virtual",
+    "image": "https://cdn.dreamdelhi.com/mac88/rps.webp"
+  },
+  {
+    "gameId": 151100,
+    "name": "Coin Flip",
+    "type": "Casual Games",
+    "provider": "MAC88",
+    "company": "Mac88 Gaming Virtual",
+    "image": "https://cdn.dreamdelhi.com/mac88/flip.webp"
+  },
+  {
+    "gameId": 151101,
+    "name": "Fortune Wheel",
+    "type": "Casual Games",
+    "provider": "MAC88",
+    "company": "Mac88 Gaming Virtual",
+    "image": "https://cdn.dreamdelhi.com/mac88/fortunewheel.webp"
+  }
+
+
+
+]

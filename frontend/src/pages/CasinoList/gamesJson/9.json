@@ -1,0 +1,293 @@
+[
+  {
+    "gameId": 226113,
+    "name": "American Auto Roulette",
+    "type": "Live Roulette",
+    "provider": "DC",
+    "company": "VivoGaming",
+    "image": "https://cdn.dreamdelhi.com/vivogaming/american_auto_roulette.webp",
+    "code": "DC-226113"
+  },
+  {
+    "gameId": 226114,
+    "name": "American Roulette",
+    "type": "Live Roulette",
+    "provider": "DC",
+    "company": "VivoGaming",
+    "image": "https://cdn.dreamdelhi.com/vivogaming/american_roulette.webp",
+    "code": "DC-226114"
+  },
+  {
+    "gameId": 226116,
+    "name": "Las Vegas Blackjack",
+    "type": "Live Blackjack",
+    "provider": "DC",
+    "company": "VivoGaming",
+    "image": "https://cdn.dreamdelhi.com/vivogaming/lasvegas_black_jack.webp",
+    "code": "DC-226116"
+  },
+  {
+    "gameId": 226121,
+    "name": "Galactic VIP Roulette",
+    "type": "Roulette",
+    "provider": "DC",
+    "company": "VivoGaming",
+    "image": "https://cdn.dreamdelhi.com/vivogaming/galactic_vip_roulette.webp",
+    "code": "DC-226121"
+  },
+  {
+    "gameId": 226127,
+    "name": "Imperial Dragon Tiger",
+    "type": "Dragon Tiger",
+    "provider": "DC",
+    "company": "VivoGaming",
+    "image": "https://cdn.dreamdelhi.com/vivogaming/imperial_dragon_tiger.webp",
+    "code": "DC-226127"
+  },
+  {
+    "gameId": 226128,
+    "name": "Infinite Casino Holdem",
+    "type": "Other Live Games",
+    "provider": "DC",
+    "company": "VivoGaming",
+    "image": "https://cdn.dreamdelhi.com/vivogaming/infinite_casino_holdem.webp",
+    "code": "DC-226128"
+  },
+  {
+    "gameId": 226129,
+    "name": "Rapid-Auto Roulette",
+    "type": "Roulette",
+    "provider": "DC",
+    "company": "VivoGaming",
+    "image": "https://cdn.dreamdelhi.com/vivogaming/rapid_auto_roulette.webp",
+    "code": "DC-226129"
+  },
+  {
+    "gameId": 226142,
+    "name": "Oracle Twister Roulette",
+    "type": "Roulette",
+    "provider": "DC",
+    "company": "VivoGaming",
+    "image": "https://cdn.dreamdelhi.com/vivogaming/oceania_twister_roulette.webp",
+    "code": "DC-226142"
+  },
+  {
+    "gameId": 226143,
+    "name": "Blaze Roulette",
+    "type": "Roulette",
+    "provider": "DC",
+    "company": "VivoGaming",
+    "image": "https://cdn.dreamdelhi.com/vivogaming/blaze_roulette.webp",
+    "code": "DC-226143"
+  },
+  {
+    "gameId": 226145,
+    "name": "Portomaso Roulette",
+    "type": "Roulette",
+    "provider": "DC",
+    "company": "VivoGaming",
+    "image": "https://cdn.dreamdelhi.com/vivogaming/portmaso_roulette.webp",
+    "code": "DC-226145"
+  },
+  {
+    "gameId": 226158,
+    "name": "Singapore Baccarat",
+    "type": "Baccarat",
+    "provider": "DC",
+    "company": "VivoGaming",
+    "image": "https://cdn.dreamdelhi.com/vivogaming/singapore_baccarat.webp",
+    "code": "DC-226158"
+  },
+  {
+    "gameId": 226159,
+    "name": "Copa Cabana Baccarat",
+    "type": "Baccarat",
+    "provider": "DC",
+    "company": "VivoGaming",
+    "image": "https://cdn.dreamdelhi.com/vivogaming/copa_cabana_baccarat.webp",
+    "code": "DC-226159"
+  },
+  {
+    "gameId": 226160,
+    "name": "Miami Beach Baccarat",
+    "type": "Baccarat",
+    "provider": "DC",
+    "company": "VivoGaming",
+    "image": "https://cdn.dreamdelhi.com/vivogaming/miami_beach_baccarat.webp",
+    "code": "DC-226160"
+  },
+  {
+    "gameId": 226161,
+    "name": "Caribbean Baccarat",
+    "type": "Baccarat",
+    "provider": "DC",
+    "company": "VivoGaming",
+    "image": "https://cdn.dreamdelhi.com/vivogaming/caribbean_baccarat.webp",
+    "code": "DC-226161"
+  },
+  {
+    "gameId": 226162,
+    "name": "Baccarat Dance",
+    "type": "Baccarat",
+    "provider": "DC",
+    "company": "VivoGaming",
+    "image": "https://cdn.dreamdelhi.com/vivogaming/baccarat_dance.webp",
+    "code": "DC-226162"
+  },
+  {
+    "gameId": 226166,
+    "name": "Teen Patti",
+    "type": "Other Live Games",
+    "provider": "DC",
+    "company": "VivoGaming",
+    "image": "https://cdn.dreamdelhi.com/vivogaming/teenpatti.webp",
+    "code": "DC-226166"
+  },
+  [
+  {
+    "gameId": 226113,
+    "name": "American Auto Roulette",
+    "type": "Live Roulette",
+    "provider": "DC",
+    "company": "VivoGaming",
+    "image": "https://cdn.dreamdelhi.com/vivogaming/american_auto_roulette.webp",
+    "code": "DC-226113"
+  },
+  {
+    "gameId": 226114,
+    "name": "American Roulette",
+    "type": "Live Roulette",
+    "provider": "DC",
+    "company": "VivoGaming",
+    "image": "https://cdn.dreamdelhi.com/vivogaming/american_roulette.webp",
+    "code": "DC-226114"
+  },
+  {
+    "gameId": 226116,
+    "name": "Las Vegas Blackjack",
+    "type": "Live Blackjack",
+    "provider": "DC",
+    "company": "VivoGaming",
+    "image": "https://cdn.dreamdelhi.com/vivogaming/lasvegas_black_jack.webp",
+    "code": "DC-226116"
+  },
+  {
+    "gameId": 226121,
+    "name": "Galactic VIP Roulette",
+    "type": "Roulette",
+    "provider": "DC",
+    "company": "VivoGaming",
+    "image": "https://cdn.dreamdelhi.com/vivogaming/galactic_vip_roulette.webp",
+    "code": "DC-226121"
+  },
+  {
+    "gameId": 226127,
+    "name": "Imperial Dragon Tiger",
+    "type": "Dragon Tiger",
+    "provider": "DC",
+    "company": "VivoGaming",
+    "image": "https://cdn.dreamdelhi.com/vivogaming/imperial_dragon_tiger.webp",
+    "code": "DC-226127"
+  },
+  {
+    "gameId": 226128,
+    "name": "Infinite Casino Holdem",
+    "type": "Other Live Games",
+    "provider": "DC",
+    "company": "VivoGaming",
+    "image": "https://cdn.dreamdelhi.com/vivogaming/infinite_casino_holdem.webp",
+    "code": "DC-226128"
+  },
+  {
+    "gameId": 226129,
+    "name": "Rapid-Auto Roulette",
+    "type": "Roulette",
+    "provider": "DC",
+    "company": "VivoGaming",
+    "image": "https://cdn.dreamdelhi.com/vivogaming/rapid_auto_roulette.webp",
+    "code": "DC-226129"
+  },
+  {
+    "gameId": 226142,
+    "name": "Oracle Twister Roulette",
+    "type": "Roulette",
+    "provider": "DC",
+    "company": "VivoGaming",
+    "image": "https://cdn.dreamdelhi.com/vivogaming/oceania_twister_roulette.webp",
+    "code": "DC-226142"
+  },
+  {
+    "gameId": 226143,
+    "name": "Blaze Roulette",
+    "type": "Roulette",
+    "provider": "DC",
+    "company": "VivoGaming",
+    "image": "https://cdn.dreamdelhi.com/vivogaming/blaze_roulette.webp",
+    "code": "DC-226143"
+  },
+  {
+    "gameId": 226145,
+    "name": "Portomaso Roulette",
+    "type": "Roulette",
+    "provider": "DC",
+    "company": "VivoGaming",
+    "image": "https://cdn.dreamdelhi.com/vivogaming/portmaso_roulette.webp",
+    "code": "DC-226145"
+  },
+  {
+    "gameId": 226158,
+    "name": "Singapore Baccarat",
+    "type": "Baccarat",
+    "provider": "DC",
+    "company": "VivoGaming",
+    "image": "https://cdn.dreamdelhi.com/vivogaming/singapore_baccarat.webp",
+    "code": "DC-226158"
+  },
+  {
+    "gameId": 226159,
+    "name": "Copa Cabana Baccarat",
+    "type": "Baccarat",
+    "provider": "DC",
+    "company": "VivoGaming",
+    "image": "https://cdn.dreamdelhi.com/vivogaming/copa_cabana_baccarat.webp",
+    "code": "DC-226159"
+  },
+  {
+    "gameId": 226160,
+    "name": "Miami Beach Baccarat",
+    "type": "Baccarat",
+    "provider": "DC",
+    "company": "VivoGaming",
+    "image": "https://cdn.dreamdelhi.com/vivogaming/miami_beach_baccarat.webp",
+    "code": "DC-226160"
+  },
+  {
+    "gameId": 226161,
+    "name": "Caribbean Baccarat",
+    "type": "Baccarat",
+    "provider": "DC",
+    "company": "VivoGaming",
+    "image": "https://cdn.dreamdelhi.com/vivogaming/caribbean_baccarat.webp",
+    "code": "DC-226161"
+  },
+  {
+    "gameId": 226162,
+    "name": "Baccarat Dance",
+    "type": "Baccarat",
+    "provider": "DC",
+    "company": "VivoGaming",
+    "image": "https://cdn.dreamdelhi.com/vivogaming/baccarat_dance.webp",
+    "code": "DC-226162"
+  },
+  {
+    "gameId": 226166,
+    "name": "Teen Patti",
+    "type": "Other Live Games",
+    "provider": "DC",
+    "company": "VivoGaming",
+    "image": "https://cdn.dreamdelhi.com/vivogaming/teenpatti.webp",
+    "code": "DC-226166"
+  }
+]
+
+]

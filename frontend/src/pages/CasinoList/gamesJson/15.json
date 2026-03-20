@@ -1,0 +1,230 @@
+[
+  {
+    "gameId": 400001,
+    "name": "Baccarat Classic",
+    "type": "LIVE",
+    "provider": "AWC",
+    "company": "SEXYBCRT",
+    "image": "https://cdn.dreamcasino.live/gap_casino/awc_aesexy/aes_baccarat_classic.webp",
+    "code": "MX-LIVE-001"
+  },
+  {
+    "gameId": 400002,
+    "name": "Baccarat",
+    "type": "LIVE",
+    "provider": "AWC",
+    "company": "SEXYBCRT",
+    "image": "https://cdn.dreamcasino.live/gap_casino/awc_aesexy/aes_baccarat.webp",
+    "code": "MX-LIVE-002"
+  },
+  {
+    "gameId": 400004,
+    "name": "DragonTiger",
+    "type": "LIVE",
+    "provider": "AWC",
+    "company": "SEXYBCRT",
+    "image": "https://cdn.dreamcasino.live/gap_casino/awc_aesexy/aes_dragon_tiger.webp",
+    "code": "MX-LIVE-006"
+  },
+  {
+    "gameId": 400006,
+    "name": "Roulette",
+    "type": "LIVE",
+    "provider": "AWC",
+    "company": "SEXYBCRT",
+    "image": "https://cdn.dreamcasino.live/gap_casino/awc_aesexy/aes_roulette.webp",
+    "code": "MX-LIVE-009"
+  },
+  {
+    "gameId": 400011,
+    "name": "Thai Hi Lo",
+    "type": "LIVE",
+    "provider": "AWC",
+    "company": "SEXYBCRT",
+    "image": "https://cdn.dreamcasino.live/awc_aesexy/aes_thai_hi_lo.webp",
+    "code": "MX-LIVE-014"
+  },
+  {
+    "gameId": 400012,
+    "name": "Thai Fish Prawn Crab",
+    "type": "LIVE",
+    "provider": "AWC",
+    "company": "SEXYBCRT",
+    "image": "https://cdn.dreamdelhi.com/awc/casinoawc_aesexytai.webp",
+    "code": "MX-LIVE-015"
+  },
+  {
+    "gameId": 400013,
+    "name": "Extra Sicbo",
+    "type": "LIVE",
+    "provider": "AWC",
+    "company": "SEXYBCRT",
+    "image": "https://cdn.dreamdelhi.com/awc/extra_sicbo.webp",
+    "code": "MX-LIVE-016"
+  }
+  ,
+  {
+    "gameId": 400332,
+    "name": "CockFight",
+    "type": "LIVE",
+    "provider": "AWC",
+    "company": "SV388",
+    "image": "http://cdn.dreamcasino.live/awc_aesexy/sv388_cockfight.webp",
+    "code": "awc_sv388_cockfight"
+  },
+  {
+    "gameId": 400333,
+    "name": "Horsebook",
+    "type": "LIVE",
+    "provider": "AWC",
+    "company": "HORSEBOOK",
+    "image": "https://cdn.dreamcasino.live/awc_aesexy/hrb_horsebook.webp",
+    "code": "awc_horsebook"
+  },
+  {
+    "gameId": 400350,
+    "name": "RT SLOT LOBBY",
+    "type": "SLOT",
+    "provider": "AWC",
+    "company": "RT",
+    "image": "https://cdn.dreamcasino.live/rt_lobby.webp",
+    "code": "awc_rt_lobby"
+  },
+  {
+    "gameId": 400351,
+    "name": "AncientScript",
+    "type": "SLOT",
+    "provider": "AWC",
+    "company": "RT",
+    "image": "https://cdn.dreamcasino.live/awc_aesexy/Game_RT_Ancient_Script_520x520.webp",
+    "code": "awc_rt_ancientscript"
+  },
+  {
+    "gameId": 400352,
+    "name": "ArcadeBomb",
+    "type": "SLOT",
+    "provider": "AWC",
+    "company": "RT",
+    "image": "https://cdn.dreamcasino.live/awc_aesexy/Game_RT_Arcade_Bomb_520x520.webp",
+    "code": "awc_rt_arcadebomb"
+  },
+  {
+    "gameId": 400353,
+    "name": "BlueDiamond",
+    "type": "SLOT",
+    "provider": "AWC",
+    "company": "RT",
+    "image": "https://cdn.dreamcasino.live/awc_aesexy/Game_RT_Blue_Diamond_520x520.webp",
+    "code": "awc_rt_bluediamond"
+  },
+  {
+    "gameId": 400354,
+    "name": "ChineseTreasures",
+    "type": "SLOT",
+    "provider": "AWC",
+    "company": "RT",
+    "image": "https://cdn.dreamcasino.live/awc_aesexy/Game_RT_Chinese_Treasures_343x200.webp",
+    "code": "awc_rt_chinesetreasures"
+  },
+  {
+    "gameId": 400355,
+    "name": "Cinderella",
+    "type": "SLOT",
+    "provider": "AWC",
+    "company": "RT",
+    "image": "https://cdn.dreamcasino.live/awc_aesexy/Game_RT_Cinderella_520x520.webp",
+    "code": "awc_rt_cinderella"
+  },
+  {
+    "gameId": 400356,
+    "name": "CrazyGenie",
+    "type": "SLOT",
+    "provider": "AWC",
+    "company": "RT",
+    "image": "https://cdn.dreamcasino.live/awc_aesexy/Game_RT_Crazy_Genie_520x520.webp",
+    "code": "awc_rt_crazygenie"
+  },
+  {
+    "gameId": 400357,
+    "name": "DevilsNumber",
+    "type": "SLOT",
+    "provider": "AWC",
+    "company": "RT",
+    "image": "https://cdn.dreamcasino.live/awc_aesexy/Game_RT_Devils_Number_520x520.webp",
+    "code": "awc_rt_devilsnumber"
+  },
+  {
+    "gameId": 400358,
+    "name": "DivineWays",
+    "type": "SLOT",
+    "provider": "AWC",
+    "company": "RT",
+    "image": "https://cdn.dreamcasino.live/awc_aesexy/Game_RT_Divine_Ways_520x520.webp",
+    "code": "awc_rt_divineways"
+  },
+  {
+    "gameId": 400359,
+    "name": "DragonsFire",
+    "type": "SLOT",
+    "provider": "AWC",
+    "company": "RT",
+    "image": "https://cdn.dreamcasino.live/awc_aesexy/Game_RT_Dragons_Fire_520x520.webp",
+    "code": "awc_rt_dragonsfire"
+  },
+  {
+    "gameId": 400360,
+    "name": "DragonsLuck",
+    "type": "SLOT",
+    "provider": "AWC",
+    "company": "RT",
+    "image": "https://cdn.dreamcasino.live/awc_aesexy/Game_RT_Dragons_Luck_520x520.webp",
+    "code": "awc_rt_dragonsluck"
+  },
+  {
+    "gameId": 400361,
+    "name": "DragonsLuckPowerReels",
+    "type": "SLOT",
+    "provider": "AWC",
+    "company": "RT",
+    "image": "https://cdn.dreamcasino.live/awc_aesexy/Game_RT_Dragons_Luck_Power_Reels_520x520.webp",
+    "code": "awc_rt_dragonsluck_powerreels"
+  },
+  {
+    "gameId": 400362,
+    "name": "ElvenMagic",
+    "type": "SLOT",
+    "provider": "AWC",
+    "company": "RT",
+    "image": "https://cdn.dreamcasino.live/awc_aesexy/Game_RT_Elven_Magic_520x520.webp",
+    "code": "awc_rt_elvenmagic"
+  },
+  {
+    "gameId": 400363,
+    "name": "EmeraldDiamond",
+    "type": "SLOT",
+    "provider": "AWC",
+    "company": "RT",
+    "image": "https://cdn.dreamcasino.live/awc_aesexy/Game_RT_Emerald_Diamond_520x520.webp",
+    "code": "awc_rt_emeralddiamond"
+  },
+  {
+    "gameId": 400364,
+    "name": "EpicJourney",
+    "type": "SLOT",
+    "provider": "AWC",
+    "company": "RT",
+    "image": "https://cdn.dreamcasino.live/awc_aesexy/Game_RT_Epic_Journey_520x520.webp",
+    "code": "awc_rt_epicjourney"
+  },
+  {
+    "gameId": 400365,
+    "name": "EsqueletoMariachi",
+    "type": "SLOT",
+    "provider": "AWC",
+    "company": "RT",
+    "image": "https://cdn.dreamcasino.live/awc_aesexy/Game_RT_Esqueleto_Mariachi_520x520.webp",
+    "code": "awc_rt_esqueletomariachi"
+  }
+
+
+]

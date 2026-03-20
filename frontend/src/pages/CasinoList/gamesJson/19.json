@@ -1,0 +1,113 @@
+[ {
+    "gameId": 860001,
+    "name": "Aviator",
+    "type": "Others",
+    "provider": "SPRIBE",
+    "company": "SPRIBE",
+    "image": "https://cdn.dreamcasino.live/sbe_aviator.webp",
+    "code": "SPRIBE-860001"
+  },
+    {
+        "gameId": 151027,
+        "name": "Aviator X",
+        "type": "Virtual",
+        "provider": "MAC88",
+        "company": "Fun Games",
+        "image": "https://cdn.dreamdelhi.com/monk88/aviatorx.webp",
+        "code": "MAC88-CAV101-VR"
+      },
+      {
+        "gameId": 151067,
+        "name": "AviatorX2",
+        "type": "Crash Games",
+        "provider": "MAC88",
+        "company": "Fun Games",
+        "image": "https://cdn.dreamdelhi.com/mac88/aviatorx2.webp",
+        "code": "MAC88-CAVB101"
+      },
+      {
+        "gameId": 151072,
+        "name": "Crash X",
+        "type": "Crash Games",
+        "provider": "MAC88",
+        "company": "Fun Games",
+        "image": "https://cdn.dreamdelhi.com/mac88/crashx.webp",
+        "code": "MAC88-CCK101"
+      },
+      {
+        "gameId": 151087,
+        "name": "Jet XT",
+        "type": "Crash Games",
+        "provider": "MAC88",
+        "company": "Mac88 Gaming Virtual",
+        "image": "https://cdn.dreamdelhi.com/mac88/jetxt.webp"
+      },{
+        "gameId": 377005,
+        "name": "Avi",
+        "type": "Video Slots",
+        "provider": "CREED",
+        "company": "Popok",
+        "image": "http://cdn.dreamdelhi.com/popok/popok_avi.gif",
+        "code": "popok_avi"
+      }, {
+        "gameId": 204109,
+        "name": "JetX",
+        "type": "Crash Games",
+        "provider": "DC",
+        "company": "Smartsoft Gaming",
+        "image": "https://cdn.dreamdelhi.com/dc/sms_jetx.webp",
+        "code": "DC-204109"
+      },
+      {
+        "gameId": 204111,
+        "name": "JetX3",
+        "type": "Crash Games",
+        "provider": "DC",
+        "company": "Smartsoft Gaming",
+        "image": "https://cdn.dreamdelhi.com/dc/sms_jetx3.webp",
+        "code": "DC-204111"
+      },
+      {
+        "gameId": 204112,
+        "name": "Baloon",
+        "type": "Crash Games",
+        "provider": "DC",
+        "company": "Smartsoft Gaming",
+        "image": "https://cdn.dreamdelhi.com/dc/sms_baloon.webp",
+        "code": "DC-204112"
+      },{
+        "gameId": 204168,
+        "name": "Pilot",
+        "type": "Video Slots",
+        "provider": "DC",
+        "company": "Gamzix",
+        "image": "https://cdn.dreamcasino.live/gmz_pilot/thumb.webp",
+        "code": "gmz_pilot"
+      },{
+        "gameId": 204172,
+        "name": "Pilot Coin",
+        "type": "Video Slots",
+        "provider": "DC",
+        "company": "Gamzix",
+        "image": "https://cdn.dreamcasino.live/gmz_pilot_coin/thumb.webp",
+        "code": "gmz_pilot_coin"
+      },{
+        "gameId": 425031,
+        "name": "Cash Rocket",
+        "type": "Table Game",
+        "provider": "KINGMIDAS",
+        "company": "Kingmidas Gaming",
+        "image": "https://cdn.dreamdelhi.com/kingmidas/cash_rocket.webp",
+        "code": "kingmidas_cash_rocket"
+      },{
+        "gameId": 460013,
+        "name": "Skyward",
+        "type": "Live",
+        "provider": "BETGAMES",
+        "company": "BetGames",
+        "image": "https://cdn.dreamdelhi.com/betgames/skyward.webp",
+        "code": "bg_skyward"
+      }
+    
+  ]
+  

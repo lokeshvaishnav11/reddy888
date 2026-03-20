@@ -1,0 +1,494 @@
+[
+  {
+    "gameId": 377001,
+    "name": "Goddesses of Zeus",
+    "type": "Video Slots",
+    "provider": "CREED",
+    "company": "Popok"
+  },
+  {
+    "gameId": 377002,
+    "name": "Eye on the Money",
+    "type": "Video Slots",
+    "provider": "CREED",
+    "company": "Popok"
+  },
+  {
+    "gameId": 377003,
+    "name": "Diamond Flash Buy Bonus",
+    "type": "Video Slots",
+    "provider": "CREED",
+    "company": "Popok"
+  },
+  {
+    "gameId": 377004,
+    "name": "Royal Flash Buy Bonus",
+    "type": "Video Slots",
+    "provider": "CREED",
+    "company": "Popok"
+  },
+  {
+    "gameId": 377005,
+    "name": "Avi",
+    "type": "Video Slots",
+    "provider": "CREED",
+    "company": "Popok"
+  },
+  {
+    "gameId": 377006,
+    "name": "777 Triple Sevens",
+    "type": "Video Slots",
+    "provider": "CREED",
+    "company": "Popok"
+  },
+  {
+    "gameId": 377007,
+    "name": "YO Dragon",
+    "type": "Video Slots",
+    "provider": "CREED",
+    "company": "Popok"
+  },
+  {
+    "gameId": 377008,
+    "name": "Crash Poki",
+    "type": "Video Slots",
+    "provider": "CREED",
+    "company": "Popok"
+  },
+  {
+    "gameId": 377009,
+    "name": "Papai Noel da Fortuna",
+    "type": "Video Slots",
+    "provider": "CREED",
+    "company": "Popok"
+  },
+  {
+    "gameId": 377010,
+    "name": "Hezarfen Crash",
+    "type": "Video Slots",
+    "provider": "CREED",
+    "company": "Popok"
+  },
+  {
+    "gameId": 377011,
+    "name": "Book of Sherlock",
+    "type": "Video Slots",
+    "provider": "CREED",
+    "company": "Popok"
+  },
+  {
+    "gameId": 377012,
+    "name": "Fiesta",
+    "type": "Video Slots",
+    "provider": "CREED",
+    "company": "Popok"
+  },
+  {
+    "gameId": 377013,
+    "name": "Xmas Crash",
+    "type": "Video Slots",
+    "provider": "CREED",
+    "company": "Popok"
+  },
+  {
+    "gameId": 377014,
+    "name": "Diamond Phantom",
+    "type": "Video Slots",
+    "provider": "CREED",
+    "company": "Popok"
+  },
+  {
+    "gameId": 377015,
+    "name": "Sumo Baby",
+    "type": "Video Slots",
+    "provider": "CREED",
+    "company": "Popok"
+  },
+  {
+    "gameId": 377016,
+    "name": "Frozen Fruits",
+    "type": "Video Slots",
+    "provider": "CREED",
+    "company": "Popok"
+  },
+  {
+    "gameId": 377017,
+    "name": "Lost Treasure",
+    "type": "Video Slots",
+    "provider": "CREED",
+    "company": "Popok"
+  },
+  {
+    "gameId": 377018,
+    "name": "Lucky Jungle",
+    "type": "Video Slots",
+    "provider": "CREED",
+    "company": "Popok"
+  },
+  {
+    "gameId": 377019,
+    "name": "Diamond Flash",
+    "type": "Video Slots",
+    "provider": "CREED",
+    "company": "Popok"
+  },
+  {
+    "gameId": 377020,
+    "name": "Ultra Hot",
+    "type": "Video Slots",
+    "provider": "CREED",
+    "company": "Popok"
+  },
+  {
+    "gameId": 377021,
+    "name": "20 Lucky Bell",
+    "type": "Video Slots",
+    "provider": "CREED",
+    "company": "Popok"
+  },
+  {
+    "gameId": 377022,
+    "name": "40 Lucky Bell",
+    "type": "Video Slots",
+    "provider": "CREED",
+    "company": "Popok"
+  },
+  {
+    "gameId": 377023,
+    "name": "Sultan’s Tale",
+    "type": "Video Slots",
+    "provider": "CREED",
+    "company": "Popok"
+  },
+  {
+    "gameId": 377024,
+    "name": "Los Apaches",
+    "type": "Video Slots",
+    "provider": "CREED",
+    "company": "Popok"
+  },
+  {
+    "gameId": 377025,
+    "name": "Magic treasures of Egypt",
+    "type": "Video Slots",
+    "provider": "CREED",
+    "company": "Popok"
+  },
+  {
+    "gameId": 377026,
+    "name": "Era of Dragons",
+    "type": "Video Slots",
+    "provider": "CREED",
+    "company": "Popok"
+  },
+  {
+    "gameId": 377027,
+    "name": "Lucky Patrick's Day",
+    "type": "Video Slots",
+    "provider": "CREED",
+    "company": "Popok"
+  },
+  {
+    "gameId": 377028,
+    "name": "Octopus Life",
+    "type": "Video Slots",
+    "provider": "CREED",
+    "company": "Popok"
+  },
+  {
+    "gameId": 377029,
+    "name": "Novel of Alexander",
+    "type": "Video Slots",
+    "provider": "CREED",
+    "company": "Popok"
+  },
+  {
+    "gameId": 377030,
+    "name": "Hot Bar",
+    "type": "Video Slots",
+    "provider": "CREED",
+    "company": "Popok"
+  }
+  ,
+  {
+    "gameId": 377048,
+    "name": "Vikings Mystery",
+    "type": "Video Slots",
+    "provider": "CREED",
+    "company": "Popok",
+    "image": "https://cdn.dreamdelhi.com/dream/ppok_vikingsmystery.gif",
+    "slug": "popok_vikings_mystery"
+  },
+  {
+    "gameId": 377049,
+    "name": "Lucky Smile",
+    "type": "Video Slots",
+    "provider": "CREED",
+    "company": "Popok",
+    "image": "https://cdn.dreamdelhi.com/dream/ppok_luckysmile.gif",
+    "slug": "popok_lucky_smile"
+  },
+  {
+    "gameId": 377050,
+    "name": "Plinko",
+    "type": "Video Slots",
+    "provider": "CREED",
+    "company": "Popok",
+    "image": "https://cdn.dreamdelhi.com/dream/ppki_plinko.gif",
+    "slug": "popok_plinko"
+  },
+  {
+    "gameId": 377051,
+    "name": "Magic Idol",
+    "type": "Video Slots",
+    "provider": "CREED",
+    "company": "Popok",
+    "image": "https://cdn.dreamdelhi.com/dream/ppki_magicidol.gif",
+    "slug": "popok_magic_idol"
+  },
+  {
+    "gameId": 377052,
+    "name": "Gogo Banana",
+    "type": "Video Slots",
+    "provider": "CREED",
+    "company": "Popok",
+    "image": "https://cdn.dreamdelhi.com/dream/ppki_gogobanana.gif",
+    "slug": "popok_gogo_banana"
+  },
+  {
+    "gameId": 377053,
+    "name": "Flaming Fruit",
+    "type": "Video Slots",
+    "provider": "CREED",
+    "company": "Popok",
+    "image": "https://cdn.dreamdelhi.com/dream/ppok_flamingfruit.gif",
+    "slug": "popok_flaming_fruit"
+  },
+  {
+    "gameId": 377054,
+    "name": "Diamond Quest",
+    "type": "Video Slots",
+    "provider": "CREED",
+    "company": "Popok",
+    "image": "https://cdn.dreamdelhi.com/dream/ppki_diamondquest.gif",
+    "slug": "popok_diamond_quest"
+  },
+  {
+    "gameId": 377055,
+    "name": "Richy Panda",
+    "type": "Video Slots",
+    "provider": "CREED",
+    "company": "Popok",
+    "image": "https://cdn.dreamdelhi.com/dream/ppok_richypanda.gif",
+    "slug": "popok_richy_panda"
+  },
+  {
+    "gameId": 377056,
+    "name": "Hi Lo",
+    "type": "Video Slots",
+    "provider": "CREED",
+    "company": "Popok",
+    "image": "https://cdn.dreamdelhi.com/dream/ppki_hilo.gif",
+    "slug": "popok_hi_lo"
+  },
+  {
+    "gameId": 377057,
+    "name": "Temple of Heroes",
+    "type": "Video Slots",
+    "provider": "CREED",
+    "company": "Popok",
+    "image": "https://cdn.dreamdelhi.com/dream/ppok_templeofheroes.gif",
+    "slug": "popok_temple_of_heroes"
+  },
+  {
+    "gameId": 377058,
+    "name": "Electric Crash",
+    "type": "Video Slots",
+    "provider": "CREED",
+    "company": "Popok",
+    "image": "https://cdn.dreamdelhi.com/dream/ppki_electriccrash.gif",
+    "slug": "popok_electric_crash"
+  },
+  {
+    "gameId": 377059,
+    "name": "Los Toros",
+    "type": "Video Slots",
+    "provider": "CREED",
+    "company": "Popok",
+    "image": "https://cdn.dreamdelhi.com/dream/ppok_lostoros.gif",
+    "slug": "popok_los_toros"
+  },
+  {
+    "gameId": 377060,
+    "name": "Poki Wild",
+    "type": "Video Slots",
+    "provider": "CREED",
+    "company": "Popok",
+    "image": "https://cdn.dreamdelhi.com/dream/ppok_pokiwild.gif",
+    "slug": "popok_poki_wild"
+  },
+  {
+    "gameId": 377061,
+    "name": "Fruit Ball",
+    "type": "Video Slots",
+    "provider": "CREED",
+    "company": "Popok",
+    "image": "https://cdn.dreamdelhi.com/dream/ppok_fruitball.gif",
+    "slug": "popok_fruit_ball"
+  },
+  {
+    "gameId": 377062,
+    "name": "Flaming Phoenix",
+    "type": "Video Slots",
+    "provider": "CREED",
+    "company": "Popok",
+    "image": "https://cdn.dreamdelhi.com/dream/ppok_flamingphoenix.gif",
+    "slug": "popok_flaming_phoenix"
+  },
+  {
+    "gameId": 377063,
+    "name": "Wukong",
+    "type": "Video Slots",
+    "provider": "CREED",
+    "company": "Popok",
+    "image": "https://cdn.dreamdelhi.com/dream/ppok_wukong.gif",
+    "slug": "popok_wukong"
+  },
+  {
+    "gameId": 377064,
+    "name": "Wild Shamrock",
+    "type": "Video Slots",
+    "provider": "CREED",
+    "company": "Popok",
+    "image": "http://cdn.dreamdelhi.com/popok/popok_wild_shamrock.webp",
+    "slug": "popok_wild_shamrock"
+  },
+  {
+    "gameId": 377065,
+    "name": "Wild Queen",
+    "type": "Video Slots",
+    "provider": "CREED",
+    "company": "Popok",
+    "image": "https://cdn.dreamdelhi.com/dream/ppok_wildqueen.gif",
+    "slug": "popok_wild_queen"
+  },
+  {
+    "gameId": 377066,
+    "name": "White Mustang",
+    "type": "Video Slots",
+    "provider": "CREED",
+    "company": "Popok",
+    "image": "http://cdn.dreamdelhi.com/popok/popok_white_mustang.gif",
+    "slug": "popok_white_mustang"
+  },
+  {
+    "gameId": 377067,
+    "name": "Time Travelers: Hacivat and Karagoz",
+    "type": "Video Slots",
+    "provider": "CREED",
+    "company": "Popok",
+    "image": "http://cdn.dreamdelhi.com/popok/popok_time_travelers_hacivat_and_karagoz.webp",
+    "slug": "popok_time_travelers_hacivat_and_karagoz"
+  },
+  {
+    "gameId": 377068,
+    "name": "Tiki Quest",
+    "type": "Video Slots",
+    "provider": "CREED",
+    "company": "Popok",
+    "image": "http://cdn.dreamdelhi.com/popok/popok_tiki_quest.webp",
+    "slug": "popok_tiki_quest"
+  },
+  {
+    "gameId": 377069,
+    "name": "The Power of Kitsune",
+    "type": "Video Slots",
+    "provider": "CREED",
+    "company": "Popok",
+    "image": "https://cdn.dreamdelhi.com/dream/ppok_thepowerofkitsune.gif",
+    "slug": "popok_the_power_of_kitsune"
+  },
+  {
+    "gameId": 377070,
+    "name": "Spinosaurus",
+    "type": "Video Slots",
+    "provider": "CREED",
+    "company": "Popok",
+    "image": "http://cdn.dreamdelhi.com/popok/popok_spinosaurus.webp",
+    "slug": "popok_spinosaurus"
+  },
+  {
+    "gameId": 377071,
+    "name": "Royal Flash",
+    "type": "Video Slots",
+    "provider": "CREED",
+    "company": "Popok",
+    "image": "http://cdn.dreamdelhi.com/popok/popok_royal_flash.webp",
+    "slug": "popok_royal_flash"
+  },
+  {
+    "gameId": 377072,
+    "name": "Ronin",
+    "type": "Video Slots",
+    "provider": "CREED",
+    "company": "Popok",
+    "image": "https://cdn.dreamdelhi.com/dream/ppok_ronin.gif",
+    "slug": "popok_ronin"
+  },
+  {
+    "gameId": 377073,
+    "name": "Rico Gorila",
+    "type": "Video Slots",
+    "provider": "CREED",
+    "company": "Popok",
+    "image": "http://cdn.dreamdelhi.com/popok/popok_rico_gorila.webp",
+    "slug": "popok_rico_gorila"
+  },
+  {
+    "gameId": 377074,
+    "name": "Red Hot Line 2",
+    "type": "Video Slots",
+    "provider": "CREED",
+    "company": "Popok",
+    "image": "http://cdn.dreamdelhi.com/popok/popok_red_hot_line_2.gif",
+    "slug": "popok_red_hot_line_2"
+  },
+  {
+    "gameId": 377075,
+    "name": "Red Hot Line",
+    "type": "Video Slots",
+    "provider": "CREED",
+    "company": "Popok",
+    "image": "https://cdn.dreamdelhi.com/dream/ppki_redhotline.gif",
+    "slug": "popok_red_hot_line"
+  },
+  {
+    "gameId": 377076,
+    "name": "Pirate Fortune",
+    "type": "Video Slots",
+    "provider": "CREED",
+    "company": "Popok",
+    "image": "http://cdn.dreamdelhi.com/popok/popok_pirate_fortune.webp",
+    "slug": "popok_pirate_fortune"
+  },
+  {
+    "gameId": 377077,
+    "name": "Ninja Fruit Cubes",
+    "type": "Video Slots",
+    "provider": "CREED",
+    "company": "Popok",
+    "image": "http://cdn.dreamdelhi.com/popok/popok_ninja_fruit_cubes.gif",
+    "slug": "popok_ninja_fruit_cubes"
+  },
+  {
+    "gameId": 377078,
+    "name": "Mr. First: Lucky Wheel",
+    "type": "Video Slots",
+    "provider": "CREED",
+    "company": "Popok",
+    "image": "http://cdn.dreamdelhi.com/popok/popok_mr_first_lucky_wheel.gif",
+    "slug": "popok_mr_first_lucky_wheel"
+  }
+
+
+]

@@ -1,0 +1,100 @@
+/* Deposit Statement Page UI alignment to Image 1 */
+
+/* Add spacing between marquee and content */
+.container-fluid {
+  padding-top: 20px;
+}
+
+/* Filter bar container */
+.card-body.p15.bg-gray {
+  background: #f6f4ee;
+  border: 1px solid #e0d7b0;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+  margin-top: 15px;
+}
+
+/* Labels in filter bar */
+.label {
+  font-size: 12px;
+  font-weight: 700;
+  color: #1e1e1e;
+  text-transform: uppercase;
+}
+
+/* Inputs */
+.mx-input,
+.custom-select {
+  border: 1px solid #d1c59d !important;
+  border-radius: 6px !important;
+  background: #fff !important;
+  color: #1e1e1e !important;
+  font-size: 14px !important;
+  padding: 10px 14px !important;
+}
+
+/* Search/Submit button */
+.btn.btn-primary.btn-block {
+  background: #c68b04 !important;
+  color: #fff !important;
+  border: none !important;
+  border-radius: 6px !important;
+  font-weight: 700 !important;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  box-shadow: 0 4px 10px rgba(198, 139, 4, 0.4);
+}
+.btn.btn-primary.btn-block:hover {
+  background: #a76f03 !important;
+  transform: translateY(-1px);
+}
+
+/* Table header gradient */
+#customers1 thead th,
+.table.table-bordered thead th.bg2 {
+  background: linear-gradient(135deg, #d4a017 0%, #b8860b 100%) !important;
+  color: #fff !important;
+  font-size: 12px !important;
+  font-weight: 700 !important;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 12px 14px !important;
+  border: none !important;
+  white-space: nowrap;
+}
+
+/* Table body rows */
+#customers1 tbody tr {
+  border-bottom: 1px solid #e5e7eb;
+}
+#customers1 tbody tr:nth-child(even) {
+  background: #f9fafb;
+}
+#customers1 tbody tr:hover {
+  background: #fef3c7;
+}
+#customers1 tbody td {
+  padding: 12px 14px !important;
+  font-size: 13px !important;
+  color: #374151 !important;
+  white-space: nowrap;
+}
+
+/* Status colors */
+#customers1 .status-approved { color: #16a34a; font-weight: 700; }
+#customers1 .status-pending { color: #ca8a04; font-weight: 700; }
+#customers1 .status-rejected { color: #dc2626; font-weight: 700; }
+
+/* Action buttons in table */
+#customers1 tbody button {
+  background: #c68b04;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  font-weight: 700;
+  font-size: 12px;
+  padding: 6px 12px;
+}
+#customers1 tbody button:hover {
+  background: #a76f03;
+}

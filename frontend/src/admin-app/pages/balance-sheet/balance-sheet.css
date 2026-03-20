@@ -1,0 +1,126 @@
+/* Balance sheet two-column layout and table styles */
+.balance-container {
+  display: flex;
+  gap: 18px;
+  align-items: flex-start;
+}
+.left-panel, .right-panel {
+  flex: 1;
+}
+.summary-table, .list-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+.summary-table thead th {
+  background: #059669; /* green header */
+  color: #fff;
+  padding: 10px;
+  font-weight: 700;
+}
+.list-table thead th {
+  background: #b91c1c; /* deep red header */
+  color: #fff;
+  padding: 10px;
+  font-weight: 700;
+}
+.summary-table tbody td, .list-table tbody td {
+  padding: 12px 10px;
+  border-bottom: 1px solid #eee;
+}
+.ut-col {
+  width: 36px;
+  text-align: center;
+  background: #d1b37a;
+  color: #fff;
+  font-weight: 700;
+}
+.history-btn {
+  background: linear-gradient(135deg, #d4a017 0%, #b8860b 100%);
+  color: #fff;
+  border: none;
+  padding: 6px 10px;
+  border-radius: 4px;
+  font-weight: 700;
+  cursor: pointer;
+}
+.summary-row td {
+  background: rgba(0,0,0,0.02);
+}
+.total-row td {
+  background: #059669; /* green */
+  color: #fff;
+  font-weight: 700;
+}
+.right-panel .total-row td {
+  background: #b91c1c; /* red total */
+  color: #fff;
+}
+
+/* Make headers sticky-like look and table spacing match screenshot */
+.summary-table thead th, .list-table thead th {
+  padding-top: 14px;
+  padding-bottom: 14px;
+}
+
+.summary-table tbody tr td:first-child, .list-table tbody tr td:first-child {
+  background: #be8b42;
+}
+
+.summary-table tbody tr td, .list-table tbody tr td {
+  vertical-align: middle;
+}
+
+/* Export card styles */
+.export-card {
+  max-width: 800px;
+  margin: 0 auto;
+  background: #fff;
+  border: 1px solid #e5e7eb;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+  border-radius: 2px;
+}
+.export-card-inner {
+  padding: 28px;
+}
+.export-title {
+  border: 1px solid #d8b88b;
+  padding: 10px 12px;
+  display: inline-block;
+  margin: 0 0 14px 0;
+  font-weight: 700;
+}
+.export-notes {
+  margin-bottom: 18px;
+}
+.export-form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 18px 40px;
+  align-items: center;
+}
+.export-row label {
+  font-weight: 700;
+}
+.export-row select,
+.export-row input[type='date'] {
+  width: 100%;
+  padding: 10px 8px;
+  border: none;
+  border-bottom: 1px solid #cfcfcf;
+  background: transparent;
+}
+.export-action {
+  grid-column: 1 / -1;
+  text-align: center;
+  margin-top: 12px;
+}
+.excel-btn {
+  background: #059669;
+  color: #fff;
+  border: none;
+  padding: 10px 18px;
+  border-radius: 4px;
+  font-weight: 700;
+  cursor: pointer;
+}
+

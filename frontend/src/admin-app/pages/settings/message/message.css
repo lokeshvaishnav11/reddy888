@@ -1,0 +1,106 @@
+/* Messages Page Styles - Match theme with other pages */
+
+.messages-page {
+  padding-top: 40px;
+  background: #f5f5f5;
+  min-height: calc(100vh - 120px);
+}
+
+.messages-page .container-fluid {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.messages-form-container {
+  background: #fff;
+  padding: 30px;
+  border-radius: 4px;
+  border: 1px solid #e5e7eb;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.messages-form-group {
+  margin-bottom: 25px;
+}
+
+.messages-label {
+  font-size: 12px;
+  font-weight: 700;
+  color: #1e1e1e;
+  text-transform: uppercase;
+  margin-bottom: 8px;
+  display: block;
+  letter-spacing: 0.5px;
+}
+
+.messages-checkbox {
+  margin-left: 10px;
+  width: 18px;
+  height: 18px;
+  cursor: pointer;
+  vertical-align: middle;
+}
+
+.messages-input {
+  width: 100%;
+  padding: 12px 15px;
+  border: 1px solid #d1c59d;
+  border-radius: 6px;
+  font-size: 14px;
+  color: #1e1e1e;
+  background: #fff;
+  transition: border-color 0.3s;
+}
+
+.messages-input:focus {
+  outline: none;
+  border-color: #d4a017;
+  box-shadow: 0 0 0 3px rgba(212, 160, 23, 0.1);
+}
+
+.messages-input::placeholder {
+  color: #999;
+}
+
+.messages-submit-wrapper {
+  text-align: right;
+  margin-top: 20px;
+}
+
+.messages-submit-btn {
+  background: #c68b04 !important;
+  color: #fff !important;
+  border: none !important;
+  border-radius: 6px !important;
+  font-weight: 700 !important;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  padding: 12px 40px !important;
+  box-shadow: 0 4px 10px rgba(198, 139, 4, 0.4);
+  transition: all 0.3s;
+}
+
+.messages-submit-btn:hover {
+  background: #a76f03 !important;
+  transform: translateY(-1px);
+  box-shadow: 0 6px 12px rgba(198, 139, 4, 0.5);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .messages-page {
+    padding-top: 20px;
+  }
+
+  .messages-form-container {
+    padding: 20px;
+  }
+
+  .messages-submit-wrapper {
+    text-align: center;
+  }
+
+  .messages-submit-btn {
+    width: 100%;
+  }
+}

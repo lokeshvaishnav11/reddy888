@@ -1,0 +1,39 @@
+[
+    {
+        "gameId": 151075,
+        "name": "Mines",
+        "type": "Slot Games",
+        "provider": "MAC88",
+        "company": "Fun Games",
+        "image": "https://cdn.dreamdelhi.com/monk88/mines.webp",
+        "code": "MAC88-CMIN101"
+      },
+      {
+        "gameId": 860005,
+        "name": "Mines2",
+        "type": "Others",
+        "provider": "SPRIBE",
+        "company": "SPRIBE",
+        "image": "https://cdn.dreamcasino.live/sbe_mines.webp",
+        "code": "SPRIBE-860005"
+      }, {
+        "gameId": 425033,
+        "name": "Minesweeper",
+        "type": "Table Game",
+        "provider": "KINGMIDAS",
+        "company": "Kingmidas Gaming",
+        "image": "https://cdn.dreamdelhi.com/kingmidas/minesweeper.webp",
+        "code": "kingmidas_minesweeper"
+      },{
+        "gameId": 425070,
+        "name": "Egyptian Mines",
+        "type": "Table Game",
+        "provider": "KINGMIDAS",
+        "company": "Kingmidas Gaming",
+        "image": "https://cdn.dreamdelhi.com/kingmidas/egyptian_mines.webp",
+        "code": "kingmidas_egyptian_mines"
+      }
+   
+   
+  ]
+  

@@ -1,0 +1,500 @@
+[
+  {
+    "gameId": 100001,
+    "name": "Blackjack Gold 5",
+    "type": "Live Blackjack",
+    "provider": "EZUGI",
+    "company": "Ezugi",
+    "image": "https://cdn.dreamcasino.live/ezugi/ezg_blackjackgold5.webp",
+    "code": "EZUGI-100001"
+  },
+  {
+    "gameId": 100005,
+    "name": "Blackjack Gold 3",
+    "type": "Live Blackjack",
+    "provider": "EZUGI",
+    "company": "Ezugi",
+    "image": "https://cdn.dreamcasino.live/gold_blackjack_1.webp",
+    "code": "EZUGI-100005"
+  },
+  {
+    "gameId": 100006,
+    "name": "Blackjack Gold 1",
+    "type": "Live Blackjack",
+    "provider": "EZUGI",
+    "company": "Ezugi",
+    "image": "https://cdn.dreamcasino.live/gold_blackjack_2.webp",
+    "code": "EZUGI-100006"
+  },
+  {
+    "gameId": 100008,
+    "name": "Blackjack Gold 6",
+    "type": "Live Blackjack",
+    "provider": "EZUGI",
+    "company": "Ezugi",
+    "image": "https://cdn.dreamcasino.live/gold_blackjack_3.webp",
+    "code": "EZUGI-100008"
+  },
+  {
+    "gameId": 100009,
+    "name": "VIP Blackjack with Surrender",
+    "type": "Live Blackjack",
+    "provider": "EZUGI",
+    "company": "Ezugi",
+    "image": "https://cdn.dreamcasino.live/ezugi/vip-bj-surrender-thumb-v2.webp",
+    "code": "EZUGI-100009"
+  },
+  {
+    "gameId": 100010,
+    "name": "VIP Blackjack",
+    "type": "Live Blackjack",
+    "provider": "EZUGI",
+    "company": "Ezugi",
+    "image": "https://cdn.dreamcasino.live/ezugi/vip-bj-thumb-v2.webp",
+    "code": "EZUGI-100010"
+  },
+  {
+    "gameId": 100013,
+    "name": "Rumba Blackjack 2",
+    "type": "Live Blackjack",
+    "provider": "EZUGI",
+    "company": "Ezugi",
+    "image": "https://cdn.dreamcasino.live/rumba_blackjack_2.webp",
+    "code": "EZUGI-100013"
+  },
+  {
+    "gameId": 100022,
+    "name": "Unlimited Blackjack",
+    "type": "Live Blackjack",
+    "provider": "EZUGI",
+    "company": "Ezugi",
+    "image": "https://cdn.dreamcasino.live/ezugi/ezg_unlimitedblackjack.webp",
+    "code": "EZUGI-100022"
+  },
+  {
+    "gameId": 100024,
+    "name": "Mambo Unlimited Blackjack",
+    "type": "Live Blackjack",
+    "provider": "EZUGI",
+    "company": "Ezugi",
+    "image": "https://cdn.dreamcasino.live/ezugi/440x528+ubj++es.webp",
+    "code": "EZUGI-100024"
+  },
+
+  {
+    "gameId": 100026,
+    "name": "Italian Roulette",
+    "type": "Live Roulette",
+    "provider": "EZUGI",
+    "company": "Ezugi",
+    "image": "https://cdn.dreamcasino.live/italian roulette.webp",
+    "code": "EZUGI-100026"
+  },
+  {
+    "gameId": 100027,
+    "name": "Speed Roulette",
+    "type": "Live Roulette",
+    "provider": "EZUGI",
+    "company": "Ezugi",
+    "image": "https://cdn.dreamcasino.live/speed_roulette_221000.webp",
+    "code": "EZUGI-100027"
+  },
+  {
+    "gameId": 100028,
+    "name": "Diamond Roulette",
+    "type": "Live Roulette",
+    "provider": "EZUGI",
+    "company": "Ezugi",
+    "image": "https://cdn.dreamcasino.live/ezugi/diamond-roulette-thumb-v2.webp",
+    "code": "EZUGI-100028"
+  },
+  {
+    "gameId": 100029,
+    "name": "Namaste Roulette",
+    "type": "Live Roulette",
+    "provider": "EZUGI",
+    "company": "Ezugi",
+    "image": "https://cdn.dreamcasino.live/ezugi/namaste-roulette-thumb-v2.webp",
+    "code": "EZUGI-100029"
+  },
+
+  {
+    "gameId": 100046,
+    "name": "Teen Patti",
+    "type": "Live Popular",
+    "provider": "EZUGI",
+    "company": "Ezugi",
+    "image": "https://cdn.dreamcasino.live/teen_patti_227100.webp",
+    "code": "EZUGI-100046"
+  },
+  {
+    "gameId": 100047,
+    "name": "Bet on Teen Patti",
+    "type": "Live Popular",
+    "provider": "EZUGI",
+    "company": "Ezugi",
+    "image": "https://cdn.dreamcasino.live/beton_teenpatti.webp",
+    "code": "EZUGI-100047"
+  },
+  {
+    "gameId": 100063,
+    "name": "Andar Bahar",
+    "type": "Live Popular",
+    "provider": "EZUGI",
+    "company": "Ezugi",
+    "image": "https://cdn.dreamcasino.live/andar_bahar_228000.webp",
+    "code": "EZUGI-100063"
+  },
+
+  {
+    "gameId": 100049,
+    "name": "Baccarat",
+    "type": "Live Baccarat",
+    "provider": "EZUGI",
+    "company": "Ezugi",
+    "image": "https://cdn.dreamcasino.live/ezugi/ezg_baccarat.webp",
+    "code": "EZUGI-100049"
+  },
+  {
+    "gameId": 100061,
+    "name": "Dragon Tiger",
+    "type": "Live Baccarat",
+    "provider": "EZUGI",
+    "company": "Ezugi",
+    "image": "https://cdn.dreamcasino.live/ezugi/ezg_dragontiger.webp",
+    "code": "EZUGI-100061"
+  },
+
+  {
+    "gameId": 100115,
+    "name": "EZ Bingo 90",
+    "type": "Slot Games",
+    "provider": "EZUGI",
+    "company": "Ezugi",
+    "image": "https://cdn.dreamdelhi.com/ezugi/ezg_bingo.webp",
+    "code": "EZUGI-100115"
+  },
+  {
+    "gameId": 100125,
+    "name": "Magic Claw",
+    "type": "Arcade Games",
+    "provider": "EZUGI",
+    "company": "Ezugi",
+    "image": "https://cdn.dreamdelhi.com/ezugi/ezg_magic_claw.webp",
+    "code": "EZUGI-100125"
+  },
+  {
+    "gameId": 100128,
+    "name": "Coin Rush",
+    "type": "Arcade Game",
+    "provider": "EZUGI",
+    "company": "Ezugi",
+    "image": "https://cdn.dreamdelhi.com/ezugi/ezg_coin_rush.webp",
+    "code": "EZUGI-100128"
+  },
+  {
+    "gameId": 100129,
+    "name": "Coin Rush Pro",
+    "type": "Arcade Game",
+    "provider": "EZUGI",
+    "company": "Ezugi",
+    "image": "https://cdn.dreamdelhi.com/ezugi/ezg_coin_rush_pro.webp",
+    "code": "EZUGI-100129"
+  },
+   {
+    "gameId": 100026,
+    "name": "Italian Roulette",
+    "type": "Live Roulette",
+    "provider": "EZUGI",
+    "company": "Ezugi",
+    "image": "https://cdn.dreamcasino.live/italian roulette.webp",
+    "code": "EZUGI-100026"
+  },
+  {
+    "gameId": 100027,
+    "name": "Speed Roulette",
+    "type": "Live Roulette",
+    "provider": "EZUGI",
+    "company": "Ezugi",
+    "image": "https://cdn.dreamcasino.live/speed_roulette_221000.webp",
+    "code": "EZUGI-100027"
+  },
+  {
+    "gameId": 100028,
+    "name": "Diamond Roulette",
+    "type": "Live Roulette",
+    "provider": "EZUGI",
+    "company": "Ezugi",
+    "image": "https://cdn.dreamcasino.live/ezugi/diamond-roulette-thumb-v2.webp",
+    "code": "EZUGI-100028"
+  },
+  {
+    "gameId": 100029,
+    "name": "Namaste Roulette",
+    "type": "Live Roulette",
+    "provider": "EZUGI",
+    "company": "Ezugi",
+    "image": "https://cdn.dreamcasino.live/ezugi/namaste-roulette-thumb-v2.webp",
+    "code": "EZUGI-100029"
+  },
+  {
+    "gameId": 100030,
+    "name": "Cumbia Ruleta 1",
+    "type": "Live Roulette",
+    "provider": "EZUGI",
+    "company": "Ezugi",
+    "image": "https://cdn.dreamcasino.live/ezugi/ezg_cumbiaruleta1.webp",
+    "code": "EZUGI-100030"
+  },
+  {
+    "gameId": 100031,
+    "name": "Türkçe Rulet",
+    "type": "Live Roulette",
+    "provider": "EZUGI",
+    "company": "Ezugi",
+    "image": "https://cdn.dreamcasino.live/turkish_roulette.webp",
+    "code": "EZUGI-100031"
+  },
+  {
+    "gameId": 100032,
+    "name": "Ruletka Russia",
+    "type": "Live Roulette",
+    "provider": "EZUGI",
+    "company": "Ezugi",
+    "image": "https://cdn.dreamcasino.live/ruletka russia.webp",
+    "code": "EZUGI-100032"
+  },
+  {
+    "gameId": 100034,
+    "name": "Automatic Roulette",
+    "type": "Live Roulette",
+    "provider": "EZUGI",
+    "company": "Ezugi",
+    "image": "https://cdn.dreamcasino.live/ezugi/auto-roulette-thumbb.webp",
+    "code": "EZUGI-100034"
+  },
+  {
+    "gameId": 100035,
+    "name": "Speed Auto Roulette",
+    "type": "Live Roulette",
+    "provider": "EZUGI",
+    "company": "Ezugi",
+    "image": "https://cdn.dreamcasino.live/ezugi/ezg_speedautoroulette.webp",
+    "code": "EZUGI-100035"
+  },
+  {
+    "gameId": 100036,
+    "name": "Prestige Auto Roulette",
+    "type": "Live Roulette",
+    "provider": "EZUGI",
+    "company": "Ezugi",
+    "image": "https://cdn.dreamcasino.live/ezugi/ezg_prestigeautoroulette.webp",
+    "code": "EZUGI-100036"
+  },{
+    "gameId": 100037,
+    "name": "Portomaso Casino Roulette",
+    "type": "Live Roulette",
+    "provider": "EZUGI",
+    "company": "Ezugi",
+    "image": "https://cdn.dreamcasino.live/ezugi/ezg_portomasocasinoroulette.webp",
+    "code": "EZUGI-100037"
+  },
+  {
+    "gameId": 100038,
+    "name": "Oracle Casino Roulette",
+    "type": "Live Roulette",
+    "provider": "EZUGI",
+    "company": "Ezugi",
+    "image": "https://cdn.dreamcasino.live/oracle_roulette.webp",
+    "code": "EZUGI-100038"
+  },
+  {
+    "gameId": 100039,
+    "name": "Oracle Casino Roulette 360",
+    "type": "Live Roulette",
+    "provider": "EZUGI",
+    "company": "Ezugi",
+    "image": "https://cdn.dreamcasino.live/ezugi/ezg_oraclecasinoroulette.webp",
+    "code": "EZUGI-100039"
+  },
+  {
+    "gameId": 100042,
+    "name": "Marina Casino Roulette",
+    "type": "Live Roulette",
+    "provider": "EZUGI",
+    "company": "Ezugi",
+    "image": "https://cdn.dreamcasino.live/ezugi/ezg_marinacasinoroulette.webp",
+    "code": "EZUGI-100042"
+  },
+  {
+    "gameId": 100043,
+    "name": "Marina Casino Roulette 2",
+    "type": "Live Roulette",
+    "provider": "EZUGI",
+    "company": "Ezugi",
+    "image": "https://cdn.dreamcasino.live/ezugi/ezg_OTT_roulette_2-thumb.webp",
+    "code": "EZUGI-100043"
+  },
+  {
+    "gameId": 100044,
+    "name": "Ruleta del Sol",
+    "type": "Live Roulette",
+    "provider": "EZUGI",
+    "company": "Ezugi",
+    "image": "https://cdn.dreamcasino.live/ezugi/ezg_ruleta-del-sol-thumb.webp",
+    "code": "EZUGI-100044"
+  },
+  {
+    "gameId": 100045,
+    "name": "Casino Hold'em",
+    "type": "Live Poker",
+    "provider": "EZUGI",
+    "company": "Ezugi",
+    "image": "https://cdn.dreamcasino.live/ezugi/ezg_casinoholdem.webp",
+    "code": "EZUGI-100045"
+  },
+  {
+    "gameId": 100046,
+    "name": "Teen Patti",
+    "type": "Live Popular",
+    "provider": "EZUGI",
+    "company": "Ezugi",
+    "image": "https://cdn.dreamcasino.live/teen_patti_227100.webp",
+    "code": "EZUGI-100046"
+  },
+  {
+    "gameId": 100047,
+    "name": "Bet on Teen Patti",
+    "type": "Live Popular",
+    "provider": "EZUGI",
+    "company": "Ezugi",
+    "image": "https://cdn.dreamcasino.live/beton_teenpatti.webp",
+    "code": "EZUGI-100047"
+  },
+  {
+    "gameId": 100048,
+    "name": "One Day Teen Patti Classic",
+    "type": "Live Popular",
+    "provider": "EZUGI",
+    "company": "Ezugi",
+    "image": "https://cdn.dreamcasino.live/ezugi/ezg_onedayteenpatticlassic.webp",
+    "code": "EZUGI-100048"
+  },
+  {
+    "gameId": 100049,
+    "name": "Baccarat",
+    "type": "Live Baccarat",
+    "provider": "EZUGI",
+    "company": "Ezugi",
+    "image": "https://cdn.dreamcasino.live/ezugi/ezg_baccarat.webp",
+    "code": "EZUGI-100049"
+  },
+  {
+    "gameId": 100054,
+    "name": "Marina Casino Baccarat 1",
+    "type": "Live Baccarat",
+    "provider": "EZUGI",
+    "company": "Ezugi",
+    "image": "https://cdn.dreamcasino.live/ezugi/ezg_marinacasinobaccarat1.webp",
+    "code": "EZUGI-100054"
+  },
+  {
+    "gameId": 100055,
+    "name": "Marina Casino Baccarat 2",
+    "type": "Live Baccarat",
+    "provider": "EZUGI",
+    "company": "Ezugi",
+    "image": "https://cdn.dreamcasino.live/marina_casino_baccarat_2.webp",
+    "code": "EZUGI-100055"
+  },
+  {
+    "gameId": 100056,
+    "name": "Marina Casino Baccarat 3",
+    "type": "Live Baccarat",
+    "provider": "EZUGI",
+    "company": "Ezugi",
+    "image": "https://cdn.dreamcasino.live/ezugi/ezg_OTT_Baccarat_3-thumb.webp",
+    "code": "EZUGI-100056"
+  },
+  {
+    "gameId": 100057,
+    "name": "Marina Casino Baccarat 4",
+    "type": "Live Baccarat",
+    "provider": "EZUGI",
+    "company": "Ezugi",
+    "image": "https://cdn.dreamcasino.live/ezugi/ezg_OTT_Baccarat_4-thumb.webp",
+    "code": "EZUGI-100057"
+  },
+  {
+    "gameId": 100058,
+    "name": "Baccarat Knockout",
+    "type": "Live Baccarat",
+    "provider": "EZUGI",
+    "company": "Ezugi",
+    "image": "https://cdn.dreamcasino.live/ezugi/ezg_goldenbaccaratknockout.webp",
+    "code": "EZUGI-100058"
+  },
+  {
+    "gameId": 100059,
+    "name": "Baccarat Super Six",
+    "type": "Live Baccarat",
+    "provider": "EZUGI",
+    "company": "Ezugi",
+    "image": "https://cdn.dreamcasino.live/ezugi/ezg_baccaratsuper6.webp",
+    "code": "EZUGI-100059"
+  },
+  {
+    "gameId": 100061,
+    "name": "Dragon Tiger",
+    "type": "Live Baccarat",
+    "provider": "EZUGI",
+    "company": "Ezugi",
+    "image": "https://cdn.dreamcasino.live/ezugi/ezg_dragontiger.webp",
+    "code": "EZUGI-100061"
+  },
+  {
+    "gameId": 100062,
+    "name": "Cricket War",
+    "type": "Live Baccarat",
+    "provider": "EZUGI",
+    "company": "Ezugi",
+    "image": "https://cdn.dreamcasino.live/cricket_war.webp",
+    "code": "EZUGI-100062"
+  },
+  {
+    "gameId": 100063,
+    "name": "Andar Bahar",
+    "type": "Live Popular",
+    "provider": "EZUGI",
+    "company": "Ezugi",
+    "image": "https://cdn.dreamcasino.live/andar_bahar_228000.webp",
+    "code": "EZUGI-100063"
+  },
+  {
+    "gameId": 100064,
+    "name": "OTT Andar Bahar",
+    "type": "Live Popular",
+    "provider": "EZUGI",
+    "company": "Ezugi",
+    "image": "https://cdn.dreamcasino.live/ezugi/ott-ab-thumbnail.webp",
+    "code": "EZUGI-100064"
+  },
+  {
+    "gameId": 100066,
+    "name": "Lucky 7",
+    "type": "Live Popular",
+    "provider": "EZUGI",
+    "company": "Ezugi",
+    "image": "https://cdn.dreamcasino.live/lucky7_228001.webp",
+    "code": "EZUGI-100066"
+  },
+  {
+    "gameId": 100068,
+    "name": "Sic Bo",
+    "type": "Live Popular",
+    "provider": "EZUGI",
+    "company": "Ezugi",
+    "image": "https://cdn.dreamcasino.live/ezugi/sicbo-thumbnail.webp",
+    "code": "EZUGI-100068"
+  }
+]

@@ -1,0 +1,53 @@
+[
+    {
+        "gameId": 860002,
+        "name": "Dice",
+        "type": "Others",
+        "provider": "SPRIBE",
+        "company": "SPRIBE",
+        "image": "https://cdn.dreamcasino.live/sbe_dice.webp",
+        "code": "SPRIBE-860002"
+      },{
+        "gameId": 425006,
+        "name": "Sic Bo",
+        "type": "Table Game",
+        "provider": "KINGMIDAS",
+        "company": "Kingmidas Gaming",
+        "image": "https://cdn.dreamdelhi.com/kingmidas/sic_bo.webp",
+        "code": "kingmidas_sic_bo"
+      },{
+        "gameId": 425007,
+        "name": "Tai Xiu",
+        "type": "Table Game",
+        "provider": "KINGMIDAS",
+        "company": "Kingmidas Gaming",
+        "image": "https://cdn.dreamdelhi.com/kingmidas/tai_xiu.webp",
+        "code": "kingmidas_tai_xiu"
+      },{
+        "gameId": 425026,
+        "name": "Coin Toss",
+        "type": "Table Game",
+        "provider": "KINGMIDAS",
+        "company": "Kingmidas Gaming",
+        "image": "https://cdn.dreamdelhi.com/kingmidas/coin_toss.webp",
+        "code": "kingmidas_coin_toss"
+      },{
+        "gameId": 425032,
+        "name": "Bonus Dice",
+        "type": "Table Game",
+        "provider": "KINGMIDAS",
+        "company": "Kingmidas Gaming",
+        "image": "https://cdn.dreamdelhi.com/kingmidas/bonus_dice.webp",
+        "code": "kingmidas_bonus_dice"
+      },{
+        "gameId": 460008,
+        "name": "Dice Duel",
+        "type": "Live",
+        "provider": "BETGAMES",
+        "company": "BetGames",
+        "image": "https://cdn.dreamdelhi.com/betgames/dice_duel.webp",
+        "code": "bg_dice_duel"
+      }
+    
+  ]
+  
