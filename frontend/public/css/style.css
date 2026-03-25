@@ -4,7 +4,7 @@
 :root {
   --text-primary: #08c;
   --text-secondary: #2d3e50;
-  --primary-bg: #fff;
+  --primary-bg: #eceaea;
   --secondary-bg: #000;
   --link-bg: #bbb;
   --grey-bg: #ccc;
@@ -57,6 +57,10 @@ body {
 .card-icon {
   font-family: CardCharacters !important;
   display: inline-block;
+}
+
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
 }
 
 #load {

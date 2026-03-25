@@ -165,8 +165,27 @@ const Header = () => {
       );
     }, [userState]);
 
+    const items = [
+    "HOME",
+    "MULTI MARKETS",
+    "CRICKET",
+    "SPORTSBOOK",
+    "CASINO",
+    "TENNIS",
+    "COCK FIGHT",
+    "FOOTBALL",
+    "HORSE RACING",
+    "GREYHOUND",
+    "BASKETBALL",
+    "BASEBALL",
+    "POLITICS",
+    "BINARY",
+    "KABADDI"
+  ];
+
   return (
-    <header className='header' style={{ backgroundColor: '#1a1a1a', padding: '0', margin: '0' }}>
+  <> 
+  <header className='header d-none' style={{ backgroundColor: '#1a1a1a', padding: '0', margin: '0' }}>
       <div className='container-fluid' style={{ padding: '0' }}>
         <div className='row' style={{ margin: '0' }}>
           <div className='header-top col-md-12' style={{ 
@@ -662,6 +681,369 @@ const Header = () => {
         </div>
       </ReactModal>
     </header>
+
+    <div>
+
+    <header style={{background:"#132225"}} className=" text-white py-2 px-3">
+  <div className="container-fluid d-flex align-items-center justify-content-between">
+
+    {/* LEFT: Logo */}
+    <div className="d-flex align-items-center">
+      <CustomLink to="/match/4/in-play" className="navbar-brand m-0">
+        <img src="/imgs/logo.png" alt="logo" style={{ height: 20 }} />
+      </CustomLink>
+    </div>
+
+    {/* CENTER: Search + Date */}
+    <div style={{gap:"12px"}} className="d-none d-md-flex align-items-center flex-grow-1 justify-content-center">
+      <div style={{ width: "300px" }}>
+        <input
+          className="form-control rounded-pill"
+          placeholder="Search Events"
+          style={{borderRadius:"50px"}}
+          // optionKey="name"
+          // api={suggestion}
+          // onClick={onMatchClick}
+        />
+      </div>
+
+      <div className="text-left small">
+        <div>Login as {userState?.user?.username} User</div>
+        <div>Mar 24th, 2026</div>
+        <div>{new Date().toLocaleTimeString()}</div>
+      </div>
+    </div>
+
+    {/* RIGHT: Balance + Buttons + User */}
+    <div style={{gap:"8px"}} className="d-flex align-items-center gap-2">
+
+      {/* Balance */}
+     {!isMobile && 
+        <div className="text-end me-2">
+          <div className="small">
+            Available Balance: ₹ {balance.balance?.toFixed(2)}
+          </div>
+          <div className="small">
+            Exposure: ₹ {balance.exposer?.toFixed(2)}
+        </div>
+      </div>}
+
+      {/* Bonus */}
+      {!isMobile && (
+        <button className="btn btn-warning btn-sm fw-bold">
+          Check Bonuses
+        </button>
+      )}
+
+      {/* Deposit */}
+     {!isMobile && <CustomLink to="/deposit" className="btn btn-success btn-sm fw-bold d-flex flex-column align-items-center">
+      <img src='/imgs/depo.svg' />  Deposit
+      </CustomLink>
+}
+      {/* Withdraw */}
+     {!isMobile && <CustomLink to="/withdraw" className="btn btn-danger btn-sm fw-bold d-flex flex-column align-items-center">
+       <img src='/imgs/with.svg' />  Withdraw
+      </CustomLink>}
+
+      {/* Notification */}
+      <button style={{background:"transparent"}} className="btn  btn-sm position-relative">
+        <i className="fas fa-bell text-white" />
+        <span className="position-absolute top-0 start-100 translate-middle badge bg-light text-dark rounded-circle" style={{ fontSize: "10px", padding: "2px 5px" }}>
+          1
+        </span>
+      </button>
+
+        <button
+  className="d-flex align-items-center justify-content-center fw-bold"
+  style={{
+    gap: "4px",
+    padding: "0 8px",
+    borderRadius: "50px",
+    minHeight: "28px",
+    background: "#ffffff", // bg-accordionHeader ka approx color
+    border: "none",
+    cursor: "pointer",
+    whiteSpace: "nowrap",
+    fontSize: "11px",
+    color: "#000000",
+  }}
+  onMouseDown={(e) => (e.currentTarget.style.opacity = "0.7")}
+  onMouseUp={(e) => (e.currentTarget.style.opacity = "1")}
+>
+  Deposit
+</button>
+
+      <button
+  className="d-flex align-items-center justify-content-center text-white fw-bold"
+  style={{
+    gap: "4px",
+    padding: "0 8px",
+    borderRadius: "50px",
+    minHeight: "28px",
+    background: "#2c4f58", // bg-accordionHeader ka approx color
+    border: "none",
+    cursor: "pointer",
+    whiteSpace: "nowrap",
+  }}
+  onMouseDown={(e) => (e.currentTarget.style.opacity = "0.7")}
+  onMouseUp={(e) => (e.currentTarget.style.opacity = "1")}
+ onClick={() => setShowMenu(!showMenu)}
+>
+  <span style={{ fontSize: "11px" }}>₹ 0.00</span>
+
+  <i className="fas fa-user" style={{ fontSize: "12px" }}></i>
+</button>
+
+    <ul ref={ref} style={{ 
+                  display: showMenu ? 'block' : 'none',
+                  position: 'absolute',
+                  top: '0px',
+                  height: "100%",
+                  right: '0',
+                  zIndex: 1000,
+                  minWidth: '256px',
+                  padding: '5px 0',
+                  margin: '5px 0',
+                  fontSize: '16px',
+                  fontWeight: "500",
+                  textAlign: 'left',
+                  backgroundColor: '#fff',
+                  border: '1px solid rgba(0, 0, 0, 0.15)',
+                  borderRadius: '4px',
+                  boxShadow: '0 6px 12px rgba(0, 0, 0, 0.175)',
+                  listStyle: 'none',
+                  color: '#000000'
+                }}>
+                 <div className="bg-light" style={{ borderRadius: "6px", overflow: "hidden",  }}>
+  
+  {/* Header */}
+  <div className="d-flex justify-content-between align-items-center px-2 py-2 border-bottom">
+    <div className="d-flex align-items-center " style={{gap:"8px"}}>
+      <i className="fas fa-user"></i>
+      <span className="fw-bold">{userState?.user?.username || "Demo User"}</span>
+    </div>
+    <div  onClick={() => setShowMenu(!showMenu)} style={{ cursor: "pointer" }}>✕</div>
+  </div>
+
+  {/* Balance Info Title */}
+  <div className="d-flex align-items-center justify-content-between px-2 py-2 border-bottom">
+    <div className="fw-semibold d-flex align-items-center" style={{gap:"8px"}}>
+      <i className="fas fa-university"></i>
+      Balance Information
+    </div>
+    <i className="fas fa-info-circle"></i>
+  </div>
+
+  {/* Balance Box */}
+  <div className="p-2">
+    <div className="bg-white rounded p-2 mb-2 border">
+      <div style={{ fontSize: "10px", color: "#555" }}>BALANCE</div>
+      <div className="fw-bold text-success fs-5">₹ 0</div>
+    </div>
+
+    <div className="d-flex gap-2" style={{gap:"8px"}}>
+      <div className="bg-white rounded p-2 border w-50">
+        <div style={{ fontSize: "10px", color: "#555" }}>BONUS</div>
+        <div className="fw-bold">₹ 0</div>
+      </div>
+
+      <div className="bg-white rounded p-2 border w-50">
+        <div style={{ fontSize: "10px", color: "#555" }}>NET EXPOSURE</div>
+        <div className="fw-bold text-danger">₹ NaN</div>
+      </div>
+    </div>
+  </div>
+
+  {/* Buttons */}
+  <div className="d-flex px-2 pb-2 gap-2" style={{gap:"8px"}}>
+    <CustomLink
+      to="/deposit"
+      className="btn w-50 text-white fw-semibold d-flex flex-column align-items-center py-0"
+      style={{ background: "#1f9d55", borderRadius: "6px" , fontSize:"12px" }}
+    >
+       <img src='/imgs/depo.svg' /> 
+      Deposit
+    </CustomLink>
+
+    <CustomLink
+      to="/withdraw"
+
+      className="btn w-50 text-white fw-semibold d-flex flex-column align-items-center py-0"
+      style={{ background: "#e3342f", borderRadius: "6px" , fontSize:"12px" }}
+    >
+      <img src='/imgs/with.svg' />   Withdraw
+    </CustomLink>
+  </div>
+
+  {/* Claim Bonus */}
+  <div className="px-2 pb-2">
+    <button
+      className="btn w-100 fw-bold text-white"
+      style={{ background: "#d4a017", borderRadius: "6px" }}
+    >
+      Claim Bonuses
+    </button>
+  </div>
+</div>
+                  <li style={{ padding: '8px 12px' }}>
+                    <CustomLink  onClick={() => closeMenu()} to='/match/in-play' style={{ color: '#212529', textDecoration: 'none', display: 'flex' , gap:"10px", alignItems:"center" }}>
+                     <i className="fas fa-home"></i> Home
+                    </CustomLink>
+                  </li>
+                  <div className="w-100 border" style={{ minHeight: "1px" }}></div>
+                  <li style={{ padding: '8px 12px' }}>
+                    <CustomLink onClick={() => closeMenu()} to='/accountstatement' style={{ color: '#212529', textDecoration: 'none', display: 'flex' , gap:"10px", alignItems:"center" }}>
+                      <i className="fas fa-file-invoice"></i> Account Statement
+                    </CustomLink>
+                  </li>
+                  <div className="w-100 border" style={{ minHeight: "1px" }}></div>
+                  <li style={{ padding: '8px 12px' }}>
+                    <CustomLink onClick={() => closeMenu()} to='/depositstatement' style={{ color: '#212529', textDecoration: 'none', display: 'flex' , gap:"10px", alignItems:"center" }}>
+                      <i className="fas fa-money-bill-wave"></i> Deposit Statement
+                    </CustomLink>
+                  </li>
+                  <div className="w-100 border" style={{ minHeight: "1px" }}></div>
+                  <li style={{ padding: '8px 12px' }}>
+                    <CustomLink onClick={() => closeMenu()} to='/withdrawstatement' style={{ color: '#212529', textDecoration: 'none', display: 'flex' , gap:"10px", alignItems:"center" }}>
+                      <i className="fas fa-money-bill-wave"></i> Withdraw Statement
+                    </CustomLink>
+                  </li>
+                  <div className="w-100 border" style={{ minHeight: "1px" }}></div>
+                  <li style={{ padding: '8px 12px' }}>
+                    <CustomLink onClick={() => closeMenu()} to='/profitloss' style={{ color: '#212529', textDecoration: 'none', display: 'flex' , gap:"10px", alignItems:"center" }}>
+                      <i className="fas fa-chart-line"></i> Profit Loss Report
+                    </CustomLink>
+                  </li>
+                  <div className="w-100 border" style={{ minHeight: "1px" }}></div>
+                  <li style={{ padding: '8px 12px' }}>
+                    <CustomLink onClick={() => closeMenu()} to='/bethistory' style={{ color: '#212529', textDecoration: 'none', display: 'flex' , gap:"10px", alignItems:"center" }}>
+                      <i className="fas fa-history"></i> Bet History
+                    </CustomLink>
+                  </li>
+                  <div className="w-100 border" style={{ minHeight: "1px" }}></div>
+                  <li style={{ padding: '8px 12px' }}>
+                    <CustomLink onClick={() => closeMenu()} to='/unsettledbet' style={{ color: '#212529', textDecoration: 'none', display: 'flex' , gap:"10px", alignItems:"center" }}>
+                      <i className="fas fa-clock"></i> Unsettled Bet
+                    </CustomLink>
+                  </li>
+                  <div className="w-100 border" style={{ minHeight: "1px" }}></div>
+                  <li style={{ padding: '8px 12px' }}>
+                    <CustomLink onClick={() => closeMenu()} to='/casino/result' style={{ color: '#212529', textDecoration: 'none', display: 'flex' , gap:"10px", alignItems:"center"  }}>
+                      <i className="fas fa-dice"></i> Casino Report History
+                    </CustomLink>
+                  </li>
+                  <div className="w-100 border" style={{ minHeight: "1px" }}></div>
+
+                  <li style={{ padding: '8px 12px' }}>
+                    <CustomLink onClick={() => closeMenu()} to='/button-values' style={{ color: '#212529', textDecoration: 'none', display: 'flex' , gap:"10px", alignItems:"center" }}>
+                      <i className="fas fa-cog"></i> Set Button Values
+                    </CustomLink>
+                  </li>
+                  <div className="w-100 border" style={{ minHeight: "1px" }}></div>
+                  <li style={{ padding: '8px 12px' }}>
+                    <CustomLink onClick={() => closeMenu()} to='/settings/security-auth' style={{ color: '#212529', textDecoration: 'none', display: 'flex' , gap:"10px", alignItems:"center" }}>
+                      <i className="fas fa-shield-alt"></i> Security Auth Verification
+                    </CustomLink>
+                  </li>
+                  <div className="w-100 border" style={{ minHeight: "1px" }}></div>
+                  <li style={{ padding: '8px 12px' }}>
+                    <CustomLink onClick={() => closeMenu()} to='/changepassword' style={{ color: '#212529', textDecoration: 'none', display: 'flex' , gap:"10px", alignItems:"center" }}>
+                      <i className="fas fa-key"></i> Change Password
+                    </CustomLink>
+                  </li>
+                  <div className="w-100 border" style={{ minHeight: "1px" }}></div>
+                  <li style={{ padding: '8px 12px' }}>
+                    <label style={{ margin: '0', display: 'flex', alignItems: 'center', cursor: 'pointer' }}>
+                      <input
+                        type={'checkbox'}
+                        name={'balance'}
+                        checked={hideExpBal.balance || false}
+                        onChange={onChangeBalExp}
+                        style={{ marginRight: '8px' }}
+                      />
+                      Balance
+                    </label>
+                  </li>
+                  <li style={{ padding: '8px 12px' }}>
+                    <label style={{ margin: '0', display: 'flex', alignItems: 'center', cursor: 'pointer' }}>
+                      <input
+                        type={'checkbox'}
+                        name={'exposer'}
+                        checked={hideExpBal.exposer || false}
+                        onChange={onChangeBalExp}
+                        style={{ marginRight: '8px' }}
+                      />
+                      Exposer
+                    </label>
+                  </li>
+                  <li style={{ padding: '8px 12px' }}>
+                    <CustomLink onClick={() => closeMenu()} to='/rules' style={{ color: '#212529', textDecoration: 'none', display: 'block' }}>
+                      Rules
+                    </CustomLink>
+                  </li>
+                  <li style={{ borderTop: '1px solid #ccc', padding: '8px 12px' }}>
+                    <a
+                      onClick={logoutUser}
+                      href={'#'}
+                      style={{ fontWeight: 'bold', color: 'red', textTransform: 'uppercase', textDecoration: 'none', display: 'block' }}
+                    >
+                      Signout
+                    </a>
+                  </li>
+                </ul>
+
+      {/* User Dropdown */}
+     {!isMobile && <div className="dropdown">
+        <button
+          className="btn btn-outline-light btn-sm dropdown-toggle"
+          onClick={() => setShowMenu(!showMenu)}
+        >
+          {userState?.user?.username}
+        </button>
+
+        <ul className={`dropdown-menu dropdown-menu-end ${showMenu ? "show" : ""}`}>
+          <li><CustomLink className="dropdown-item" to="/match/in-play">Home</CustomLink></li>
+          <li><CustomLink className="dropdown-item" to="/accountstatement">Account Statement</CustomLink></li>
+          <li><CustomLink className="dropdown-item" to="/depositstatement">Deposit Statement</CustomLink></li>
+          <li><CustomLink className="dropdown-item" to="/withdrawstatement">Withdraw Statement</CustomLink></li>
+          <li><hr className="dropdown-divider" /></li>
+          <li>
+            <a className="dropdown-item text-danger" href="#" onClick={logoutUser}>
+              Logout
+            </a>
+          </li>
+        </ul>
+      </div>}
+
+    </div>
+  </div>
+</header>
+
+<div><div className="bg-light py-2">
+      <div style={{gap:"2px" ,overflowX:"auto" ,  }} className="d-flex hide-scrollbar flex-nowrap gap-2  px-2">
+        {items.map((item, index) => (
+          <button
+            key={index}
+            style={{borderRadius:"9999px", fontSize:"12px"}}
+            className={`btn rounded-pill px-4 py-1 fw-semibold ${
+              item === "HOME"
+                ? "btn-danger text-white"
+                : item === "CRICKET"
+                ? "btn-outline-dark"
+                : "btn-light border"
+            }`}
+          >
+            {item}
+          </button>
+        ))}
+      </div>
+    </div></div>
+
+</div>
+    
+    
+    </> 
+
   )
 }
 export default Header

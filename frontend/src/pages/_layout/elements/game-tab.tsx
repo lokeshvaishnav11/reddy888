@@ -4,7 +4,7 @@ import ISport from '../../../models/ISport'
 
 const GameTabs = (props: any) => {
   return (
-    <div className='horizontal-scorller'>
+    <div className='horizontal-scorller d-none'>
     <ul role='tablist' id='home-events' className='nav nav-tabs'>
       <li className='nav-item'>
         <CustomLink to={'/'} className={`nav-link ${!props.sportId ? 'active' : ''}`}>

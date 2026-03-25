@@ -30,6 +30,8 @@ import {
 import Fav from '../_layout/elements/fav'
 import axios from 'axios'
 import authService from '../../services/auth.service'
+import GameSlider from './elements/GameSlider'
+import HomeCasinoListSHow from '../CasinoList/HomeCasinoListSHow'
 
 const Dashboard = () => {
   const [matchList, setMatchList] = React.useState<LMatch[]>([])
@@ -270,14 +272,27 @@ const Dashboard = () => {
     navigate.go(`/odds/${match.matchId}`)
   }
 
+  const tabStyle = {
+  padding: "6px 8px",
+  margin: "0 4px",
+  cursor: "pointer",
+  fontWeight: "500",
+  color: "#6b6b6b",
+  borderRadius: "6px 6px 0 0",
+};
+const [casinoo, setCasinoo] = React.useState("popular")
+
+
+
+
   return (
     <>
       {' '}
-      {isMobile ? <GameTabMobile sportId={sportId} sportListState={sportListState} /> : ''}
+      {/* {isMobile ? <GameTabMobile sportId={sportId} sportListState={sportListState} /> : ''} */}
       <div className='pb-4 mtc-5'>
         {!isMobile ? <Fav /> : ""}
         {!isMobile ? <GameTab sportId={sportId} sportListState={sportListState} /> : ''}
-        {/**/}
+         <GameSlider />
         <div className='tab-content'>
           <div className='tab-pane active'>
             <div className='matchlist coupon-card-first'>
@@ -292,38 +307,293 @@ const Dashboard = () => {
               )}
 
 
-              <div className="row mx-0" style={{ marginBottom: "2px" }}>
-                <CustomLink to={"/casino-list-int/19"} className={isMobile ? "col-6 position-relative " : "col-3 position-relative"} style={{ paddingLeft: "1px", paddingRight: "1px", marginBottom: "2px" }}>
-                  <img
-                    className="img-fluid"
-                    src="https://speedcdn.io/frontend_config/diam/images/17627625602470028.gif"
-                    alt=""
-                  />
-                </CustomLink>
-                <CustomLink to={"/casino-list-int/20"} className={isMobile ? "col-6 position-relative " : "col-3 position-relative"} style={{ paddingLeft: "1px", paddingRight: "1px" }}>
-                  <img
-                    className="img-fluid"
-                    src="https://speedcdn.io/frontend_config/diam/images/17627625664266101.gif"
-                    alt=""
-                  />
-                </CustomLink>
-                <CustomLink to={"/casino-list-int/21"} className={isMobile ? "col-6 position-relative " : "col-3 position-relative"} style={{ paddingLeft: "1px", paddingRight: "1px" }}>
-                  <img
-                    className="img-fluid"
-                    src="https://speedcdn.io/frontend_config/diam/images/17627625734204431.gif"
-                    alt=""
-                  />
-                </CustomLink>
-                <CustomLink to={"/casino-list-int/22"} className={isMobile ? "col-6 position-relative " : "col-3 position-relative"} style={{ paddingLeft: "1px", paddingRight: "1px" }}>
-                  <img
-                    className="img-fluid"
-                    src="https://speedcdn.io/frontend_config/diam/images/17650463849494368.gif"
-                    alt=""
-                  />
-                </CustomLink>
-              </div>
+<div
+  className="w-100 d-flex align-items-center justify-content-between bg-white"
+  style={{
+    paddingTop: "4px",
+    paddingLeft: "4px",
+    paddingRight: "4px",
+    borderTopLeftRadius: "4px",
+    borderTopRightRadius: "4px",
+  }}
+>
+  <div
+    className="d-flex overflow-auto"
+    style={{
+      whiteSpace: "nowrap",
+    }}
+  >
+    {/* Active Tab */}
+    <div
+      style={{
+        padding: "6px 8px",
+        margin: "0 4px",
+        cursor: "pointer",
+        fontWeight: "500",
+        color: "#2c4f58",
+        borderBottom: "2px solid #2c4f58",
+        borderTopLeftRadius: "6px",
+        borderTopRightRadius: "6px",
+        transition: "0.1s",
+      }}
+      onMouseDown={(e) => (e.currentTarget.style.transform = "scale(0.97)")}
+      onMouseUp={(e) => (e.currentTarget.style.transform = "scale(1)")}
+  onClick={ () => (setCasinoo("popular"))}  >
+      Popular
+    </div>
 
-              <h2
+    {/* Tab */}
+    <div
+      style={{
+        padding: "6px 8px",
+        margin: "0 4px",
+        cursor: "pointer",
+        fontWeight: "500",
+        color: "#6b6b6b",
+        borderRadius: "6px 6px 0 0",
+      }}
+    >
+      <span style={{ color: "orange", fontSize: "14px" }}>
+        New Launch
+      </span>
+    </div>
+
+    {/* Tab */}
+    <div style={tabStyle} onClick={ () => (setCasinoo("indian"))} >Indian games</div>
+    <div style={tabStyle}>Roulette</div>
+    <div style={tabStyle}>AE Sexy</div>
+    <div style={tabStyle}>Slots</div>
+  </div>
+</div>
+
+{casinoo === "indian" ? (<HomeCasinoListSHow />) :
+            
+
+<div
+  className="w-100 overflow-auto d-flex bg-white hide-scrollbar"
+  style={{
+    padding: "10px 8px",
+    gap: "8px",
+    overflowX: "auto",
+  }}
+>
+  {/* Card 1 */}
+  <CustomLink to="/casino-list-int/19" style={{ textDecoration: "none" }}>
+    <div
+      className="d-flex flex-column align-items-center"
+      style={{
+        width: isMobile ? "117px" : "135px",
+        cursor: "pointer",
+        transition: "0.2s",
+      }}
+    >
+      <div
+        style={{
+          width: "100%",
+          aspectRatio: "3/4",
+          borderRadius: "8px",
+          overflow: "hidden",
+          boxShadow: "0 2px 6px rgba(0,0,0,0.1)",
+        }}
+      >
+        <img
+          src="https://cdn.uvwin2024.co/banners/banner__8be77263-5b63-438b-94e5-6f5053f2eba5.webp"
+          alt=""
+          style={{
+            width: "100%",
+            height: "100%",
+            objectFit: "cover",
+            transition: "transform 0.5s ease",
+          }}
+          onMouseEnter={(e) =>
+            (e.currentTarget.style.transform = "scale(1.1)")
+          }
+          onMouseLeave={(e) =>
+            (e.currentTarget.style.transform = "scale(1)")
+          }
+        />
+      </div>
+    </div>
+  </CustomLink>
+
+  {/* Card 2 */}
+  <CustomLink to="/casino-list-int/20" style={{ textDecoration: "none" }}>
+    <div 
+    style={{ width: isMobile ? "117px" : "135px" }}>
+      <div
+        style={{
+          width: "100%",
+          aspectRatio: "3/4",
+          borderRadius: "8px",
+          overflow: "hidden",
+          boxShadow: "0 2px 6px rgba(0,0,0,0.1)",
+        }}
+      >
+        <img
+          src="https://cdn.uvwin2024.co/banners/banner__499bf269-85a3-44ef-8bc4-0e570c04bbe8.jpeg"
+          alt=""
+          style={{
+            width: "100%",
+            height: "100%",
+            objectFit: "cover",
+            transition: "transform 0.5s ease",
+          }}
+          onMouseEnter={(e) =>
+            (e.currentTarget.style.transform = "scale(1.1)")
+          }
+          onMouseLeave={(e) =>
+            (e.currentTarget.style.transform = "scale(1)")
+          }
+        />
+      </div>
+    </div>
+  </CustomLink>
+
+  {/* Card 3 */}
+  <CustomLink to="/casino-list-int/21">
+    <div 
+    style={{ width: isMobile ? "117px" : "135px" }}>
+      <div
+        style={{
+          width: "100%",
+          aspectRatio: "3/4",
+          borderRadius: "8px",
+          overflow: "hidden",
+          boxShadow: "0 2px 6px rgba(0,0,0,0.1)",
+        }}
+      >
+        <img
+          src="https://cdn.uvwin2024.co/banners/banner__db6b4a5e-6a5a-4529-98a5-9abcf406ebd7.webp"
+          alt=""
+          style={{
+            width: "100%",
+            height: "100%",
+            objectFit: "cover",
+            transition: "transform 0.5s ease",
+          }}
+          onMouseEnter={(e) =>
+            (e.currentTarget.style.transform = "scale(1.1)")
+          }
+          onMouseLeave={(e) =>
+            (e.currentTarget.style.transform = "scale(1)")
+          }
+        />
+      </div>
+    </div>
+  </CustomLink>
+
+  {/* Card 4 */}
+  <CustomLink to="/casino-list-int/22">
+    <div style={{ width: isMobile ? "117px" : "135px" }}>
+      <div
+        style={{
+          width: "100%",
+          aspectRatio: "3/4",
+          borderRadius: "8px",
+          overflow: "hidden",
+          boxShadow: "0 2px 6px rgba(0,0,0,0.1)",
+        }}
+      >
+        <img
+          src="https://cdn.uvwin2024.co/banners/banner__556c2635-5b4f-4cce-824e-d448ed4c766c.webp"
+          alt=""
+          style={{
+            width: "100%",
+            height: "100%",
+            objectFit: "cover",
+            transition: "transform 0.5s ease",
+          }}
+          onMouseEnter={(e) =>
+            (e.currentTarget.style.transform = "scale(1.1)")
+          }
+          onMouseLeave={(e) =>
+            (e.currentTarget.style.transform = "scale(1)")
+          }
+        />
+      </div>
+    </div>
+  </CustomLink>
+
+   <CustomLink to="/casino-list-int/22">
+    <div style={{ width: isMobile ? "117px" : "135px" }}>
+      <div
+        style={{
+          width: "100%",
+          aspectRatio: "3/4",
+          borderRadius: "8px",
+          overflow: "hidden",
+          boxShadow: "0 2px 6px rgba(0,0,0,0.1)",
+        }}
+      >
+        <img
+          src="https://cdn.uvwin2024.co/banners/banner__2f1f345c-8ce5-4c93-813e-80e7d08141bf.webp"
+          alt=""
+          style={{
+            width: "100%",
+            height: "100%",
+            objectFit: "cover",
+            transition: "transform 0.5s ease",
+          }}
+          onMouseEnter={(e) =>
+            (e.currentTarget.style.transform = "scale(1.1)")
+          }
+          onMouseLeave={(e) =>
+            (e.currentTarget.style.transform = "scale(1)")
+          }
+        />
+      </div>
+    </div>
+  </CustomLink>
+</div>
+}
+
+<div
+  className="w-100 d-flex align-items-center justify-content-between"
+  style={{
+    borderTopLeftRadius: "3px",
+    borderTopRightRadius: "3px",
+    padding: "6px 7px",
+    backgroundColor: "#1e2a38", // bg-headerBg ka approx color
+  }}
+>
+  {/* Left Section */}
+  <div
+    className="d-flex align-items-center w-100"
+    style={{
+      color: "white",
+      fontWeight: "600",
+      fontSize: "18px",
+      letterSpacing: "0.5px",
+      gap: "5px",
+    }}
+  >
+    <img
+      src="https://www.reddy888.com/assets/cricket-icon-utIDTbmH.svg"
+      alt="cricket"
+      style={{ width: "20px", height: "20px" }}
+    />
+    <span>Cricket Battle</span>
+  </div>
+
+  {/* Right Section */}
+  <div style={{ whiteSpace: "nowrap" }}>
+    <sup></sup>
+  </div>
+</div>
+
+<img
+  src="https://www.reddy888.com/assets/cricket_battle-4PCl3A2V.webp"
+  alt="cricket-battle"
+  className="w-100"
+  style={{
+
+    objectFit: "cover",
+    cursor: "pointer",
+  }}
+/>
+
+
+              {/* <h2
                 className="newheading"
                 style={{
                   display: "block",
@@ -339,8 +609,8 @@ const Dashboard = () => {
                 }}
               >
                 <span>Newly Launch</span>
-              </h2>
-              <div className="row mx-0 mt-0">
+              </h2> */}
+              <div className="row mx-0 mt-0 d-none">
                 {mayfav?.map((item:any) => (
                   <div
                     key={item.id}
@@ -358,7 +628,7 @@ const Dashboard = () => {
                   </div>
                 ))}
               </div>
-              <h2
+              {/* <h2
                 className="newheading"
                 style={{
                   display: "block",
@@ -374,7 +644,7 @@ const Dashboard = () => {
                 }}
               >
                 <span>My Favourites</span>
-              </h2>
+              </h2> */}
 
 
 
@@ -384,7 +654,7 @@ const Dashboard = () => {
                 <div className='home-page'>
                   <div className='casino-list mt-2' style={{ marginLeft: !isMobile ? "-6px" : "" }}>
                     {/* <div className='section-title'>Live Casino</div> */}
-                    <CasinoListItem />
+                    {/* <CasinoListItem /> */}
                   </div>
                 </div>
               ) : (
@@ -399,7 +669,6 @@ const Dashboard = () => {
                   width: "100%",
                   marginBottom: "2px",
                   fontSize: "16px",
-                  background: "var(--theme2-bg)",
                   padding: "5px 10px",
                   fontWeight: 600,
                   textTransform: "uppercase",
@@ -407,7 +676,7 @@ const Dashboard = () => {
                   color: "white",
                 }}
               >
-                <span>our providers</span>
+                <img src='/assets/chery.svg' />
               </h2>
 
 

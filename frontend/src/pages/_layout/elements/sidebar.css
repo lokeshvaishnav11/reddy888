@@ -1,0 +1,38 @@
+.sidebar-menu {
+  width: 100%;
+  background: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+  font-family: sans-serif;
+}
+
+/* Each item */
+.menu-item {
+  border-bottom: 1px solid #e5e5e5;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.menu-item:hover {
+  background-color: #eceaea;
+}
+
+/* Icon */
+.menu-icon {
+  width: 20px;
+  height: 20px;
+  object-fit: contain;
+}
+
+/* Text */
+.menu-item span {
+  font-size: 15px;
+  font-weight: 500;
+}
+
+/* Header */
+.menu-header {
+  background: #f1f1f1;
+  font-weight: 500;
+  font-size: 14px;
+}

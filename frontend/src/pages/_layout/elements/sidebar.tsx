@@ -7,6 +7,7 @@ import { useAppSelector } from "../../../redux/hooks";
 import { CustomLink, useNavigateCustom } from "./custom-link";
 import { MouseEvent } from "react";
 import { toast } from "react-toastify";
+import "./sidebar.css"
 
 const SideBar = () => {
   const navigate = useNavigateCustom();
@@ -25,7 +26,8 @@ const SideBar = () => {
   };
 
   return (
-    <div className="sidebar col-md-2">
+   <>
+   <div className="sidebar d-none col-md-2">
       <div
         style={{ display: "grid"  }}
         className="row-deposit-buttons gap-2 w-100"
@@ -140,6 +142,91 @@ const SideBar = () => {
         </ul>
       </nav>
     </div>
+  
+
+<div className="sidebar-menu ml-2">
+
+  <div className="menu-item">
+    <div style={{gap:"12px"}} className="d-flex align-items-center  px-3 py-3">
+      <img src="https://www.reddy888.com/assets/cricket-sidebar-icon-C5omyrdc.svg" className="menu-icon" />
+      <span>Cricket</span>
+    </div>
+  </div>
+
+  <div className="menu-item">
+    <div style={{gap:"12px"}} className="d-flex align-items-center gap-3 px-3 py-3">
+      <img src="https://www.reddy888.com/assets/football-sidebar-icon-C_dnYWzd.svg" className="menu-icon" />
+      <span>Football</span>
+    </div>
+  </div>
+
+  <div className="menu-item">
+    <div style={{gap:"12px"}} className="d-flex align-items-center gap-3 px-3 py-3">
+      <img src="/imgs/tenis.svg" className="menu-icon" />
+      <span>Tennis</span>
+    </div>
+  </div>
+
+  <div className="menu-item">
+    <div style={{gap:"12px"}} className="d-flex align-items-center gap-3 px-3 py-3">
+      <img src="/assets/basketball.svg" className="menu-icon" />
+      <span>Basketball</span>
+    </div>
+  </div>
+
+  <div className="menu-item">
+    <div style={{gap:"12px"}} className="d-flex align-items-center gap-3 px-3 py-3">
+      <img src="/assets/baseball.svg" className="menu-icon" />
+      <span>Baseball</span>
+    </div>
+  </div>
+
+  <div className="menu-item">
+    <div style={{gap:"12px"}} className="d-flex align-items-center gap-3 px-3 py-3">
+      <img src="/assets/ice.svg" className="menu-icon" />
+      <span>Ice Hockey</span>
+    </div>
+  </div>
+
+  <div className="menu-item">
+    <div style={{gap:"12px"}} className="d-flex align-items-center gap-3 px-3 py-3">
+      <img src="/assets/volleyball.svg" className="menu-icon" />
+      <span>Volleyball</span>
+    </div>
+  </div>
+
+  <div className="menu-item">
+    <div style={{gap:"12px"}} className="d-flex align-items-center gap-3 px-3 py-3">
+      <img src="/assets/kabaddi.svg" className="menu-icon" />
+      <span>Kabaddi</span>
+    </div>
+  </div>
+
+  <div className="menu-item">
+    <div style={{gap:"12px"}} className="d-flex align-items-center gap-3 px-3 py-3">
+      <img src="/assets/promotion.svg" className="menu-icon" />
+      <span>Promotions</span>
+    </div>
+  </div>
+
+  <div className="menu-item">
+    <div style={{gap:"12px"}} className="d-flex align-items-center gap-3 px-3 py-3">
+      <img src="/assets/game.svg" className="menu-icon" />
+      <span>Game Rules</span>
+    </div>
+  </div>
+
+  <div className="menu-header px-3 py-2">Change Language</div>
+
+  <div className="px-3 py-3">
+    <select className="form-select">
+      <option>English (EN)</option>
+      <option>Hindi (IN)</option>
+    </select>
+  </div>
+
+</div>
+    </> 
   );
 };
 export default SideBar;

@@ -13,12 +13,12 @@ const MatchList: React.FC<MatchListProps> = ({ matchList, currentMatch, memoOdds
     <div className='card-content'>
       <table className='table coupon-table'>
         <thead>
-          <tr>
+          {/* <tr>
             <th style={{ width: '63%' }}>Game</th>
             <th colSpan={2}>1</th>
             <th colSpan={2}>X</th>
             <th colSpan={2}>2</th>
-          </tr>
+          </tr> */}
         </thead>
         <tbody>
           {matchList.map((match: LMatch, index: number) => {

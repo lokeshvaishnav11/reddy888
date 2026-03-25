@@ -93,8 +93,8 @@ const Main = () => {
       <ToastContainer hideProgressBar={true} autoClose={1000} />
       <div className='main'>
         {!isMobile && (
-          <div className='container-fluid '>
-            <div className='row'>
+          <div className='container-fluid'>
+            <div className='row mt-2'>
               <div className='col-2 col-lg-2 p0'>
                 <SideBar />
               </div>
