@@ -11,12 +11,12 @@ const NavMobileMenu = (props: any) => {
   const { sportId, status } = useParams()
   const [matchList, setMatchList] = React.useState([])
 
-  React.useEffect(() => {
-    axios.get(`headerMessage.json?v=${Date.now()}`).then((res: AxiosResponse) => {
-      setHeaderMessage(res.data)
-    })
+  // React.useEffect(() => {
+  //   axios.get(`headerMessage.json?v=${Date.now()}`).then((res: AxiosResponse) => {
+  //     setHeaderMessage(res.data)
+  //   })
 
-  }, [])
+  // }, [])
 
   return (
     <div className='header-mobile'>

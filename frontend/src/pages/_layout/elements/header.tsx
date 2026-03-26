@@ -36,6 +36,8 @@ const Header = () => {
 // const isMobile = true
 
   const ref = useRef<any>(null)
+  const ref2 = useRef<any>(null)
+
   const userState = useAppSelector<{ user: User }>(selectUserData)
   const balance = useAppSelector(selectBalance)
   const selectHideBal = useAppSelector<HideBalExp>(selectHideBalExp)
@@ -47,6 +49,8 @@ const Header = () => {
   const { socketUser } = useWebsocketUser()
 
   const [showMenu, setShowMenu] = React.useState<boolean>(false)
+  const [showSideB, setShowSideB] = React.useState<boolean>(false)
+
   const [showAuto, setShowAuto] = React.useState<boolean>(false)
 
   const [userMessage, setUserMessage] = React.useState<string>('')
@@ -121,8 +125,28 @@ const Header = () => {
     }
   }, [ref, showMenu])
 
+   React.useEffect(() => {
+    /**
+     * Alert if clicked on outside of element
+     */
+    const handleClickOutside2 = (event: any) => {
+      if (showSideB && ref2.current && !ref2.current.contains(event.target)) {
+        closeSideB()
+      }
+    }
+    // Bind the event listener
+    document.addEventListener('mousedown', handleClickOutside2)
+    return () => {
+      // Unbind the event listener on clean up
+      document.removeEventListener('mousedown', handleClickOutside2)
+    }
+  }, [ref2, showSideB])
+
   const closeMenu = () => {
     setShowMenu(false)
+  }
+  const closeSideB = () => {
+    setShowSideB(false)
   }
   const suggestion = ({ value }: any) => {
     return matchService.getMatchListSuggestion({ name: value })
@@ -684,15 +708,143 @@ const Header = () => {
 
     <div>
 
-    <header style={{background:"#132225"}} className=" text-white py-2 px-3">
+    <header style={{background:"#132225"}} className=" text-white py-2 px-1">
   <div className="container-fluid d-flex align-items-center justify-content-between">
 
     {/* LEFT: Logo */}
     <div className="d-flex align-items-center">
-      <CustomLink to="/match/4/in-play" className="navbar-brand m-0">
+      <div style={{fontSize:"30px"}} onClick={() => setShowSideB(!showSideB)}>
+        ☰
+      </div>
+      <CustomLink to="/match/4/in-play" className="navbar-brand ml-1">
         <img src="/imgs/logo.png" alt="logo" style={{ height: 20 }} />
       </CustomLink>
     </div>
+
+      <ul ref={ref2} style={{ 
+                  display: showSideB ? 'block' : 'none',
+                  position: 'absolute',
+                  top: '0px',
+                  height: "100%",
+                  left: '0',
+                  zIndex: 1000,
+                  minWidth: '256px',
+                  // padding: '5px 0',
+                  // margin: '5px 0',
+                  fontSize: '16px',
+                  fontWeight: "500",
+                  textAlign: 'left',
+                  backgroundColor: '#fff',
+                  border: '1px solid rgba(0, 0, 0, 0.15)',
+                 
+                  boxShadow: '0 6px 12px rgba(0, 0, 0, 0.175)',
+                  listStyle: 'none',
+                  color: '#000000'
+                }}>
+                 
+                   <div className="bg-light" style={{ overflow: "hidden",  }}>
+  
+  {/* Header */}
+  <div className="d-flex justify-content-between align-items-center px-2 py-2 border-bottom bg-theme">
+    <div className="d-flex align-items-center " style={{gap:"8px"}}>
+      <img src="/imgs/logo.png" alt="logo" style={{ height: 25 }} />
+    </div>
+    <div  onClick={() => setShowSideB(!showSideB)} style={{ cursor: "pointer", color:"white" }}>✕</div>
+  </div>
+
+ 
+</div>
+
+
+<div className="sidebar-menu">
+
+  <div className="menu-item">
+    <div style={{gap:"12px"}} className="d-flex align-items-center  px-3 py-3">
+      <img src="https://www.reddy888.com/assets/cricket-sidebar-icon-C5omyrdc.svg" className="menu-icon" />
+      <span>Cricket</span>
+    </div>
+  </div>
+
+  <div className="menu-item">
+    <div style={{gap:"12px"}} className="d-flex align-items-center gap-3 px-3 py-3">
+      <img src="https://www.reddy888.com/assets/football-sidebar-icon-C_dnYWzd.svg" className="menu-icon" />
+      <span>Football</span>
+    </div>
+  </div>
+
+  <div className="menu-item">
+    <div style={{gap:"12px"}} className="d-flex align-items-center gap-3 px-3 py-3">
+      <img src="/imgs/tenis.svg" className="menu-icon" />
+      <span>Tennis</span>
+    </div>
+  </div>
+
+  <div className="menu-item">
+    <div style={{gap:"12px"}} className="d-flex align-items-center gap-3 px-3 py-3">
+      <img src="/assets/basketball.svg" className="menu-icon" />
+      <span>Basketball</span>
+    </div>
+  </div>
+
+  <div className="menu-item">
+    <div style={{gap:"12px"}} className="d-flex align-items-center gap-3 px-3 py-3">
+      <img src="/assets/baseball.svg" className="menu-icon" />
+      <span>Baseball</span>
+    </div>
+  </div>
+
+  <div className="menu-item">
+    <div style={{gap:"12px"}} className="d-flex align-items-center gap-3 px-3 py-3">
+      <img src="/assets/ice.svg" className="menu-icon" />
+      <span>Ice Hockey</span>
+    </div>
+  </div>
+
+  <div className="menu-item">
+    <div style={{gap:"12px"}} className="d-flex align-items-center gap-3 px-3 py-3">
+      <img src="/assets/volleyball.svg" className="menu-icon" />
+      <span>Volleyball</span>
+    </div>
+  </div>
+
+  <div className="menu-item">
+    <div style={{gap:"12px"}} className="d-flex align-items-center gap-3 px-3 py-3">
+      <img src="/assets/kabaddi.svg" className="menu-icon" />
+      <span>Kabaddi</span>
+    </div>
+  </div>
+
+  <div className="menu-item">
+    <div style={{gap:"12px"}} className="d-flex align-items-center gap-3 px-3 py-3">
+      <img src="/assets/promotion.svg" className="menu-icon" />
+      <span>Promotions</span>
+    </div>
+  </div>
+
+  <div className="menu-item">
+    <div style={{gap:"12px"}} className="d-flex align-items-center gap-3 px-3 py-3">
+      <img src="/assets/game.svg" className="menu-icon" />
+      <span>Game Rules</span>
+    </div>
+  </div>
+
+  <div className="menu-header px-3 py-2">Change Language</div>
+
+  <div className="px-3 py-3">
+    <select className="form-select">
+      <option>English (EN)</option>
+      <option>Hindi (IN)</option>
+    </select>
+  </div>
+
+</div>
+
+
+
+
+                </ul>
+
+
 
     {/* CENTER: Search + Date */}
     <div style={{gap:"12px"}} className="d-none d-md-flex align-items-center flex-grow-1 justify-content-center">
@@ -753,7 +905,7 @@ const Header = () => {
         </span>
       </button>
 
-        <button
+        <CustomLink to={"/deposit"}
   className="d-flex align-items-center justify-content-center fw-bold"
   style={{
     gap: "4px",
@@ -771,7 +923,7 @@ const Header = () => {
   onMouseUp={(e) => (e.currentTarget.style.opacity = "1")}
 >
   Deposit
-</button>
+</CustomLink>
 
       <button
   className="d-flex align-items-center justify-content-center text-white fw-bold"
