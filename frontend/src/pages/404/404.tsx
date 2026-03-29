@@ -26,7 +26,7 @@ const Page404 = () => {
             <div className='col-md-12'>
               <div className='loginInner1'>
                 <div className='log-logo m-b-20 text-center'>
-                  <img src='/imgs/logo.png' className='logo-login' alt='logo' />
+                  <img src='/imgs/image.png' className='logo-login' alt='logo' />
                 </div>
 
                 <div className='featured-box-login featured-box-secundary default text-center'>

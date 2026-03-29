@@ -104,7 +104,7 @@ const Login = () => {
             <div className="d-flex align-items-center justify-content-center my-2">
               {" "}
               <img
-                src="/imgs/logo.png"
+                src="/imgs/image.png"
                 className="logo-login"
                 style={{ width: "230px" }}
               />

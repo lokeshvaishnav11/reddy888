@@ -234,7 +234,7 @@ const Header = () => {
                 style={{ display: 'flex', alignItems: 'center'  }}
               >
                 <img 
-                  src='/imgs/logo.png' 
+                  src='/imgs/image.png' 
                   className='logo-icon' 
                   style={{ height: '35px', width: 'auto' , marginLeft: isMobile ? "30px" : "80px"}}
                 />
@@ -717,7 +717,7 @@ const Header = () => {
         ☰
       </div>
       <CustomLink to="/match/4/in-play" className="navbar-brand ml-1">
-        <img src="/imgs/logo.png" alt="logo" style={{ height: 20 }} />
+        <img src="/imgs/image.png" alt="logo" style={{ height: 20 }} />
       </CustomLink>
     </div>
 
@@ -747,7 +747,7 @@ const Header = () => {
   {/* Header */}
   <div className="d-flex justify-content-between align-items-center px-2 py-2 border-bottom bg-theme">
     <div className="d-flex align-items-center " style={{gap:"8px"}}>
-      <img src="/imgs/logo.png" alt="logo" style={{ height: 25 }} />
+      <img src="/imgs/image.png" alt="logo" style={{ height: 25 }} />
     </div>
     <div  onClick={() => setShowSideB(!showSideB)} style={{ cursor: "pointer", color:"white" }}>✕</div>
   </div>

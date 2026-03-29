@@ -130,7 +130,7 @@ const Header = () => {
         <div className='header-bottom'>
           <div className='container-fluid'>
             <CustomLink to={'/'} className='logo'>
-              <img src='/imgs/logo.png' />
+              <img src='/imgs/image.png' />
             </CustomLink>
             {/* <div className='side-menu-button' onClick={toggleDrawer}>
               <div className='bar1' />
@@ -346,7 +346,7 @@ const Header = () => {
       </header>
       <Drawer open={isOpen} onClose={toggleDrawer} direction='left'>
         <div className='drawer-header'>
-          <img src='/imgs/logo.png' className='wd-100' />
+          <img src='/imgs/image.png' className='wd-100' />
         </div>
         <div className='drawer-content'>
           <Tree

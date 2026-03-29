@@ -152,7 +152,7 @@ const TopHeader = ({ onMenuToggle }: TopHeaderProps) => {
       <div className='top-header-content'>
         <div className='header-left'>
           <CustomLink to={'/'} className='header-logo'>
-            <img style={{marginLeft:"28px"}}  src='/imgs/logo.png' alt='Logo' />
+            <img style={{marginLeft:"28px"}}  src='/imgs/image.png' alt='Logo' />
           </CustomLink>
         </div>
 
