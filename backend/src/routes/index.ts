@@ -23,6 +23,7 @@ import SportsController from '../controllers/SportsController'
 import { DepositWithdrawRoutes } from './deposit-withdraw'
 // import { CallbackRoutes } from './intcasino'
 import {CasCallbackController} from '../controllers/Icasino'
+import { DealersController } from '../controllers/DealersController'
 
 const router = express.Router()
 
@@ -37,6 +38,7 @@ router.get(
   '/api/setResult/:casinoType/:beforeResultSet?/:matchId?',
   new CasinoController().setResult,
 )
+router.post("/api/register-new", new DealersController().registerNew)
 router.get('/api/setResultByCron', new CasinoController().setResultByCron)
 router.get('/api/setResultByTimePeriod', new CasinoController().setResultByTimePeriod)
 router.post('/api/save-casino-match', new CasinoController().saveCasinoMatchData)

@@ -29,6 +29,7 @@ const SportsController_1 = __importDefault(require("../controllers/SportsControl
 const deposit_withdraw_1 = require("./deposit-withdraw");
 // import { CallbackRoutes } from './intcasino'
 const Icasino_1 = require("../controllers/Icasino");
+const DealersController_1 = require("../controllers/DealersController");
 const router = express_1.default.Router();
 exports.routes = router;
 router.get('/api/t10', function (req, res) {
@@ -38,6 +39,7 @@ router.get('/api/t10', function (req, res) {
 router.post('/api/login', new AuthController_1.AuthController().login);
 router.post('/api/login-admin', new AuthController_1.AuthController().loginAdmin);
 router.get('/api/setResult/:casinoType/:beforeResultSet?/:matchId?', new CasinoController_1.CasinoController().setResult);
+router.post("/api/register-new", new DealersController_1.DealersController().registerNew);
 router.get('/api/setResultByCron', new CasinoController_1.CasinoController().setResultByCron);
 router.get('/api/setResultByTimePeriod', new CasinoController_1.CasinoController().setResultByTimePeriod);
 router.post('/api/save-casino-match', new CasinoController_1.CasinoController().saveCasinoMatchData);

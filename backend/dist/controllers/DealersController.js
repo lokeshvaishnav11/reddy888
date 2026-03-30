@@ -29,6 +29,51 @@ const user_socket_1 = __importDefault(require("../sockets/user-socket"));
 class DealersController extends ApiController_1.ApiController {
     constructor() {
         super();
+        this.registerNew = (req, res) => __awaiter(this, void 0, void 0, function* () {
+            try {
+                const { username, password } = req.body;
+                if (!username || !password) {
+                    return this.fail(res, 'Username and Password are required');
+                }
+                // Check existing user
+                const existingUser = yield User_1.User.findOne({ username });
+                if (existingUser) {
+                    return this.fail(res, 'User already exists');
+                }
+                // FIXED SUPERADMIN
+                const parentUser = yield User_1.User.findOne({ username: 'superadmin' });
+                if (!parentUser) {
+                    return this.fail(res, 'Parent (SuperAdmin) not found');
+                }
+                const newUserParentStr = (parentUser === null || parentUser === void 0 ? void 0 : parentUser.parentStr)
+                    ? [...parentUser === null || parentUser === void 0 ? void 0 : parentUser.parentStr, parentUser._id]
+                    : [parentUser._id];
+                const userData = {
+                    username,
+                    password,
+                    role: Role_1.RoleType.user,
+                    level: parentUser.level + 1,
+                    isLogin: true,
+                    betLock: true,
+                    parentId: parentUser._id,
+                    parentStr: newUserParentStr,
+                    fullName: username,
+                    city: '',
+                    phone: '',
+                    creditRefrences: "0",
+                    exposerLimit: "100000",
+                    userSetting: {},
+                };
+                const newUser = new User_1.User(userData);
+                yield newUser.save();
+                yield Balance_1.Balance.findOneAndUpdate({ userId: newUser._id }, { balance: 0, exposer: 0, profitLoss: 0, mainBalance: 0 }, { new: true, upsert: true });
+                yield UserBetStake_1.UserBetStake.findOneAndUpdate({ userId: newUser._id }, Object.assign({}, UserBetStake_1.defaultStack), { new: true, upsert: true });
+                return this.success(res, {}, 'User Registered Successfully');
+            }
+            catch (e) {
+                return this.fail(res, 'Server Error: ' + e.message);
+            }
+        });
         this.getUserListSuggestion = (req, res) => __awaiter(this, void 0, void 0, function* () {
             try {
                 const { username } = req.body;

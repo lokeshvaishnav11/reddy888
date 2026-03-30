@@ -70,7 +70,7 @@ const Login = () => {
       <div
         className="login"
         style={{
-          background: "#00000080",
+          background: "transparent",
           display: "flex",
           justifyContent: "center",
           alignItems: "center",
@@ -95,6 +95,7 @@ const Login = () => {
 
               {/* Close Icon */}
               <img
+               onClick={() => window.location.reload()}
                 src="/assets/close.svg" // 👈 yaha apna correct icon path daal dena
                 alt="close"
                 style={{ cursor: "pointer", width: "24px", height: "24px" }}

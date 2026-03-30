@@ -991,18 +991,20 @@ const Header = () => {
   <div className="p-2">
     <div className="bg-white rounded p-2 mb-2 border">
       <div style={{ fontSize: "10px", color: "#555" }}>BALANCE</div>
-      <div className="fw-bold text-success fs-5">₹ 0</div>
+      <div className="fw-bold text-success fs-5">₹ {balance.balance?.toFixed(2) || 0}</div>
     </div>
 
     <div className="d-flex gap-2" style={{gap:"8px"}}>
       <div className="bg-white rounded p-2 border w-50">
         <div style={{ fontSize: "10px", color: "#555" }}>BONUS</div>
-        <div className="fw-bold">₹ 0</div>
+        <div className="fw-bold">₹ {balance.balance?.toFixed(2) || 0}</div>
       </div>
 
       <div className="bg-white rounded p-2 border w-50">
         <div style={{ fontSize: "10px", color: "#555" }}>NET EXPOSURE</div>
-        <div className="fw-bold text-danger">₹ NaN</div>
+        <div className="fw-bold text-danger">₹
+          {balance.exposer > 0 ? balance.exposer?.toFixed(2) : 0}
+        </div>
       </div>
     </div>
   </div>

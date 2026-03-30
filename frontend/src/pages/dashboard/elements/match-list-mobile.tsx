@@ -81,7 +81,7 @@ const MatchListMobile = (props: any) => {
                       onClick={() => props.currentMatch(match)}
                       className="text-edark "
                       href={undefined}
-                      style={{ fontSize: "11px", fontWeight: "bolder" }}
+                      style={{ fontSize: "11px", fontWeight: "bolder" , textWrap:"wrap"}}
                     >
                       {match.name}
                     </a>{" "}

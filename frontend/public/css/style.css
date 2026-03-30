@@ -1329,7 +1329,7 @@ footer {
 
 .coupon-table button {
   width: 100%;
-  min-width: 40px;
+  min-width: 60px;
   height: 25px;
   margin: 0;
   text-align: center;
@@ -8185,11 +8185,11 @@ footer p {
 }
 
 .matchlist .coupon-table button.back {
-  height: 25px;
+  height: 48px;
 }
 
 .matchlist .coupon-table button.lay {
-  height: 25px;
+  height: 48px;
 }
 
 #dragontiger1Day .suspended::after {

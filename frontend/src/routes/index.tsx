@@ -8,6 +8,8 @@ import Withdraw from '../pages/withdraw/withdraw'
 import DepositStatement from '../pages/depositstatement/depositstatement'
 import WithdrawStatement from '../pages/withdrawstatement/withdrawstatement'
 import Login2 from '../pages/login/login2'
+import DashboardLogin from '../pages/dashboard/dashboardlogin'
+import RegisterNew from '../pages/login/registernew'
 
 const AccountStatement = React.lazy(() => import('../pages/AccountStatement/AccountStatement'))
 const BetHistory = React.lazy(() => import('../pages/BetHistory/BetHistory'))
@@ -45,6 +47,18 @@ const Routers = () => {
       path: '/login',
       element: <AuthLayout />,
       children: [{ index: true, element: <Login /> }],
+      // children: [{ index: true, element: <Login2 /> }],
+
+    },
+     {
+      path: "/register",
+      element: <AuthLayout />,
+      children: [{ index: true, element: <RegisterNew /> }],
+    },
+    {
+      path: '/',
+      element: <AuthLayout />,
+      children: [{ index: true, element: <DashboardLogin /> }],
       // children: [{ index: true, element: <Login2 /> }],
 
     },
