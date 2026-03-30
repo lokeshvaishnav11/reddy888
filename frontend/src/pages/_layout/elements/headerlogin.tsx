@@ -33,6 +33,7 @@ import UserService from "../../../services/user.service";
 import WhatsAppIcon from "@mui/icons-material/WhatsApp";
 import { title } from "process";
 import Login from "../../login/login";
+import RegisterNew from "../../login/registernew";
 
 const HeaderLogin = () => {
   // const isMobile = true
@@ -40,12 +41,9 @@ const HeaderLogin = () => {
   const ref = useRef<any>(null);
   const ref2 = useRef<any>(null);
 
-  const userState = useAppSelector<{ user: User }>(selectUserData);
-  const balance = useAppSelector(selectBalance);
-  const selectHideBal = useAppSelector<HideBalExp>(selectHideBalExp);
-  const rules = useAppSelector(selectRules);
   const dispatch = useAppDispatch();
     const [loginHit, setLoginHit] = React.useState(false);
+    const [registerHit, setRegisterHit] = React.useState(false);
 
   const navigate = useNavigateCustom();
 
@@ -72,46 +70,28 @@ const HeaderLogin = () => {
   //   })
   // }, [])
 
-  React.useEffect(() => {
-    setIsOpenRule(rules.open);
-  }, [rules]);
+//   React.useEffect(() => {
+//     setIsOpenRule(rules.open);
+//   }, [rules]);
 
-  React.useEffect(() => {
-    const handlerExposer = ({ exposer, balance }: any) => {
-      if (balance !== undefined) dispatch(setSingleBal(balance));
-      if (exposer !== undefined) dispatch(setExposer(exposer));
-    };
-    socketUser.on("updateExposer", handlerExposer);
+//   React.useEffect(() => {
+//     const handlerExposer = ({ exposer, balance }: any) => {
+//       if (balance !== undefined) dispatch(setSingleBal(balance));
+//       if (exposer !== undefined) dispatch(setExposer(exposer));
+//     };
+//     socketUser.on("updateExposer", handlerExposer);
 
-    return () => {
-      socketUser.removeListener("updateExposer", handlerExposer);
-    };
-  }, [balance]);
+//     return () => {
+//       socketUser.removeListener("updateExposer", handlerExposer);
+//     };
+//   }, [balance]);
 
-  React.useEffect(() => {
-    setHideExpBal(selectHideBal);
-  }, [selectHideBal]);
+//   React.useEffect(() => {
+//     setHideExpBal(selectHideBal);
+//   }, [selectHideBal]);
 
-  const logoutUser = (e: any) => {
-    e.preventDefault();
-    dispatch(logout());
-    navigate.go("/login");
-  };
 
-  const onChangeBalExp = (e: ChangeEvent<HTMLInputElement>) => {
-    const expBal = { ...hideExpBal, [e.target.name]: e.target.checked };
-    dispatch(hideBalExp(expBal));
-    localStorage.setItem(CONSTANTS.HIDE_BAL_EXP, JSON.stringify(expBal));
-    setHideExpBal(expBal);
-  };
 
-  const getExposer = (e: MouseEvent<HTMLAnchorElement>) => {
-    e.preventDefault();
-    setIsOpen(true);
-    userService.getExposerEvent().then((res: AxiosResponse) => {
-      setGetExposerEvent(res.data.data);
-    });
-  };
 
   React.useEffect(() => {
     /**
@@ -153,15 +133,7 @@ const HeaderLogin = () => {
   const closeSideB = () => {
     setShowSideB(false);
   };
-  const suggestion = ({ value }: any) => {
-    return matchService.getMatchListSuggestion({ name: value });
-  };
 
-  const onMatchClick = (match: IMatch | null) => {
-    if (match) {
-      window.location.href = `/odds/${match.matchId}`;
-    }
-  };
 
   const [userParentAlldata, setUserParentAlldata] = React.useState<{
     [key: string]: any;
@@ -179,19 +151,19 @@ const HeaderLogin = () => {
   //     }
   //   }, [userState?.user?.username]);
 
-  React.useEffect(() => {
-    // const userState = useAppSelector<{ user: User }>(selectUserData);
-    const username: any = userState?.user?.username;
+//   React.useEffect(() => {
+//     // const userState = useAppSelector<{ user: User }>(selectUserData);
+//     const username: any = userState?.user?.username;
 
-    console.log(username, "testagentmaster");
-    UserService.getParentUserDetail(username).then(
-      (res: AxiosResponse<any>) => {
-        console.log(res, "check balance for parent");
-        const detail = res?.data.data[0];
-        setUserParentAlldata(detail);
-      },
-    );
-  }, [userState]);
+//     console.log(username, "testagentmaster");
+//     UserService.getParentUserDetail(username).then(
+//       (res: AxiosResponse<any>) => {
+//         console.log(res, "check balance for parent");
+//         const detail = res?.data.data[0];
+//         setUserParentAlldata(detail);
+//       },
+//     );
+//   }, [userState]);
 
   const items = [
     { title: "HOME", linkto: "/match/4/in-play" },
@@ -423,7 +395,8 @@ const HeaderLogin = () => {
               style={{ gap: "8px" }}
               className="d-flex align-items-center gap-2"
             >
-              <CustomLink to = "register"
+              <button 
+              
 
                 className="d-flex align-items-center justify-content-center text-white fw-bold"
                 style={{
@@ -438,10 +411,10 @@ const HeaderLogin = () => {
                 }}
                 onMouseDown={(e) => (e.currentTarget.style.opacity = "0.7")}
                 onMouseUp={(e) => (e.currentTarget.style.opacity = "1")}
-                onClick={() => setShowMenu(!showMenu)}
+                onClick={() => setRegisterHit(true)} 
               >
                 <span style={{ fontSize: "11px" }}>Sign Up</span>
-              </CustomLink>
+              </button>
 
               <button
                 onClick={() => setLoginHit(true)}
@@ -504,6 +477,17 @@ const HeaderLogin = () => {
 
 
       </div>}
+
+      {registerHit && 
+        <div style={{position: "absolute",
+    top: "0px",
+    right: "13px",
+    background: "transparent",
+    zIndex: 1000,}}>
+        <RegisterNew />
+        </div>}
+
+
     </>
   );
 };

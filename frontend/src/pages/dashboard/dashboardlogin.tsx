@@ -37,6 +37,9 @@ import HomeCasinoListSHow from "../CasinoList/HomeCasinoListSHow";
 import Header from "../_layout/elements/header";
 import HeaderLogin from "../_layout/elements/headerlogin";
 import Login from "../login/login";
+import User from "../../models/User";
+import { selectUserData } from "../../redux/actions/login/loginSlice";
+
 
 const DashboardLogin = () => {
   const [matchList, setMatchList] = React.useState<LMatch[]>([]);
@@ -49,6 +52,8 @@ const DashboardLogin = () => {
   const gamesList = useAppSelector<any>(selectCasinoMatchList);
   const [gameUrl, setGameUrl] = React.useState<string>("");
   const [loadingGame, setLoadingGame] = React.useState(false);
+
+const userState = useAppSelector<{ user: User }>(selectUserData)
 
   const onIntcasinoClick = (e: MouseEvent<HTMLAnchorElement>, Item: any) => {
     e.preventDefault();
@@ -90,12 +95,12 @@ const DashboardLogin = () => {
     };
   }, [sportId, status]);
 
-  React.useEffect(() => {
-    if (gamesList.length <= 0)
-      casinoService.getCasinoList().then((res: AxiosResponse<any>) => {
-        dispatch(setHomePageCasinoMatch(res.data.data));
-      });
-  }, []);
+//   React.useEffect(() => {
+//     if (gamesList.length <= 0)
+//       casinoService.getCasinoList().then((res: AxiosResponse<any>) => {
+//         dispatch(setHomePageCasinoMatch(res.data.data));
+//       });
+//   }, []);
   React.useEffect(() => {
     socket.on("getMarketData", (marketData) => {
       let firstIndexFirst = "-";
@@ -336,7 +341,7 @@ const DashboardLogin = () => {
   return (
     <>
       {" "}
-      <HeaderLogin />
+     {userState?.user?.username ?  <Header /> : <HeaderLogin />}
       {/* {isMobile ? <GameTabMobile sportId={sportId} sportListState={sportListState} /> : ''} */}
       <div className="pb-4 mtc-5">
         {!isMobile ? <Fav /> : ""}
