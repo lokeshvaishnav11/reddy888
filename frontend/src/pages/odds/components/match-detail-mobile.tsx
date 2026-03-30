@@ -25,11 +25,11 @@ const MatchDetailWrapper = (props: any) => {
   return (
     <>
       <div className='prelative'>
-        <Tabs>
-          <Tab eventKey='home' title='ODDS'>
-            <div className='game-heading clsforellipse'>
+        <div>
+          <div >
+            <div className='game-heading clsforellipse' style={{display:"flex", flexDirection:"column", alignItems:"center", textAlign:"left"}}>
               <span className='card-header-title giveMeEllipsis'>{props.currentMatch?.name}</span>
-              <span className='float-right card-header-date'>
+              <span className='float-left card-header-date'>
                 {moment(props.currentMatch?.matchDateTime).format('MM/DD/YYYY  h:mm a')}
               </span>
             </div>
@@ -51,18 +51,19 @@ const MatchDetailWrapper = (props: any) => {
               </Fragment>
             )}
             {props.marketDataList.stake && <PlaceBetBox stake={props.marketDataList.stake} />}
-          </Tab>
-          <Tab eventKey='profile' title={`PLACED BET (${betCount})`}>
+             <div className='card-bodjy'>
+                <MyBetComponent />
+              </div>
+          </div>
+           {/* <Tab eventKey='profile' title={`Open Bets`}>
             <div className='card m-b-10 my-bet'>
               <div className='card-header'>
                 <h6 className='card-title d-inline-block'>My Bet</h6>
               </div>
-              <div className='card-body'>
-                <MyBetComponent />
-              </div>
+             
             </div>
-          </Tab>
-        </Tabs>
+          </Tab> */}
+        </div>
         <div className='csmobileround' style={{ top: '16px' }}>
           <span onClick={() => settvstatus(tavstatus ? false : true)}>
             <i className='fa fa-tv'></i>{' '}

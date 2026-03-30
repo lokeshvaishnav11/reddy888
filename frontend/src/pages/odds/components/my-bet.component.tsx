@@ -75,10 +75,10 @@ const MyBetComponent = () => {
 
   return (
     <div className='table-responsive-new' style={{height:"200px", overflowY:"scroll"}}>
-      <table className='table coupon-table scorall mybet'>
-        <thead>
+          <table className='table coupon-table scorall mybet bg-theme' >
+            <thead>
           <tr >
-            <th className='text-white'> No</th>
+            <th className='text-white text-center'> No</th>
             {userState.user.role !== RoleType.user && <th className='text-white'>Username</th>}
             <th className='text-left text-white'> Nation</th>
             <th className='text-white'> Amount</th>

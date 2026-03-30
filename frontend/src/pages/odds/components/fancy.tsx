@@ -10,6 +10,7 @@ import { selectFancyType, setFancyType } from '../../../redux/actions/bet/betSli
 import { store } from '../../../redux/store'
 import { setRules } from '../../../redux/actions/common/commonSlice'
 import sportsService from '../../../services/sports.service'
+import { colors } from '@mui/material'
 
 type FancyBallTypes = {
   blank: LFancy[]
@@ -217,10 +218,10 @@ class Fancy extends React.Component<
   fancyMenu = (fancyType: string) => {
     const menus = [
       { type: 'session', label: 'Fancy', width: isMobile ? '19%' : '11%' },
-      // { type: 'fancy1', label: 'Fancy1', width: isMobile ? '19%' : '11%' },
-      // { type: 'meter', label: 'Meter', width: isMobile ? '19%' : '10%' },
-      // { type: 'khado', label: 'Khado', width: isMobile ? '19%' : '10%' },
-      // { type: 'odd/even', label: 'Odd/Even', width: isMobile ? '24%' : '11%' },
+      { type: 'fancy1', label: 'Fancy1', width: isMobile ? '19%' : '11%' },
+      { type: 'meter', label: 'Meter', width: isMobile ? '19%' : '10%' },
+      { type: 'khado', label: 'Khado', width: isMobile ? '19%' : '10%' },
+      { type: 'odd/even', label: 'Odd/Even', width: isMobile ? '19%' : '11%' },
       // { type: 'wkt', label: 'Wicket', width: isMobile ? '24%' : '10%' },
       // { type: 'Four', label: 'Four', width: isMobile ? '20%' : '10%' },
       // { type: 'Sixes', label: 'Six', width: isMobile ? '20%' : '11%' },
@@ -234,16 +235,19 @@ class Fancy extends React.Component<
       <li
         key={menu.type}
         onClick={(e) => this.onFancyType(menu.type)}
-        style={{ width: `${menu.width}` }}
-        className='nav-item d-none'
+        style={{ width: `${menu.width}`,}}
+        className='nav-item'
+        
+        
       >
         <a
           href='#'
           onClick={(e) => e.preventDefault()}
           role='tab'
           className={`nav-link ${fancyType === menu.type ? 'active' : ''}`}
+          style={{borderRadius:fancyType === menu.type ? '14px' : '14px', padding:"4px", border:fancyType === menu.type ? '1px solid #ccc' : 'none',  backgroundColor: fancyType === menu.type ? 'bg-theme' : 'transparent', color: fancyType === menu.type ? 'white' : 'black' }}
         >
-          <span style={{ textTransform: 'uppercase' }}>{menu.label}</span>
+          <span style={{ textTransform: 'capitalize', }}>{menu.label}</span>
         </a>
       </li>
     ))
@@ -272,7 +276,7 @@ class Fancy extends React.Component<
 
     return (
       <>
-        <ul role='tablist' className='nav nav-tabs fancy-group' aria-label='Tabs'>
+        <ul role='tablist' className='nav nav-tabsJK fancy-group py-1' aria-label='Tabs' style={{gap:"1px"}}>
           {this.fancyMenu(fancyType)}
         </ul>
         <div

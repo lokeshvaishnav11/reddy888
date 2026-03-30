@@ -296,6 +296,26 @@ const [casinoo, setCasinoo] = React.useState("popular")
         <div className='tab-content'>
           <div className='tab-pane active'>
             <div className='matchlist coupon-card-first'>
+              <div
+    className="d-flex align-items-center w-100"
+    style={{
+      color: "black",
+      fontWeight: "600",
+      fontSize: "18px",
+      letterSpacing: "0.5px",
+      gap: "5px",
+      borderBottom: "2px solid #000000",
+      paddingBottom: "8px",
+    }}
+  >
+    <img
+      src="https://www.reddy888.com/assets/cricket-icon-utIDTbmH.svg"
+      alt="cricket"
+      style={{ width: "20px", height: "20px", }}
+    />
+    <span>Cricket</span>
+  </div>
+
               {!isMobile ? (
                 <MatchList currentMatch={currentMatch} memoOdds={memoOdds} matchList={matchList} />
               ) : (
