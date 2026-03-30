@@ -28,6 +28,7 @@ import IMatch from '../../../models/IMatch'
 import casinoSlugs from '../../../utils/casino-slugs.json'
 import UserService from "../../../services/user.service";
 import WhatsAppIcon from '@mui/icons-material/WhatsApp';
+import { title } from 'process'
 
 
 
@@ -190,21 +191,21 @@ const Header = () => {
     }, [userState]);
 
     const items = [
-    "HOME",
-    "MULTI MARKETS",
-    "CRICKET",
-    "SPORTSBOOK",
-    "CASINO",
-    "TENNIS",
-    "COCK FIGHT",
-    "FOOTBALL",
-    "HORSE RACING",
-    "GREYHOUND",
-    "BASKETBALL",
-    "BASEBALL",
-    "POLITICS",
-    "BINARY",
-    "KABADDI"
+      {title:"HOME" , linkto:"/match/4/in-play"},
+   {title: "MULTI MARKETS", linkto:"/match/4/in-play"},
+    {title: "CRICKET", linkto:"/"},
+    {title: "SPORTSBOOK", linkto:"/match/4/in-play"},
+    {title: "CASINO", linkto:"/casino-games"},
+    {title: "TENNIS", linkto:"/match/3/in-play"},
+    {title: "COCK FIGHT", linkto:"#"},
+    {title: "FOOTBALL", linkto:"/match/1/in-play"},
+    {title: "HORSE RACING", linkto:"/match/7/in-play"},
+    {title: "GREYHOUND", linkto:"/match/4339/in-play"},
+    {title: "BASKETBALL", linkto:"/match/11/in-play"},
+    {title: "BASEBALL", linkto:"/match/9/in-play"},
+    {title: "POLITICS", linkto:"/match/46/in-play"},
+    {title: "BINARY", linkto:"/match/4/in-play"},
+    {title: "KABADDI", linkto:"/match/13/in-play"}
   ];
 
   return (
@@ -758,61 +759,61 @@ const Header = () => {
 
 <div className="sidebar-menu">
 
-  <div className="menu-item">
+  <CustomLink to="/"  className="menu-item text-dark">
     <div style={{gap:"12px"}} className="d-flex align-items-center  px-3 py-3">
       <img src="https://www.reddy888.com/assets/cricket-sidebar-icon-C5omyrdc.svg" className="menu-icon" />
       <span>Cricket</span>
     </div>
-  </div>
+  </CustomLink>
 
-  <div className="menu-item">
+  <CustomLink to="match/1/in-play"  className="menu-item text-dark">
     <div style={{gap:"12px"}} className="d-flex align-items-center gap-3 px-3 py-3">
       <img src="https://www.reddy888.com/assets/football-sidebar-icon-C_dnYWzd.svg" className="menu-icon" />
       <span>Football</span>
     </div>
-  </div>
+  </CustomLink>
 
-  <div className="menu-item">
+  <CustomLink to="match/3/in-play"  className="menu-item text-dark">
     <div style={{gap:"12px"}} className="d-flex align-items-center gap-3 px-3 py-3">
       <img src="/imgs/tenis.svg" className="menu-icon" />
       <span>Tennis</span>
     </div>
-  </div>
+  </CustomLink>
 
-  <div className="menu-item">
+  <CustomLink to="match/12/in-play"  className="menu-item text-dark">
     <div style={{gap:"12px"}} className="d-flex align-items-center gap-3 px-3 py-3">
       <img src="/assets/basketball.svg" className="menu-icon" />
       <span>Basketball</span>
     </div>
-  </div>
+  </CustomLink>
 
-  <div className="menu-item">
+  <CustomLink to="match/5/in-play"  className="menu-item text-dark">
     <div style={{gap:"12px"}} className="d-flex align-items-center gap-3 px-3 py-3">
       <img src="/assets/baseball.svg" className="menu-icon" />
       <span>Baseball</span>
     </div>
-  </div>
+  </CustomLink>
 
-  <div className="menu-item">
+  <CustomLink to="match/6/in-play"  className="menu-item text-dark">
     <div style={{gap:"12px"}} className="d-flex align-items-center gap-3 px-3 py-3">
       <img src="/assets/ice.svg" className="menu-icon" />
       <span>Ice Hockey</span>
     </div>
-  </div>
+  </CustomLink>
 
-  <div className="menu-item">
+  <CustomLink to="match/7/in-play"  className="menu-item text-dark">
     <div style={{gap:"12px"}} className="d-flex align-items-center gap-3 px-3 py-3">
       <img src="/assets/volleyball.svg" className="menu-icon" />
       <span>Volleyball</span>
     </div>
-  </div>
+  </CustomLink>
 
-  <div className="menu-item">
+  <CustomLink to="match/8/in-play"  className="menu-item text-dark">
     <div style={{gap:"12px"}} className="d-flex align-items-center gap-3 px-3 py-3">
       <img src="/assets/kabaddi.svg" className="menu-icon" />
       <span>Kabaddi</span>
     </div>
-  </div>
+  </CustomLink>
 
   <div className="menu-item">
     <div style={{gap:"12px"}} className="d-flex align-items-center gap-3 px-3 py-3">
@@ -1173,20 +1174,21 @@ const Header = () => {
 
 <div><div className="bg-light py-2">
       <div style={{gap:"2px" ,overflowX:"auto" ,  }} className="d-flex hide-scrollbar flex-nowrap gap-2  px-2">
-        {items.map((item, index) => (
-          <button
+        {items.map((item:any, index:number) => (
+          <CustomLink 
+           to={item?.linkto}
             key={index}
             style={{borderRadius:"9999px", fontSize:"12px"}}
             className={`btn rounded-pill px-4 py-1 fw-semibold ${
-              item === "HOME"
+              item.name === "HOME"
                 ? "btn-danger text-white"
-                : item === "CRICKET"
+                : item.name === "CRICKET"
                 ? "btn-outline-dark"
                 : "btn-light border"
             }`}
           >
-            {item}
-          </button>
+            {item.title}
+          </CustomLink>
         ))}
       </div>
     </div></div>

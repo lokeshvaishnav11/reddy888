@@ -15,6 +15,7 @@ const SideBar = () => {
   const { sportId, matchId } = useParams();
   const gamesList = useAppSelector<any>(selectCasinoMatchList);
 
+
   const onCasinoClick = (
     e: MouseEvent<HTMLAnchorElement>,
     Item: ICasinoMatch
@@ -146,12 +147,12 @@ const SideBar = () => {
 
 <div className="sidebar-menu ml-2">
 
-  <div  className="menu-item">
+  <CustomLink to="df"  className="menu-item">
     <div style={{gap:"12px"}} className="d-flex align-items-center  px-3 py-3">
       <img src="https://www.reddy888.com/assets/cricket-sidebar-icon-C5omyrdc.svg" className="menu-icon" />
       <span>Cricket</span>
     </div>
-  </div>
+  </CustomLink>
 
   <div className="menu-item">
     <div style={{gap:"12px"}} className="d-flex align-items-center gap-3 px-3 py-3">
