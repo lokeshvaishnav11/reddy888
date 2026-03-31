@@ -1,4 +1,6 @@
 import React, { useEffect, useRef } from "react";
+import { CustomLink } from "../../_layout/elements/custom-link";
+import { useNavigate } from "react-router-dom";
 
 const imagePrefix = "https://www.reddy888.com";
 
@@ -27,6 +29,8 @@ const data = [
 
 const GameSlider: React.FC = () => {
   const sliderRef = useRef<HTMLDivElement>(null);
+
+  const navigate = useNavigate();
 
   // 🔥 duplicate data for infinite effect
   const loopData = [...data, ...data];
@@ -70,7 +74,7 @@ const GameSlider: React.FC = () => {
             {loopData.map((column, i) => (
               <div key={i} className="d-grid" style={{ gap: "4px" }}>
                 {column.map((item, j) => (
-                  <div key={j} style={{marginBottom:"4px"}}>
+                  <div onClick={() => navigate("/casino-games")}  key={j} style={{marginBottom:"4px"}}>
                     <img
                       src={imagePrefix + item.src}
                       alt={item.alt}

@@ -295,7 +295,7 @@ const [casinoo, setCasinoo] = React.useState("popular")
          <GameSlider />
         <div className='tab-content'>
           <div className='tab-pane active'>
-            <div className='matchlist coupon-card-first'>
+            <div className='matchlist coupon-card-first' style={{background:"white"}}>
               <div
     className="d-flex align-items-center w-100"
     style={{

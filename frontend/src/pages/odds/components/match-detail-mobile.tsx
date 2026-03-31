@@ -27,11 +27,13 @@ const MatchDetailWrapper = (props: any) => {
       <div className='prelative'>
         <div>
           <div >
-            <div className='game-heading clsforellipse' style={{display:"flex", flexDirection:"column", alignItems:"center", textAlign:"left"}}>
-              <span className='card-header-title giveMeEllipsis'>{props.currentMatch?.name}</span>
-              <span className='float-left card-header-date'>
+            <div className='game-heading clsforellipse' style={{display:"flex", alignItems:"center", textAlign:"left", padding:"4px"}}>
+              <span className='card-header-title giveMeEllipsi' style={{display:"flex",  flexDirection:"column", textAlign:"left", width:""
+
+              }}>{props.currentMatch?.name}
+              <span className='float-left card-header-date' >
                 {moment(props.currentMatch?.matchDateTime).format('MM/DD/YYYY  h:mm a')}
-              </span>
+              </span></span>
             </div>
             {props.scoreBoard()}
             {tavstatus && props.otherTv()}

@@ -353,7 +353,7 @@ const userState = useAppSelector<{ user: User }>(selectUserData)
         <GameSlider />
         <div className="tab-content">
           <div className="tab-pane active">
-            <div className="matchlist coupon-card-first">
+            <div className="matchlist coupon-card-first" style={{background:"white"}}>
               <div
                 className="d-flex align-items-center w-100"
                 style={{
@@ -402,6 +402,7 @@ const userState = useAppSelector<{ user: User }>(selectUserData)
                   className="d-flex overflow-auto"
                   style={{
                     whiteSpace: "nowrap",
+                    overflowX: "auto",
                   }}
                 >
                   {/* Active Tab */}

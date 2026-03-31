@@ -16,7 +16,7 @@ const MatchListMobile = (props: any) => {
           : {}
       }
     >
-      <div className="table coupon-table coupon-table-mobile">
+      <div className="table coupon-table coupon-table-mobile" style={{overflowX:"auto"}}>
         <div className="row">
           {props.matchList.length > 0 ? (
             props.matchList.map((match: LMatch, index: number) => {

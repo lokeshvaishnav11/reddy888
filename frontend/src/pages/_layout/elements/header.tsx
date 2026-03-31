@@ -766,54 +766,40 @@ const Header = () => {
     </div>
   </CustomLink>
 
-  <CustomLink to="match/1/in-play"  className="menu-item text-dark">
+  <CustomLink to="/match/1/in-play"  className="menu-item text-dark">
     <div style={{gap:"12px"}} className="d-flex align-items-center gap-3 px-3 py-3">
       <img src="https://www.reddy888.com/assets/football-sidebar-icon-C_dnYWzd.svg" className="menu-icon" />
       <span>Football</span>
     </div>
   </CustomLink>
 
-  <CustomLink to="match/3/in-play"  className="menu-item text-dark">
+  <CustomLink to="/match/3/in-play"  className="menu-item text-dark">
     <div style={{gap:"12px"}} className="d-flex align-items-center gap-3 px-3 py-3">
       <img src="/imgs/tenis.svg" className="menu-icon" />
       <span>Tennis</span>
     </div>
   </CustomLink>
 
-  <CustomLink to="match/12/in-play"  className="menu-item text-dark">
+ 
+  <CustomLink to="/casino-games"  className="menu-item text-dark">
     <div style={{gap:"12px"}} className="d-flex align-items-center gap-3 px-3 py-3">
-      <img src="/assets/basketball.svg" className="menu-icon" />
-      <span>Basketball</span>
+      <img src="/assets/slot.svg" className="menu-icon" />
+      <span>Casino</span>
+    </div>
+  </CustomLink>
+  
+  <CustomLink to="/casino-list-int/19"  className="menu-item text-dark">
+    <div style={{gap:"12px"}} className="d-flex align-items-center gap-3 px-3 py-3">
+      <img src="/assets/aviator.svg" className="menu-icon" />
+      <span>Aviator</span>
     </div>
   </CustomLink>
 
-  <CustomLink to="match/5/in-play"  className="menu-item text-dark">
-    <div style={{gap:"12px"}} className="d-flex align-items-center gap-3 px-3 py-3">
-      <img src="/assets/baseball.svg" className="menu-icon" />
-      <span>Baseball</span>
-    </div>
-  </CustomLink>
 
-  <CustomLink to="match/6/in-play"  className="menu-item text-dark">
-    <div style={{gap:"12px"}} className="d-flex align-items-center gap-3 px-3 py-3">
-      <img src="/assets/ice.svg" className="menu-icon" />
-      <span>Ice Hockey</span>
-    </div>
-  </CustomLink>
 
-  <CustomLink to="match/7/in-play"  className="menu-item text-dark">
-    <div style={{gap:"12px"}} className="d-flex align-items-center gap-3 px-3 py-3">
-      <img src="/assets/volleyball.svg" className="menu-icon" />
-      <span>Volleyball</span>
-    </div>
-  </CustomLink>
 
-  <CustomLink to="match/8/in-play"  className="menu-item text-dark">
-    <div style={{gap:"12px"}} className="d-flex align-items-center gap-3 px-3 py-3">
-      <img src="/assets/kabaddi.svg" className="menu-icon" />
-      <span>Kabaddi</span>
-    </div>
-  </CustomLink>
+
+ 
 
   <div className="menu-item">
     <div style={{gap:"12px"}} className="d-flex align-items-center gap-3 px-3 py-3">
