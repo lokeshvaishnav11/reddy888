@@ -426,7 +426,8 @@ const HeaderLogin = () => {
         { loginHit && 
           <div style={{position: "absolute",
     top: "0px",
-    right: "13px",
+    right: "0px",
+    left: "0px",
     background: "transparent",
     zIndex: 1000,}}>
         <Login />
@@ -437,7 +438,8 @@ const HeaderLogin = () => {
       {registerHit && 
         <div style={{position: "absolute",
     top: "0px",
-    right: "13px",
+    right: "0px",
+    left: "0px",
     background: "transparent",
     zIndex: 1000,}}>
         <RegisterNew />

@@ -86,7 +86,7 @@ const Login = () => {
           >
             <div className="d-flex justify-content-between align-items-center w-100">
               {/* Back Arrow */}
-              <div>
+              <div onClick={() => window.location.assign("/")}>
                 <i
                   className="fas fa-arrow-left text-white"
                   style={{ fontSize: "20px", cursor: "pointer" }}
@@ -95,7 +95,7 @@ const Login = () => {
 
               {/* Close Icon */}
               <img
-               onClick={() => window.location.reload()}
+               onClick={() => window.location.assign("/")}
                 src="/assets/close.svg" // 👈 yaha apna correct icon path daal dena
                 alt="close"
                 style={{ cursor: "pointer", width: "24px", height: "24px" }}
